@@ -1,0 +1,51 @@
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.deps.json
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.runtimeconfig.json
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.dll
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.pdb
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.csproj.AssemblyReference.cache
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.AssemblyInfoInputs.cache
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.AssemblyInfo.cs
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.csproj.CoreCompileInputs.cache
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.csproj.CopyComplete
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.dll
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/refint/Getting started with Godot 4.dll
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.pdb
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.genruntimeconfig.cache
+/mnt/ColdStorage/System/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/ref/Getting started with Godot 4.dll
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.deps.json
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.runtimeconfig.json
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.dll
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/Getting started with Godot 4.pdb
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.csproj.AssemblyReference.cache
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.GeneratedMSBuildEditorConfig.editorconfig
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.AssemblyInfoInputs.cache
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.AssemblyInfo.cs
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.csproj.CoreCompileInputs.cache
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting .B851D4ED.Up2Date
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.dll
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/refint/Getting started with Godot 4.dll
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.pdb
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/Getting started with Godot 4.genruntimeconfig.cache
+/home/George/Documents/Stevens/HAR 260/Rougelike/2d-project-assets/.godot/mono/temp/obj/Debug/ref/Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.deps.json
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.runtimeconfig.json
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.pdb
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.csproj.AssemblyReference.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.AssemblyInfoInputs.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.AssemblyInfo.cs
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.csproj.CoreCompileInputs.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting .B851D4ED.Up2Date
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\refint\Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.pdb
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.genruntimeconfig.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\ref\Getting started with Godot 4.dll
