@@ -16,7 +16,7 @@ public partial class SurvivorsGame : Node2D
 	private PackedScene _mobScene;
 	public override void _Ready()
 	{
-		_mobScene = ResourceLoader.Load<PackedScene>("res://mob.tscn");
+		_mobScene = ResourceLoader.Load<PackedScene>("res://scenes/mob.tscn");
 		_spawnTimer.Timeout += () => SpawnMob();
 		Player player = (Player)_player;
 		player.GameOverSignal += () => GameOver();

@@ -1,10 +1,10 @@
 [gd_scene load_steps=10 format=3 uid="uid://c1sx7bic4uhdj"]
 
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_4flbx"]
-[ext_resource type="Script" uid="uid://xg7x80q0vm4r" path="res://Player.cs" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://xg7x80q0vm4r" path="res://code/Player.cs" id="1_onrkg"]
 [ext_resource type="Script" uid="uid://dqhi0v2m3wgu" path="res://characters/happy_boo/HappyBoo.cs" id="3_i3pqv"]
-[ext_resource type="PackedScene" uid="uid://du5i8r7jdycua" path="res://gun.tscn" id="4_hqtel"]
-[ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://generator.tscn" id="5_sweqy"]
+[ext_resource type="PackedScene" uid="uid://du5i8r7jdycua" path="res://scenes/gun.tscn" id="4_hqtel"]
+[ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://scenes/generator.tscn" id="5_sweqy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_onrkg"]
 radius = 34.0147

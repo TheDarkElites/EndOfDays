@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://swcb8q32cvqi"]
 
-[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://player.tscn" id="1_3cish"]
-[ext_resource type="Script" uid="uid://bqt3xwmjkfaqe" path="res://SurvivorsGame.cs" id="1_qqaft"]
-[ext_resource type="PackedScene" uid="uid://c0gpy0pye4jr6" path="res://tree.tscn" id="2_y3pti"]
-[ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://generator.tscn" id="4_qqaft"]
+[ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://scenes/player.tscn" id="1_3cish"]
+[ext_resource type="Script" uid="uid://bqt3xwmjkfaqe" path="res://code/SurvivorsGame.cs" id="1_qqaft"]
+[ext_resource type="PackedScene" uid="uid://c0gpy0pye4jr6" path="res://scenes/tree.tscn" id="2_y3pti"]
+[ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://scenes/generator.tscn" id="4_qqaft"]
 
 [sub_resource type="Curve2D" id="Curve2D_l26od"]
 _data = {
@@ -105,9 +105,3 @@ vertical_alignment = 1
 
 [node name="Generator" parent="." node_paths=PackedStringArray("_player") instance=ExtResource("4_qqaft")]
 _player = NodePath("../Player")
-_bounds = Dictionary[Vector2, float]({
-Vector2(-1, 0): 0.0,
-Vector2(0, -1): 0.0,
-Vector2(0, 1): 1800.0,
-Vector2(1, 0): 1000.0
-})

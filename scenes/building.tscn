@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://ba8pnfb22fqqv"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_nk8ba"]
+
+[node name="Building" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(100, 100)
+texture = SubResource("PlaceholderTexture2D_nk8ba")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(75, -25)
+scale = Vector2(50, 50)
+texture = SubResource("PlaceholderTexture2D_nk8ba")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(100, 0, 50, 0, 50, 50, -50, 50, -50, -50, 100, -50)

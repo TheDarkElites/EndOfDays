@@ -9,7 +9,7 @@ public partial class Gun : Area2D
 	public Marker2D ShootingPoint;
 	public override void _Ready()
 	{
-		_bulletScene = ResourceLoader.Load<PackedScene>("res://bullet.tscn");
+		_bulletScene = ResourceLoader.Load<PackedScene>("res://scenes/bullet.tscn");
 		Timer timer = GetNode<Timer>("Timer");
 		timer.Timeout += () => Shoot();
 	}
