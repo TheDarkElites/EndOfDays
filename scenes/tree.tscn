@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c0gpy0pye4jr6"]
+[gd_scene load_steps=6 format=3 uid="uid://c0gpy0pye4jr6"]
 
-[ext_resource type="Texture2D" uid="uid://caqfk2xng5v5u" path="res://trees/pine_tree.png" id="1_brfkd"]
 [ext_resource type="Texture2D" uid="uid://b7rhtttevhxtj" path="res://characters/ground_shadow.png" id="1_nnvrw"]
+[ext_resource type="Texture2D" uid="uid://bllpxxuc7lrac" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/Zombie-Tileset---_0138_Capa-139.png" id="2_qd6xs"]
+[ext_resource type="Texture2D" uid="uid://8avwc62omn68" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/Zombie-Tileset---_0137_Capa-138.png" id="3_ake3r"]
+[ext_resource type="Texture2D" uid="uid://svna7wvn5ubt" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/Zombie-Tileset---_0134_Capa-135.png" id="4_18mvg"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_brfkd"]
 radius = 23.021729
@@ -10,11 +12,29 @@ radius = 23.021729
 
 [node name="GroundShadow" type="Sprite2D" parent="."]
 modulate = Color(0.729345, 0.8241529, 0.87172025, 1)
+position = Vector2(-0.5, 6.5000014)
+scale = Vector2(0.60714287, 0.75000006)
 texture = ExtResource("1_nnvrw")
 
-[node name="PineTree" type="Sprite2D" parent="."]
-position = Vector2(-1, -62)
-texture = ExtResource("1_brfkd")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Collision" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_brfkd")
+
+[node name="ZombieTileset0138Capa139" type="Sprite2D" parent="."]
+position = Vector2(0, 5.5)
+scale = Vector2(2.125, 1.6875)
+texture = ExtResource("2_qd6xs")
+
+[node name="ZombieTileset0137Capa138" type="Sprite2D" parent="."]
+position = Vector2(1, -22)
+scale = Vector2(2.142857, 1.75)
+texture = ExtResource("3_ake3r")
+
+[node name="ZombieTileset0137Capa139" type="Sprite2D" parent="."]
+position = Vector2(1, -57.5)
+scale = Vector2(2.142857, 2.6875)
+texture = ExtResource("3_ake3r")
+
+[node name="ZombieTileset0134Capa135" type="Sprite2D" parent="."]
+position = Vector2(1, -96.000015)
+scale = Vector2(3.757813, 3.289062)
+texture = ExtResource("4_18mvg")

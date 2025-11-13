@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" uid="uid://lv27nwy52fh7" path="res://code/Generator.cs" id="1_yybav"]
 
-[node name="Generator" type="Node"]
+[node name="Generator" type="Node2D"]
 script = ExtResource("1_yybav")

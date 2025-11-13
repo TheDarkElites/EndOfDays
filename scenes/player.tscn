@@ -1,16 +1,15 @@
-[gd_scene load_steps=10 format=3 uid="uid://c1sx7bic4uhdj"]
+[gd_scene load_steps=9 format=3 uid="uid://c1sx7bic4uhdj"]
 
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://xg7x80q0vm4r" path="res://code/Player.cs" id="1_onrkg"]
 [ext_resource type="Script" uid="uid://dqhi0v2m3wgu" path="res://characters/happy_boo/HappyBoo.cs" id="3_i3pqv"]
 [ext_resource type="PackedScene" uid="uid://du5i8r7jdycua" path="res://scenes/gun.tscn" id="4_hqtel"]
-[ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://scenes/generator.tscn" id="5_sweqy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_onrkg"]
-radius = 34.0147
+radius = 19.313208
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hqtel"]
-radius = 42.107006
+radius = 25.298222
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sweqy"]
 bg_color = Color(0.15294118, 0.16862746, 0.1882353, 1)
@@ -59,6 +58,3 @@ theme_override_styles/background = SubResource("StyleBoxFlat_sweqy")
 theme_override_styles/fill = SubResource("StyleBoxFlat_hqtel")
 value = 100.0
 show_percentage = false
-
-[node name="Generator" parent="." node_paths=PackedStringArray("_player") instance=ExtResource("5_sweqy")]
-_player = NodePath("..")

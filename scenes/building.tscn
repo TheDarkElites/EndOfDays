@@ -1,17 +1,201 @@
-[gd_scene load_steps=2 format=3 uid="uid://ba8pnfb22fqqv"]
+[gd_scene load_steps=21 format=3 uid="uid://ba8pnfb22fqqv"]
 
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_nk8ba"]
+[ext_resource type="Texture2D" uid="uid://bil7th1ioawxx" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png" id="1_s0gur"]
+[ext_resource type="Texture2D" uid="uid://b5m72xy050jgc" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png" id="2_fl114"]
+[ext_resource type="Texture2D" uid="uid://dgo2764j67vks" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png" id="3_rjisg"]
+[ext_resource type="Texture2D" uid="uid://dcybg5oefyps3" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0003_Capa-4.png" id="4_cv530"]
+[ext_resource type="Texture2D" uid="uid://3uimkoek2f3x" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png" id="5_07lgt"]
+[ext_resource type="Texture2D" uid="uid://cgcwcfbhpceuv" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0005_Capa-6.png" id="6_bgm4y"]
+[ext_resource type="Texture2D" uid="uid://8mc6w6dl5grx" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png" id="7_lx6d4"]
+[ext_resource type="Texture2D" uid="uid://00plcb85vbq3" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png" id="8_as1ia"]
+[ext_resource type="Texture2D" uid="uid://bw1qpbbye5d8h" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png" id="9_mhtd8"]
+[ext_resource type="Texture2D" uid="uid://bcpl58ln2n7ak" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0027_Capa-28.png" id="10_k64x0"]
+[ext_resource type="Texture2D" uid="uid://dc2j3r5fh3x7a" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0028_Capa-29.png" id="11_vs5tt"]
+[ext_resource type="Texture2D" uid="uid://blox3ru1mx5uu" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0023_Capa-24.png" id="12_ll25w"]
+[ext_resource type="Texture2D" uid="uid://bxgtq7mcxhhgh" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0022_Capa-23.png" id="13_2f2c6"]
+[ext_resource type="Texture2D" uid="uid://bjiu4gfdf8t1c" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0012_Capa-13.png" id="14_rh2sc"]
+[ext_resource type="Texture2D" uid="uid://dtj865voa41s5" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0006_Capa-7.png" id="15_dc40y"]
+[ext_resource type="Texture2D" uid="uid://covvp5tuxhj6x" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0007_Capa-8.png" id="16_hs87p"]
+[ext_resource type="Texture2D" uid="uid://d34284p2mifrq" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0008_Capa-9.png" id="17_860ve"]
+[ext_resource type="Texture2D" uid="uid://dpj2rqciwsq1v" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0018_Capa-19.png" id="18_ijljr"]
+[ext_resource type="Texture2D" uid="uid://dp5qhostvijdj" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0009_Capa-10.png" id="19_t2gq3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gwfoe"]
+size = Vector2(197, 78)
 
 [node name="Building" type="StaticBody2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(100, 100)
-texture = SubResource("PlaceholderTexture2D_nk8ba")
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(-3.5, 53)
+shape = SubResource("RectangleShape2D_gwfoe")
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(75, -25)
-scale = Vector2(50, 50)
-texture = SubResource("PlaceholderTexture2D_nk8ba")
+[node name="Sprite" type="Node2D" parent="."]
+scale = Vector2(2, 2)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(100, 0, 50, 0, 50, 50, -50, 50, -50, -50, 100, -50)
+[node name="ZombieTileset0000Capa1" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, -47)
+texture = ExtResource("1_s0gur")
+
+[node name="ZombieTileset0001Capa2" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, -36)
+texture = ExtResource("2_fl114")
+
+[node name="ZombieTileset0002Capa3" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, -20)
+texture = ExtResource("3_rjisg")
+
+[node name="ZombieTileset0003Capa4" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, -4)
+texture = ExtResource("4_cv530")
+
+[node name="ZombieTileset0003Capa5" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, 12)
+texture = ExtResource("4_cv530")
+
+[node name="ZombieTileset0004Capa5" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, 40)
+texture = ExtResource("5_07lgt")
+
+[node name="ZombieTileset0003Capa6" type="Sprite2D" parent="Sprite"]
+position = Vector2(-42, 28)
+texture = ExtResource("4_cv530")
+
+[node name="ZombieTileset0005Capa6" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, -47)
+texture = ExtResource("6_bgm4y")
+
+[node name="ZombieTileset0005Capa7" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, -47)
+texture = ExtResource("6_bgm4y")
+
+[node name="ZombieTileset0005Capa8" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, -47)
+texture = ExtResource("6_bgm4y")
+
+[node name="ZombieTileset0005Capa9" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, -47)
+texture = ExtResource("6_bgm4y")
+
+[node name="ZombieTileset0024Capa25" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, -47)
+texture = ExtResource("7_lx6d4")
+
+[node name="ZombieTileset0025Capa26" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, -36)
+texture = ExtResource("8_as1ia")
+
+[node name="ZombieTileset0026Capa27" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, -20)
+texture = ExtResource("9_mhtd8")
+
+[node name="ZombieTileset0027Capa28" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, -4)
+texture = ExtResource("10_k64x0")
+
+[node name="ZombieTileset0027Capa29" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, 12)
+texture = ExtResource("10_k64x0")
+
+[node name="ZombieTileset0027Capa30" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, 28)
+texture = ExtResource("10_k64x0")
+
+[node name="ZombieTileset0028Capa29" type="Sprite2D" parent="Sprite"]
+position = Vector2(38, 40)
+texture = ExtResource("11_vs5tt")
+
+[node name="ZombieTileset0023Capa24" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, 40)
+texture = ExtResource("12_ll25w")
+
+[node name="ZombieTileset0022Capa23" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, 28)
+texture = ExtResource("13_2f2c6")
+
+[node name="ZombieTileset0012Capa13" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, -20)
+texture = ExtResource("14_rh2sc")
+
+[node name="ZombieTileset0006Capa7" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, -36)
+texture = ExtResource("15_dc40y")
+
+[node name="ZombieTileset0006Capa8" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, -36)
+texture = ExtResource("15_dc40y")
+
+[node name="ZombieTileset0006Capa9" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, -36)
+texture = ExtResource("15_dc40y")
+
+[node name="ZombieTileset0006Capa10" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, -36)
+texture = ExtResource("15_dc40y")
+
+[node name="ZombieTileset0007Capa8" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, -20)
+texture = ExtResource("16_hs87p")
+
+[node name="ZombieTileset0007Capa9" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, -20)
+texture = ExtResource("16_hs87p")
+
+[node name="ZombieTileset0012Capa14" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, -20)
+texture = ExtResource("14_rh2sc")
+
+[node name="ZombieTileset0008Capa9" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, -4)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa10" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, -4)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0018Capa19" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, -4)
+texture = ExtResource("18_ijljr")
+
+[node name="ZombieTileset0018Capa20" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, 12)
+texture = ExtResource("18_ijljr")
+
+[node name="ZombieTileset0008Capa11" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, 12)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa12" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, 12)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa13" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, 12)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa14" type="Sprite2D" parent="Sprite"]
+position = Vector2(22, -4)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa15" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, 28)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa16" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, 28)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0008Capa17" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, 28)
+texture = ExtResource("17_860ve")
+
+[node name="ZombieTileset0009Capa10" type="Sprite2D" parent="Sprite"]
+position = Vector2(6, 40)
+texture = ExtResource("19_t2gq3")
+
+[node name="ZombieTileset0009Capa11" type="Sprite2D" parent="Sprite"]
+position = Vector2(-10, 40)
+texture = ExtResource("19_t2gq3")
+
+[node name="ZombieTileset0009Capa12" type="Sprite2D" parent="Sprite"]
+position = Vector2(-26, 40)
+texture = ExtResource("19_t2gq3")

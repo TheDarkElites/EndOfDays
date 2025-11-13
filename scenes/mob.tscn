@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="2_d4cuo"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nokgg"]
-radius = 55.081757
+radius = 29.832869
 
 [node name="Mob" type="CharacterBody2D"]
 collision_layer = 3
@@ -13,5 +13,5 @@ script = ExtResource("1_bsing")
 [node name="Slime" parent="." instance=ExtResource("2_d4cuo")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -26)
+position = Vector2(0, -15)
 shape = SubResource("CircleShape2D_nokgg")

@@ -1,4 +1,4 @@
-res://scenes/building.tscn
+res://scenes/tree.tscn
 res://code/Generator.cs
 res://characters/slime/Slime.cs
 res://code/Mob.cs
@@ -7,4 +7,11 @@ res://code/Bullet.cs
 res://code/SurvivorsGame.cs
 res://characters/happy_boo/HappyBoo.cs
 res://code/Gun.cs
+res://scenes/player.tscn
+res://scenes/building.tscn
+res://characters/happy_boo/happy_boo.tscn
+res://scenes/gun.tscn
+res://scenes/bullet.tscn
+res://characters/slime/slime.tscn
+res://scenes/mob.tscn
 res://scenes/survivors_game.tscn
