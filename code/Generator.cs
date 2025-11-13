@@ -94,8 +94,9 @@ public partial class Generator : Node2D
 	private void GenerateChunk(Vector2 position)
 	{
 		position *= _spacing;
-		PackedScene sceneToGenerate = null;
 		Random random = new Random();
+		PackedScene sceneToGenerate = null;
+		position += new Vector2(random.NextSingle() * 100 - 50, random.NextSingle() * 100 - 50);
 
 		foreach (GeneratableObject obj in _objects)
 		{
@@ -119,7 +120,7 @@ public partial class Generator : Node2D
 		}
 
 		Node2D newMapObject = sceneToGenerate.Instantiate<Node2D>();
-		newMapObject.Position = position + new Vector2(random.NextSingle() * 100 - 50, random.NextSingle() * 100 - 50);
+		newMapObject.Position = position;
 		GetNode<Node2D>("/root/Game/Trees").AddChild(newMapObject);
 	}
 	
