@@ -15,3 +15,5 @@ res://scenes/bullet.tscn
 res://characters/slime/slime.tscn
 res://scenes/mob.tscn
 res://scenes/survivors_game.tscn
+res://scenes/medkit.tscn
+res://code/Medkit.cs

@@ -37,6 +37,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 			Node2D smoke = _smokeScene.Instantiate<Node2D>();
 			smoke.SetGlobalPosition(GetGlobalPosition());
 			GetParent().AddChild(smoke);
+			_player.IncrementLevel();
 		}
 	}
 }

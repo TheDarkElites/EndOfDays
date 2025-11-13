@@ -1,8 +1,9 @@
 using Godot;
 using System;
+using GettingstartedwithGodot4;
 using Godot.Collections;
 
-public partial class Player : CharacterBody2D
+public partial class Player : CharacterBody2D, IHealable
 {
 	[Export]
 	private double _health = 100.0;
@@ -12,10 +13,20 @@ public partial class Player : CharacterBody2D
 	private double _damageRate = 3.0;
 	[Export] 
 	private ProgressBar _healthBar;
+	[Export] 
+	private ProgressBar _levelBar;
+	[Export] 
+	private Label _levelLabel;
 	[Signal]
 	public delegate void GameOverSignalEventHandler();
 	[Signal]
 	public delegate void MovementSignalEventHandler();
+	[Export]
+	private int _maxLevel = 2;
+	[Export]
+	private int _currentLevel = 0;
+	[Export]
+	private int _level = 0;
 	public override void _PhysicsProcess(double delta)
 	{
 		Vector2 moveDirection = Input.GetVector("move_left","move_right","move_up","move_down");
@@ -44,6 +55,32 @@ public partial class Player : CharacterBody2D
 		}
 		
 		base._PhysicsProcess(delta);
+	}
+
+	public void IncrementLevel()
+	{
+		_currentLevel++;
+		if (_currentLevel == _maxLevel)
+		{
+			_maxLevel *= 2;
+			_level++;
+			_currentLevel = 0;
+			_levelBar.SetMax(_maxLevel);
+			_levelLabel.SetText(_level.ToString());
+		}
+		_levelBar.SetValue(_currentLevel);
+	}
+
+	public bool Heal(int amount)
+	{
+		if (_health == _healthBar.GetMax())
+		{
+			return false;
+		}
+		_health += amount;
+		_health = Math.Min(_health, _healthBar.GetMax());
+		_healthBar.SetValue(_health);
+		return true;
 	}
 	
 }

@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bd0pumq1bbvj7"]
+
+[ext_resource type="Texture2D" uid="uid://dhbe4rnkeqabd" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_0340_Capa-341.png" id="1_1ojt4"]
+[ext_resource type="Script" uid="uid://5nda4cfnt3n" path="res://code/Medkit.cs" id="1_vvkl3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vvkl3"]
+size = Vector2(10, 10)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vvkl3"]
+radius = 9.055386
+
+[node name="Medkit" type="StaticBody2D" node_paths=PackedStringArray("_pickupArea")]
+scale = Vector2(2, 2)
+script = ExtResource("1_vvkl3")
+_pickupArea = NodePath("PickupArea")
+
+[node name="ZombieTileset0340Capa341" type="Sprite2D" parent="."]
+position = Vector2(0, -3)
+texture = ExtResource("1_1ojt4")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3)
+shape = SubResource("RectangleShape2D_vvkl3")
+
+[node name="PickupArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PickupArea"]
+position = Vector2(0, -3)
+shape = SubResource("CircleShape2D_vvkl3")

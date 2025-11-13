@@ -1,8 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763011207
+::res://::1763017490
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1762648367::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D::621515402784007901::1762648367::1762648367::1::::<><><>0<>0<>9abb19ea0558a1cdbc964e3be332977d<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+license.txt::TextFile::-1::1075794298::0::1::::<><><>0<>0<><>::
 x.png::CompressedTexture2D::374440586281085355::1762650853::1762650855::1::::<><><>0<>0<>7c98140e495bca7622c9fb4af7d1a01b<>res://.godot/imported/x.png-3348759b97191df77e4508fc5eeab1e9.ctex::
+yoster.ttf::FontFile::8453018664946944340::1075792836::1763017503::1::::<><><>0<>0<>3213cc99eaaa6141c6f64b57e498a94d<>res://.godot/imported/yoster.ttf-18cac75c701b6a7cf0c994e2e9e70779.fontdata::
 ::res://__MACOSX/::1763011207
 ::res://__MACOSX/Zombie Apocalypse Tileset/::1763011207
 ::res://__MACOSX/Zombie Apocalypse Tileset/Organized separated sprites/::1763011207
@@ -68,10 +70,10 @@ plugin.cfg::TextFile::-1::1762648367::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1762648367::0::1::::<><><>0<>0<><>::
 ::res://characters/::1762648367
 ground_shadow.png::CompressedTexture2D::4668018078467755571::1762648367::1762648367::1::::<><><>0<>0<>413dd9ce8da33ec5e59b9749c6be9182<>res://.godot/imported/ground_shadow.png-b9267d10ca04362d5b540659e4ab0dbd.ctex::
-::res://characters/happy_boo/::1762648367
+::res://characters/happy_boo/::1763012261
 HappyBoo.cs::CSharpScript::244037227048222968::1762648367::0::1::::<>Node2D<><>0<>0<><>::
 happy_boo.gd::GDScript::3084278065983280126::1762648367::0::1::::<>Node2D<><>0<>0<><>::
-happy_boo.tscn::PackedScene::31049085407951015::1762648367::0::1::::<><><>0<>0<><>::uid://bj7buyff1tobm::::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
+happy_boo.tscn::PackedScene::31049085407951015::1763012261::0::1::::<><><>0<>0<><>::uid://bj7buyff1tobm::::res://characters/happy_boo/happy_boo.gd<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://ng8e5ot0dtpd::::res://characters/happy_boo/square_foot.png<>uid://dhapxq8y8ow57::::res://characters/happy_boo/square_lower_leg.png<>uid://qmqpm6asge1i::::res://characters/happy_boo/square_upper_leg.png<>uid://cksiu5gst6fmp::::res://characters/happy_boo/square_body.png<>uid://cvs0lh814pk7h::::res://characters/happy_boo/square_face.png
 square_body.png::CompressedTexture2D::5512411640973615011::1762648367::1762648367::1::::<><><>0<>0<>2bd33a0eb7722c11426ef10164adcbcf<>res://.godot/imported/square_body.png-ef1c56c8912cd968d7fd09a95e6ea8f4.ctex::
 square_face.png::CompressedTexture2D::6285503871772747319::1762648367::1762648367::1::::<><><>0<>0<>7e6a0b7aaf601e1569fcd4c9cee048fd<>res://.godot/imported/square_face.png-e27720ce35d82859f41580927c22ef18.ctex::
 square_foot.png::CompressedTexture2D::926853635980280533::1762648367::1762648367::1::::<><><>0<>0<>50cef592c31417558a2569478c2f66bb<>res://.godot/imported/square_foot.png-62023e9ce7985c4b370739df29445354.ctex::
@@ -79,23 +81,23 @@ square_lower_leg.png::CompressedTexture2D::7651536677184113460::1762648367::1762
 square_modification_stack.tres::SkeletonModificationStack2D::8504717324922621560::1762648367::0::1::::<><><>0<>0<><>::
 square_ref.png::CompressedTexture2D::4290601870950781964::1762648367::1762648367::1::::<><><>0<>0<>e790cfd5458b76bbedbc726aeedaa368<>res://.godot/imported/square_ref.png-ad4b2771e34de0b9a0fbda7055a9fe1c.ctex::
 square_upper_leg.png::CompressedTexture2D::1148792968243506332::1762648367::1762648367::1::::<><><>0<>0<>db9183fbb79ddd69ce376fa7fcfdb328<>res://.godot/imported/square_upper_leg.png-e1f848aab7dd8805f40f881c2160a53d.ctex::
-::res://characters/slime/::1762648367
+::res://characters/slime/::1763012904
 Slime.cs::CSharpScript::8947881483763032850::1762648367::0::1::::<>Node2D<><>0<>0<><>::
 slime.gd::GDScript::8074356101711422006::1762648367::0::1::::<>Node2D<><>0<>0<><>::
-slime.tscn::PackedScene::995535223809565591::1762648367::0::1::::<><><>0<>0<><>::uid://dvgfmy6vtvjji::::res://characters/slime/slime_body.png<>uid://d0qokhwd8qbty::::res://characters/slime/Slime.cs<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://c078jrp2yvc4s::::res://characters/slime/slime_face.png<>uid://btbxea1f3vwot::::res://characters/slime/slime_body_hurt.png<>uid://cai2ijnbypqtr::::res://characters/slime/slime_hurt_eyes.png
+slime.tscn::PackedScene::995535223809565591::1763012904::0::1::::<><><>0<>0<><>::uid://dvgfmy6vtvjji::::res://characters/slime/slime_body.png<>uid://d0qokhwd8qbty::::res://characters/slime/Slime.cs<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://c078jrp2yvc4s::::res://characters/slime/slime_face.png<>uid://btbxea1f3vwot::::res://characters/slime/slime_body_hurt.png<>uid://cai2ijnbypqtr::::res://characters/slime/slime_hurt_eyes.png
 slime_body.png::CompressedTexture2D::8645940357922743702::1762648367::1762648367::1::::<><><>0<>0<>c81ac19445a1a31dd29e90a8616d7353<>res://.godot/imported/slime_body.png-0d515f9e912a0d42a36c28f828394f6a.ctex::
 slime_body_hurt.png::CompressedTexture2D::3723476765009385039::1762648367::1762648367::1::::<><><>0<>0<>e6e64a8ad38dfdd103f291be1b2f909e<>res://.godot/imported/slime_body_hurt.png-3f38b75e5ebee1f99a984b348a7e7f8b.ctex::
 slime_face.png::CompressedTexture2D::6595643196702037820::1762648367::1762648367::1::::<><><>0<>0<>295e0b177e30a68e666c8dbeb88fc227<>res://.godot/imported/slime_face.png-561a1f87b138570340118953f07aab21.ctex::
 slime_hurt_eyes.png::CompressedTexture2D::4791010527445338927::1762648367::1762648367::1::::<><><>0<>0<>ae8d21bff9037f535f86bd4e37c2edc1<>res://.godot/imported/slime_hurt_eyes.png-711256b4a2a47dcea723d274f00b4628.ctex::
-::res://code/::1763011005
+::res://code/::1763017213
 Bullet.cs::CSharpScript::8276467138016610859::1762648367::0::1::::<>Area2D<><>0<>0<><>::
 Damageable.cs::CSharpScript::4696531682554809417::1762648367::0::1::::<><><>0<>0<><>::
 GeneratableObject.cs::CSharpScript::211473669680162519::1763010301::0::1::::<><><>0<>0<><>::
-Generator.cs::CSharpScript::817126434984119258::1763011005::0::1::::<>Node2D<><>0<>0<><>::
+Generator.cs::CSharpScript::817126434984119258::1763012505::0::1::::<>Node2D<><>0<>0<><>::
 Gun.cs::CSharpScript::8275866943545884316::1762650006::0::1::::<>Area2D<><>0<>0<><>::
-Mob.cs::CSharpScript::3067765408045880864::1762648367::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Player.cs::CSharpScript::1628715459879323539::1762648367::0::1::::<>CharacterBody2D<><>0<>0<><>::
-SurvivorsGame.cs::CSharpScript::3550407682759863948::1763008531::0::1::::<>Node2D<><>0<>0<><>::
+Mob.cs::CSharpScript::3067765408045880864::1763017213::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player.cs::CSharpScript::1628715459879323539::1763017197::0::1::::<>CharacterBody2D<><>0<>0<><>::
+SurvivorsGame.cs::CSharpScript::3550407682759863948::1763012934::0::1::::<>Node2D<><>0<>0<><>::
 ::res://pistol/::1762648367
 pistol.png::CompressedTexture2D::6081771334990092076::1762648367::1762648367::1::::<><><>0<>0<>b85f4b3ee628cbc6450821901f9243a7<>res://.godot/imported/pistol.png-ccb9a9487ce225cdf094ad33c19c2ede.ctex::
 projectile.png::CompressedTexture2D::7550039277502144023::1762648367::1762648367::1::::<><><>0<>0<>b35a20476da45fbc63c10ec1958f5ef1<>res://.godot/imported/projectile.png-e03ae856d530df914009475206433400.ctex::
@@ -107,16 +109,16 @@ impact.tscn::PackedScene::706737085132625066::1762648367::0::1::::<><><>0<>0<><>
 muzzle_flash.gd::GDScript::2184711477186327130::1762648367::0::1::::<>Node2D<><>0<>0<><>::
 muzzle_flash.png::CompressedTexture2D::3592944556550980239::1762648367::1762648367::1::::<><><>0<>0<>d995f352a7d07e7705e830566b0eb185<>res://.godot/imported/muzzle_flash.png-752b19c1a1a60c24eac6f205d487f2ea.ctex::
 muzzle_flash.tscn::PackedScene::6601472980654318439::1762648367::0::1::::<><><>0<>0<><>::uid://6ej4465c3oxu::::res://pistol/muzzle_flash/muzzle_flash.gd<>uid://brgpjilf7s2ul::::res://pistol/muzzle_flash/muzzle_flash.png
-::res://scenes/::1763010896
-building.tscn::PackedScene::2455479385213942509::1762841499::0::1::::<><><>0<>0<><>::
-bullet.tscn::PackedScene::4510038469915135496::1762649652::0::1::::<><><>0<>0<><>::uid://dp6gg7p40qeud::::res://code/Bullet.cs<>uid://dftkbqwsfd68r::::res://pistol/projectile.png
+::res://scenes/::1763017348
+building.tscn::PackedScene::2455479385213942509::1763012744::0::1::::<><><>0<>0<><>::uid://bil7th1ioawxx::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0000_Capa-1.png<>uid://b5m72xy050jgc::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0001_Capa-2.png<>uid://dgo2764j67vks::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0002_Capa-3.png<>uid://dcybg5oefyps3::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0003_Capa-4.png<>uid://3uimkoek2f3x::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0004_Capa-5.png<>uid://cgcwcfbhpceuv::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0005_Capa-6.png<>uid://8mc6w6dl5grx::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0024_Capa-25.png<>uid://00plcb85vbq3::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0025_Capa-26.png<>uid://bw1qpbbye5d8h::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0026_Capa-27.png<>uid://bcpl58ln2n7ak::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0027_Capa-28.png<>uid://dc2j3r5fh3x7a::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0028_Capa-29.png<>uid://blox3ru1mx5uu::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0023_Capa-24.png<>uid://bxgtq7mcxhhgh::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0022_Capa-23.png<>uid://bjiu4gfdf8t1c::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0012_Capa-13.png<>uid://dtj865voa41s5::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0006_Capa-7.png<>uid://covvp5tuxhj6x::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0007_Capa-8.png<>uid://d34284p2mifrq::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0008_Capa-9.png<>uid://dpj2rqciwsq1v::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0018_Capa-19.png<>uid://dp5qhostvijdj::::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/Zombie-Tileset---_0009_Capa-10.png
+bullet.tscn::PackedScene::4510038469915135496::1763012829::0::1::::<><><>0<>0<><>::uid://dp6gg7p40qeud::::res://code/Bullet.cs<>uid://b14b6110oy2ul::::res://Zombie Apocalypse Tileset/Organized separated sprites/Pistol Shooting Animation Frames/Zombie-Tileset---_0372_Capa-373.png
 generator.tscn::PackedScene::4631807899882139657::1762841988::0::1::::<><><>0<>0<><>::uid://lv27nwy52fh7::::res://code/Generator.cs
-gun.tscn::PackedScene::8625515866347305280::1762649652::0::1::::<><><>0<>0<><>::uid://dp55k4jkndr8o::::res://code/Gun.cs<>uid://cswb5do8rrj7q::::res://pistol/pistol.png
+gun.tscn::PackedScene::8625515866347305280::1763012892::0::1::::<><><>0<>0<><>::uid://dp55k4jkndr8o::::res://code/Gun.cs<>uid://coxrytpvfh1xf::::res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png
 marker.tscn::PackedScene::3211434694925566660::1762650959::0::1::::<><><>0<>0<><>::uid://flm8m5xlea1h::::res://x.png
-mob.tscn::PackedScene::1744350205456824847::1762649652::0::1::::<><><>0<>0<><>::uid://bjybwbfr05phw::::res://code/Mob.cs<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
-player.tscn::PackedScene::6636363802798909755::1763010896::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://xg7x80q0vm4r::::res://code/Player.cs<>uid://dqhi0v2m3wgu::::res://characters/happy_boo/HappyBoo.cs<>uid://du5i8r7jdycua::::res://scenes/gun.tscn
-survivors_game.tscn::PackedScene::1308940475149137596::1762659533::0::1::::<><><>0<>0<><>::uid://c1sx7bic4uhdj::::res://scenes/player.tscn<>uid://bqt3xwmjkfaqe::::res://code/SurvivorsGame.cs<>uid://c0gpy0pye4jr6::::res://scenes/tree.tscn<>uid://b68xg1rblcj7f::::res://scenes/generator.tscn
-tree.tscn::PackedScene::6540903676159351021::1763010684::0::1::::<><><>0<>0<><>::uid://caqfk2xng5v5u::::res://trees/pine_tree.png<>uid://b7rhtttevhxtj::::res://characters/ground_shadow.png
+mob.tscn::PackedScene::1744350205456824847::1763012922::0::1::::<><><>0<>0<><>::uid://bjybwbfr05phw::::res://code/Mob.cs<>uid://ogik4s70pgwl::::res://characters/slime/slime.tscn
+player.tscn::PackedScene::6636363802798909755::1763017348::0::1::::<><><>0<>0<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>uid://xg7x80q0vm4r::::res://code/Player.cs<>uid://dqhi0v2m3wgu::::res://characters/happy_boo/HappyBoo.cs<>uid://du5i8r7jdycua::::res://scenes/gun.tscn
+survivors_game.tscn::PackedScene::1308940475149137596::1763013011::0::1::::<><><>0<>0<><>::uid://c1sx7bic4uhdj::::res://scenes/player.tscn<>uid://bqt3xwmjkfaqe::::res://code/SurvivorsGame.cs<>uid://c0gpy0pye4jr6::::res://scenes/tree.tscn<>uid://b68xg1rblcj7f::::res://scenes/generator.tscn
+tree.tscn::PackedScene::6540903676159351021::1763012082::0::1::::<><><>0<>0<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://bllpxxuc7lrac::::res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/Zombie-Tileset---_0138_Capa-139.png<>uid://8avwc62omn68::::res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/Zombie-Tileset---_0137_Capa-138.png<>uid://svna7wvn5ubt::::res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/Zombie-Tileset---_0134_Capa-135.png
 ::res://smoke_explosion/::1762648367
 circle_32.png::CompressedTexture2D::6271663262871881894::1762648367::1762648367::1::::<><><>0<>0<>db735c381a80b327847292fad91de94a<>res://.godot/imported/circle_32.png-ff53eadac5c62484a55afe7e47d5145f.ctex::
 smoke_explosion.gd::GDScript::95110621957468878::1762648367::0::1::::<>Node2D<><>0<>0<><>::
@@ -124,14 +126,14 @@ smoke_explosion.gdshader::Shader::5424624029383165850::1762648367::0::1::::<><><
 smoke_explosion.tscn::PackedScene::7675803860678853612::1762648367::0::1::::<><><>0<>0<><>::uid://cjjy1aucj6gji::::res://smoke_explosion/smoke_explosion.gdshader<>uid://bmcptrd1f7ok::::res://smoke_explosion/smoke_explosion.gd
 ::res://trees/::1762648367
 pine_tree.png::CompressedTexture2D::4806194308614878228::1762648367::1762648367::1::::<><><>0<>0<>2f38e71d9843eb1b6415fede42db2ddf<>res://.godot/imported/pine_tree.png-d61929395d8fbd7dd9882891dc69101d.ctex::
-::res://Zombie Apocalypse Tileset/::1673868039
+::res://Zombie Apocalypse Tileset/::1763011218
 Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::2175603029569895238::1624704298::1763011218::1::::<><><>0<>0<>610614a0fb5e6f7bdbd5ef113d9dfd98<>res://.godot/imported/Zombie Apocalypse Tileset Reference.png-1fccb3b8f0b9de3ff605b64b7423f4b6.ctex::
 ::res://Zombie Apocalypse Tileset/Organized separated sprites/::1673868039
-::res://Zombie Apocalypse Tileset/Organized separated sprites/90º Rotatable Bridge Sprites/::1673864863
+::res://Zombie Apocalypse Tileset/Organized separated sprites/90º Rotatable Bridge Sprites/::1763011218
 Zombie-Tileset---_0106_Capa-107.png::CompressedTexture2D::8275896273446970689::1673820303::1763011218::1::::<><><>0<>0<>05a8e8f1cbddbbd783149870b0e2af19<>res://.godot/imported/Zombie-Tileset---_0106_Capa-107.png-f2ea55c32fb33108bf54e9d27bb80504.ctex::
 Zombie-Tileset---_0107_Capa-108.png::CompressedTexture2D::1786433113001494416::1673820325::1763011218::1::::<><><>0<>0<>fdb25271ce45cff333937bb774ef326a<>res://.godot/imported/Zombie-Tileset---_0107_Capa-108.png-6b3f08dc55c9d3fe2e7f12db5bae92e1.ctex::
 Zombie-Tileset---_0108_Capa-109.png::CompressedTexture2D::4931104810877967572::1673820346::1763011218::1::::<><><>0<>0<>d0950cde9583f5039fe2bd4a7c5ae9d9<>res://.godot/imported/Zombie-Tileset---_0108_Capa-109.png-03e13a35b784ca5b1956fab037caaa82.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Big Zombie Walking Animation Frames/::1673867542
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Big Zombie Walking Animation Frames/::1763011218
 Zombie-Tileset---_0412_Capa-413.png::CompressedTexture2D::4301399416522890331::1673826768::1763011218::1::::<><><>0<>0<>b5425582a6863f35738b931efec8402d<>res://.godot/imported/Zombie-Tileset---_0412_Capa-413.png-e4e9d56205945a4df86ee1759f040779.ctex::
 Zombie-Tileset---_0413_Capa-414.png::CompressedTexture2D::9191918059154672059::1673826791::1763011218::1::::<><><>0<>0<>ba14aaae045e37e3544029b5d1808089<>res://.godot/imported/Zombie-Tileset---_0413_Capa-414.png-acef3268958e1828ecb5b1752efda944.ctex::
 Zombie-Tileset---_0414_Capa-415.png::CompressedTexture2D::4938629747694504751::1673826811::1763011218::1::::<><><>0<>0<>2a80ff1785f4e85bd02089fe2729c35a<>res://.godot/imported/Zombie-Tileset---_0414_Capa-415.png-ce3122374be5342a265a5f966522af57.ctex::
@@ -141,7 +143,7 @@ Zombie-Tileset---_0417_Capa-418.png::CompressedTexture2D::7093550615373871534::1
 Zombie-Tileset---_0418_Capa-419.png::CompressedTexture2D::3684132655649970273::1673826894::1763011218::1::::<><><>0<>0<>441f0485f500b7c237f0d5acb7c2a747<>res://.godot/imported/Zombie-Tileset---_0418_Capa-419.png-5cca7f4cdce5ea6e6d4fe0a02ca49c94.ctex::
 Zombie-Tileset---_0419_Capa-420.png::CompressedTexture2D::6275985712954944030::1673826915::1763011218::1::::<><><>0<>0<>e5c8747d20591394656693e92317cb91<>res://.godot/imported/Zombie-Tileset---_0419_Capa-420.png-1ee7b07890c10c9981db1422cdba7cc1.ctex::
 Zombie-Tileset---_0420_Capa-421.png::CompressedTexture2D::5703507592499106325::1673826935::1763011218::1::::<><><>0<>0<>692aedded39febef09bad4f7152eb066<>res://.godot/imported/Zombie-Tileset---_0420_Capa-421.png-76a554ee15ed789f9fa574ce16e27db2.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Black Bird Flying and Ground Eating Animation Frames/::1673865612
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Black Bird Flying and Ground Eating Animation Frames/::1763011218
 Zombie-Tileset---_0309_Capa-310.png::CompressedTexture2D::5308299703302089128::1673824616::1763011218::1::::<><><>0<>0<>60417d2c115615a8dd453b5d4638b392<>res://.godot/imported/Zombie-Tileset---_0309_Capa-310.png-cf1a8fb8c7ecb37b730a2554e3b3bd54.ctex::
 Zombie-Tileset---_0310_Capa-311.png::CompressedTexture2D::2389783826769794771::1673824636::1763011218::1::::<><><>0<>0<>dc8470d838e7416f1742b8598bcf6512<>res://.godot/imported/Zombie-Tileset---_0310_Capa-311.png-62193e482b94ea3a38dbaef38c5206fa.ctex::
 Zombie-Tileset---_0311_Capa-312.png::CompressedTexture2D::8647717236634354813::1673824657::1763011218::1::::<><><>0<>0<>d4d0f7e4008af5d8ee4d1e3909d8b2f0<>res://.godot/imported/Zombie-Tileset---_0311_Capa-312.png-50837f9e04dfab2f766b6b7c3963256d.ctex::
@@ -154,13 +156,13 @@ Zombie-Tileset---_0317_Capa-318.png::CompressedTexture2D::1464890500077540736::1
 Zombie-Tileset---_0318_Capa-319.png::CompressedTexture2D::8032837517233759018::1673824806::1763011218::1::::<><><>0<>0<>0e2b397ac49636d2e3e47dda6feb9250<>res://.godot/imported/Zombie-Tileset---_0318_Capa-319.png-d262e7359a0d0f56bf1b255f466db095.ctex::
 Zombie-Tileset---_0319_Capa-320.png::CompressedTexture2D::8969999527494435508::1673824826::1763011218::1::::<><><>0<>0<>c04f4571102973f661ff8715e9e801f7<>res://.godot/imported/Zombie-Tileset---_0319_Capa-320.png-3024167586979e9eb22f5791d6b18e63.ctex::
 Zombie-Tileset---_0320_Capa-321.png::CompressedTexture2D::1466996088377338719::1673824847::1763011218::1::::<><><>0<>0<>46ae8d7100cfbf0132d64f9a19725609<>res://.godot/imported/Zombie-Tileset---_0320_Capa-321.png-5816250f51ce9142b4011229b767f019.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Blood Animation Frames/::1673866300
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Blood Animation Frames/::1763011218
 Zombie-Tileset---_0379_Capa-380.png::CompressedTexture2D::2791091982624808230::1673826082::1763011218::1::::<><><>0<>0<>04985860715204927c7aea58a99af302<>res://.godot/imported/Zombie-Tileset---_0379_Capa-380.png-b2bcf1ef0b231b346b2a15e10f4dd4a4.ctex::
 Zombie-Tileset---_0380_Capa-381.png::CompressedTexture2D::2106583505955450264::1673826102::1763011218::1::::<><><>0<>0<>08721dc01f9cc94a5f4c5e725cf0fe33<>res://.godot/imported/Zombie-Tileset---_0380_Capa-381.png-5f01b8f9f746483c107067ac8bd35d95.ctex::
 Zombie-Tileset---_0381_Capa-382.png::CompressedTexture2D::4379493082926863302::1673826123::1763011218::1::::<><><>0<>0<>ded3f66a1f72b5c2cf0c347b315c29e1<>res://.godot/imported/Zombie-Tileset---_0381_Capa-382.png-b4c662b5c81ff8d985ee25cba6c769d2.ctex::
 Zombie-Tileset---_0382_Capa-383.png::CompressedTexture2D::6985234391280765041::1673826144::1763011218::1::::<><><>0<>0<>8c6cea2a0a3f61c6d41bb91c9ff6cd1f<>res://.godot/imported/Zombie-Tileset---_0382_Capa-383.png-3cbac57efb47cd5338c8b6e0fe2f6beb.ctex::
 Zombie-Tileset---_0383_Capa-384.png::CompressedTexture2D::8675624497056860704::1673826165::1763011218::1::::<><><>0<>0<>f4e8504f6ddfc7aa76fd73dff2e0a947<>res://.godot/imported/Zombie-Tileset---_0383_Capa-384.png-740dc21746eb3e1add4d91ab6fa2f7d7.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Broken Cars and Tires/::1673865911
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Broken Cars and Tires/::1763011218
 Zombie-Tileset---_0179_Capa-180.png::CompressedTexture2D::4748774077345521660::1673821864::1763011218::1::::<><><>0<>0<>ea7edaa803a3d332db67ca3e2547e4e9<>res://.godot/imported/Zombie-Tileset---_0179_Capa-180.png-48c503d7cf0d61b77613bdb03c3682ff.ctex::
 Zombie-Tileset---_0180_Capa-181.png::CompressedTexture2D::8224530848765190160::1673821885::1763011218::1::::<><><>0<>0<>b7028fc10ec68cf4b01ce80a8b30a096<>res://.godot/imported/Zombie-Tileset---_0180_Capa-181.png-7438ede4e3714ee7ee9a1147a7f0da66.ctex::
 Zombie-Tileset---_0181_Capa-182.png::CompressedTexture2D::1674969463725475140::1673821906::1763011218::1::::<><><>0<>0<>f2fd609107f2551493de87fd47e7c849<>res://.godot/imported/Zombie-Tileset---_0181_Capa-182.png-1c10dce6fefc90c4c00ba63e97b9e80d.ctex::
@@ -176,7 +178,7 @@ Zombie-Tileset---_0190_Capa-191.png::CompressedTexture2D::4060252365673824796::1
 Zombie-Tileset---_0191_Capa-192.png::CompressedTexture2D::8528608616220888484::1673822118::1763011218::1::::<><><>0<>0<>75ede1b62d9985b7a0958a6be5bb1519<>res://.godot/imported/Zombie-Tileset---_0191_Capa-192.png-a6a6c6b144deae55300b6c0de165757c.ctex::
 Zombie-Tileset---_0192_Capa-193.png::CompressedTexture2D::8890207226209585794::1673822140::1763011218::1::::<><><>0<>0<>ab28fe6e8869acd63635fafa442321c3<>res://.godot/imported/Zombie-Tileset---_0192_Capa-193.png-606253fa90e574d1d714cf9982939772.ctex::
 Zombie-Tileset---_0193_Capa-194.png::CompressedTexture2D::5588619527185563923::1673822162::1763011218::1::::<><><>0<>0<>f141548166cecf18227d46efd8ab4761<>res://.godot/imported/Zombie-Tileset---_0193_Capa-194.png-163e122b6ab5251ac0874077531aaa2a.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Big Zombie Animation Frames/::1673867568
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Big Zombie Animation Frames/::1763011218
 Zombie-Tileset---_0421_Capa-422.png::CompressedTexture2D::7850936089947656970::1673826956::1763011218::1::::<><><>0<>0<>1e99ed114d763971b6bf1e1ece415820<>res://.godot/imported/Zombie-Tileset---_0421_Capa-422.png-bee2e89f90ef51525abe3f3bce9dd863.ctex::
 Zombie-Tileset---_0422_Capa-423.png::CompressedTexture2D::2928868198124555116::1673826976::1763011218::1::::<><><>0<>0<>b2b4e2803e16458e4b59732401951189<>res://.godot/imported/Zombie-Tileset---_0422_Capa-423.png-5670ab6d118808d99b18daf33b48957f.ctex::
 Zombie-Tileset---_0423_Capa-424.png::CompressedTexture2D::4100877227592761926::1673826997::1763011218::1::::<><><>0<>0<>b8d3ac7b677fc2272281967f14ef613f<>res://.godot/imported/Zombie-Tileset---_0423_Capa-424.png-6512aee37aad13ac739ebbdb2f4f7b4a.ctex::
@@ -186,7 +188,7 @@ Zombie-Tileset---_0426_Capa-427.png::CompressedTexture2D::7028509103494684933::1
 Zombie-Tileset---_0427_Capa-428.png::CompressedTexture2D::5253419872122416398::1673827081::1763011218::1::::<><><>0<>0<>1bcf31fb0314b99aeca354e260fcf108<>res://.godot/imported/Zombie-Tileset---_0427_Capa-428.png-d928d98b84b23f29e72efd591cc05ffa.ctex::
 Zombie-Tileset---_0428_Capa-429.png::CompressedTexture2D::238539558457706336::1673827103::1763011218::1::::<><><>0<>0<>9fe0f17a1b83591ddefc17baaadb3485<>res://.godot/imported/Zombie-Tileset---_0428_Capa-429.png-4e51b22c25a24a44246b05a55f655fcf.ctex::
 Zombie-Tileset---_0429_Capa-430.png::CompressedTexture2D::7261085235864331277::1673827124::1763011218::1::::<><><>0<>0<>b48a8ca50a9be8d9310a236da357d1e0<>res://.godot/imported/Zombie-Tileset---_0429_Capa-430.png-5eebef9e4a05a998262340dcc6eebd14.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Kid Zombie Animation Frames/::1673867630
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Kid Zombie Animation Frames/::1763011218
 Zombie-Tileset---_0439_Capa-440.png::CompressedTexture2D::346000251724678691::1673827333::1763011218::1::::<><><>0<>0<>3c7113665382283757dd41c5edf4fca4<>res://.godot/imported/Zombie-Tileset---_0439_Capa-440.png-ac2dca0ac1c8260ad9500d904bce3f9d.ctex::
 Zombie-Tileset---_0440_Capa-441.png::CompressedTexture2D::4839980068614409816::1673827354::1763011218::1::::<><><>0<>0<>ab5851431b4dba2eb4bb2c233fea919f<>res://.godot/imported/Zombie-Tileset---_0440_Capa-441.png-c6fe005c078492e670636e375c891e1c.ctex::
 Zombie-Tileset---_0441_Capa-442.png::CompressedTexture2D::1223005769908306073::1673827375::1763011218::1::::<><><>0<>0<>4bcf1d15f71131b7dec3fce354060e3a<>res://.godot/imported/Zombie-Tileset---_0441_Capa-442.png-ee64f9572586ec77ca46df944b01bc93.ctex::
@@ -196,7 +198,7 @@ Zombie-Tileset---_0444_Capa-445.png::CompressedTexture2D::9048910703550169661::1
 Zombie-Tileset---_0445_Capa-446.png::CompressedTexture2D::4487726933270587804::1673827456::1763011218::1::::<><><>0<>0<>17c538f82cda16e6e739bdaa9f15a403<>res://.godot/imported/Zombie-Tileset---_0445_Capa-446.png-b95a27795735a54e95df8c800bfff921.ctex::
 Zombie-Tileset---_0446_Capa-447.png::CompressedTexture2D::7874444579846359682::1673827477::1763011218::1::::<><><>0<>0<>b0bd7027d7fa78caf8895205cf3a6e57<>res://.godot/imported/Zombie-Tileset---_0446_Capa-447.png-d321627c016e0a2eb1014d4fd6c77a2e.ctex::
 Zombie-Tileset---_0447_Capa-448.png::CompressedTexture2D::1722259781018115397::1673827498::1763011218::1::::<><><>0<>0<>f16b6da8cc94c245b29c70601895afbf<>res://.godot/imported/Zombie-Tileset---_0447_Capa-448.png-aaa9489bb9d4a080bf16ae90b4750fcd.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Player Animation Frames/::1673867834
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Player Animation Frames/::1763011218
 Zombie-Tileset---_0485_Capa-486.png::CompressedTexture2D::5419073973457802361::1673828281::1763011218::1::::<><><>0<>0<>6132202ef51116fbd2d9957faf12c0dd<>res://.godot/imported/Zombie-Tileset---_0485_Capa-486.png-4f909cc302db04f0b0fd556411d1d985.ctex::
 Zombie-Tileset---_0486_Capa-487.png::CompressedTexture2D::7686741890263305274::1673828301::1763011218::1::::<><><>0<>0<>49382e6b2848a59517f51b7726886ec2<>res://.godot/imported/Zombie-Tileset---_0486_Capa-487.png-e4f380c56fa8dbe2c67e41a783add665.ctex::
 Zombie-Tileset---_0487_Capa-488.png::CompressedTexture2D::4698415360944966260::1673828321::1763011218::1::::<><><>0<>0<>6d5e330aee229779ef0155abec915b22<>res://.godot/imported/Zombie-Tileset---_0487_Capa-488.png-1bbc2f11c20eba45aca6a3aacd1f8f23.ctex::
@@ -206,7 +208,7 @@ Zombie-Tileset---_0490_Capa-491.png::CompressedTexture2D::6654383666265644357::1
 Zombie-Tileset---_0491_Capa-492.png::CompressedTexture2D::973094233131638811::1673828405::1763011218::1::::<><><>0<>0<>7bab93cb7ffc51d8d5ceb3e8c1732d7e<>res://.godot/imported/Zombie-Tileset---_0491_Capa-492.png-e1d477333d1bb5c000ec229a4b09ac57.ctex::
 Zombie-Tileset---_0492_Capa-493.png::CompressedTexture2D::1371211768137020653::1673828427::1763011218::1::::<><><>0<>0<>333268597a81bf318f105a51a2231c91<>res://.godot/imported/Zombie-Tileset---_0492_Capa-493.png-1df9d7a913e147f2b118e2b4a22cbb9e.ctex::
 Zombie-Tileset---_0493_Capa-494.png::CompressedTexture2D::7252485212936164218::1673828449::1763011218::1::::<><><>0<>0<>b0793457fc60123c97ac986cd2f0d2f0<>res://.godot/imported/Zombie-Tileset---_0493_Capa-494.png-7976749301e4bc9ccd6a47fc868a275b.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/::1673867511
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/::1763011218
 Zombie-Tileset---_0403_Capa-404.png::CompressedTexture2D::2371330856806130028::1673826582::1763011218::1::::<><><>0<>0<>ee8c77e27b8d37b3257de1c3caa4b62d<>res://.godot/imported/Zombie-Tileset---_0403_Capa-404.png-6465b787f9c533c24a7aec919371d836.ctex::
 Zombie-Tileset---_0404_Capa-405.png::CompressedTexture2D::6127250033182530840::1673826602::1763011218::1::::<><><>0<>0<>e474e943d87012b3c9c61e860d2e8b2a<>res://.godot/imported/Zombie-Tileset---_0404_Capa-405.png-77b42fe1ce7494691952979b2fc665b8.ctex::
 Zombie-Tileset---_0405_Capa-406.png::CompressedTexture2D::8244120520623721484::1673826623::1763011218::1::::<><><>0<>0<>b7d163887ee33d152b61708c428e8c89<>res://.godot/imported/Zombie-Tileset---_0405_Capa-406.png-9657da4ff765e5fae2516bfae86fa8f5.ctex::
@@ -216,7 +218,7 @@ Zombie-Tileset---_0408_Capa-409.png::CompressedTexture2D::7819743902087735212::1
 Zombie-Tileset---_0409_Capa-410.png::CompressedTexture2D::9076161114739536127::1673826706::1763011218::1::::<><><>0<>0<>61dd1a73a714147d6dc26573f38b56ce<>res://.godot/imported/Zombie-Tileset---_0409_Capa-410.png-61e8c0377a9e170b5ff10ddcd0ad1f66.ctex::
 Zombie-Tileset---_0410_Capa-411.png::CompressedTexture2D::460508033247225754::1673826727::1763011218::1::::<><><>0<>0<>d28f6b22c6dddae04a23ad7bb1850f56<>res://.godot/imported/Zombie-Tileset---_0410_Capa-411.png-91a795a4281d37c54992112368f34158.ctex::
 Zombie-Tileset---_0411_Capa-412.png::CompressedTexture2D::4464196828386081985::1673826748::1763011218::1::::<><><>0<>0<>912086d3f9023519faccc150968db2ca<>res://.godot/imported/Zombie-Tileset---_0411_Capa-412.png-65420e62ee394319c39f4867b565d71c.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Turret Zombie Animation Frames/::1673867779
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Turret Zombie Animation Frames/::1763011218
 Zombie-Tileset---_0460_Capa-461.png::CompressedTexture2D::27456024831478354::1673827768::1763011218::1::::<><><>0<>0<>7e5ff3a559a54c7591d1b8a4b5916833<>res://.godot/imported/Zombie-Tileset---_0460_Capa-461.png-285a9f6d392193a60f2fad6d04de4592.ctex::
 Zombie-Tileset---_0461_Capa-462.png::CompressedTexture2D::1596562695000364238::1673827789::1763011218::1::::<><><>0<>0<>f65f0561495742e376b6755c5c4e7e84<>res://.godot/imported/Zombie-Tileset---_0461_Capa-462.png-81db205f4abf1ab6e221d4426475e78d.ctex::
 Zombie-Tileset---_0462_Capa-463.png::CompressedTexture2D::8535795219055376033::1673827809::1763011218::1::::<><><>0<>0<>8ff9b906e45769ed53447e57f23861e3<>res://.godot/imported/Zombie-Tileset---_0462_Capa-463.png-c5fa4c855d4c20293f9cbe7b6f4a8df6.ctex::
@@ -226,14 +228,14 @@ Zombie-Tileset---_0465_Capa-466.png::CompressedTexture2D::4030446664160128163::1
 Zombie-Tileset---_0466_Capa-467.png::CompressedTexture2D::443238954627593775::1673827890::1763011218::1::::<><><>0<>0<>1a52eb4274e2f25d41d13a60a3393cea<>res://.godot/imported/Zombie-Tileset---_0466_Capa-467.png-13db38076142f790d4dbb6eb94219c53.ctex::
 Zombie-Tileset---_0467_Capa-468.png::CompressedTexture2D::246310992274199524::1673827912::1763011218::1::::<><><>0<>0<>a1eb11b28105cfc2949e19bcf5aab9c0<>res://.godot/imported/Zombie-Tileset---_0467_Capa-468.png-48f77ff1992d880ff5aa31cd0165a7ad.ctex::
 Zombie-Tileset---_0468_Capa-469.png::CompressedTexture2D::4243672065170573441::1673827934::1763011218::1::::<><><>0<>0<>fa0f9e129f326376abf029f7e7e2fa7d<>res://.godot/imported/Zombie-Tileset---_0468_Capa-469.png-b913985c9e5357fffe14a18b24b1e526.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Dead Corpses With Flies Animation Frames/::1673865433
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Dead Corpses With Flies Animation Frames/::1763011218
 Zombie-Tileset---_0290_Capa-291.png::CompressedTexture2D::7307775705954804973::1673824217::1763011218::1::::<><><>0<>0<>8a627d7e8299d91e556f967a4a31b7ea<>res://.godot/imported/Zombie-Tileset---_0290_Capa-291.png-fd3162226c8d4020b1524046297fe20b.ctex::
 Zombie-Tileset---_0291_Capa-292.png::CompressedTexture2D::3297939732958911455::1673824238::1763011218::1::::<><><>0<>0<>2618ea5c7a1d0f09362f91b80c9453d7<>res://.godot/imported/Zombie-Tileset---_0291_Capa-292.png-a369edbe342a642a6ab9070f589f053b.ctex::
 Zombie-Tileset---_0292_Capa-293.png::CompressedTexture2D::7424894509721643651::1673824259::1763011218::1::::<><><>0<>0<>e6de13a1d7041f24878ea3147d9359eb<>res://.godot/imported/Zombie-Tileset---_0292_Capa-293.png-dfa14215a340d72f8f93b27e7c9ec207.ctex::
 Zombie-Tileset---_0293_Capa-294.png::CompressedTexture2D::5077892598552741753::1673824280::1763011218::1::::<><><>0<>0<>1cfe86f13a76673e710580734db7fdca<>res://.godot/imported/Zombie-Tileset---_0293_Capa-294.png-994374613b2638bc0ba3fe810bd0b837.ctex::
 Zombie-Tileset---_0294_Capa-295.png::CompressedTexture2D::5408902682467276633::1673824301::1763011218::1::::<><><>0<>0<>479ea27de38b0866b9c11d8ef728d669<>res://.godot/imported/Zombie-Tileset---_0294_Capa-295.png-bf89d8b423e8aa48cc28549af9e8c041.ctex::
 Zombie-Tileset---_0295_Capa-296.png::CompressedTexture2D::5807335935656465631::1673824322::1763011218::1::::<><><>0<>0<>85212823d1a29f1c899cbdc812387651<>res://.godot/imported/Zombie-Tileset---_0295_Capa-296.png-b8a7bde63cbc87861758877ba9cea0d8.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Different Crops Lengths/::1673864921
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Different Crops Lengths/::1763011218
 Zombie-Tileset---_0109_Capa-110.png::CompressedTexture2D::323922534601327524::1673820368::1763011218::1::::<><><>0<>0<>2188b5060acc47c012fe0c824055d4c0<>res://.godot/imported/Zombie-Tileset---_0109_Capa-110.png-47cc03bfffc8c23b0c5f0215c16eddbd.ctex::
 Zombie-Tileset---_0110_Capa-111.png::CompressedTexture2D::4635836378234125890::1673820388::1763011218::1::::<><><>0<>0<>f4f3555980ef3057e5b18ee803d9b3aa<>res://.godot/imported/Zombie-Tileset---_0110_Capa-111.png-e89f39f177fd8ad7e7e7ab48e91799bd.ctex::
 Zombie-Tileset---_0111_Capa-112.png::CompressedTexture2D::3265027220203335775::1673820410::1763011218::1::::<><><>0<>0<>1fd8dbfd14aeb11c5a96630cd91f59ac<>res://.godot/imported/Zombie-Tileset---_0111_Capa-112.png-d88607045cad8d673e3ca5f266bea561.ctex::
@@ -242,7 +244,7 @@ Zombie-Tileset---_0113_Capa-114.png::CompressedTexture2D::4536579111663190465::1
 Zombie-Tileset---_0114_Capa-115.png::CompressedTexture2D::585288153988263472::1673820475::1763011218::1::::<><><>0<>0<>971e5e3d4b9a3e57c85b631b85c4d908<>res://.godot/imported/Zombie-Tileset---_0114_Capa-115.png-8708b82df47429ce8afad319f74072eb.ctex::
 Zombie-Tileset---_0115_Capa-116.png::CompressedTexture2D::609812227950982566::1673820500::1763011218::1::::<><><>0<>0<>b2b32aece121f590e86ec9b0dd70cfa3<>res://.godot/imported/Zombie-Tileset---_0115_Capa-116.png-a109063a4145db37f6466f7d87218b9c.ctex::
 Zombie-Tileset---_0116_Capa-117.png::CompressedTexture2D::7116236805197988737::1673820523::1763011218::1::::<><><>0<>0<>465e267b8078aaab58b73546e22a6908<>res://.godot/imported/Zombie-Tileset---_0116_Capa-117.png-82c35a5ff4e54a2155177ec554ac3f06.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Drivable Car with 8 Directions/::1673865963
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Drivable Car with 8 Directions/::1763011218
 Zombie-Tileset---_0164_Capa-165.png::CompressedTexture2D::3771897915985149892::1673821546::1763011218::1::::<><><>0<>0<>fd5f63334c4b2c96b2d140f131ff699b<>res://.godot/imported/Zombie-Tileset---_0164_Capa-165.png-e3dc47d38fed2f2c4f3efbe1d9c5c1ca.ctex::
 Zombie-Tileset---_0165_Capa-166.png::CompressedTexture2D::7615191097980035156::1673821567::1763011218::1::::<><><>0<>0<>a31a767d058b46be8c980de83cb71fac<>res://.godot/imported/Zombie-Tileset---_0165_Capa-166.png-003592b8c18d56536c7be37354ee9722.ctex::
 Zombie-Tileset---_0166_Capa-167.png::CompressedTexture2D::6363032334944585524::1673821588::1763011218::1::::<><><>0<>0<>671942398c0f47007584190cadfaaa9a<>res://.godot/imported/Zombie-Tileset---_0166_Capa-167.png-e4ff56156b03a09911fc51301afb4c9b.ctex::
@@ -251,26 +253,26 @@ Zombie-Tileset---_0168_Capa-169.png::CompressedTexture2D::5238578018426565364::1
 Zombie-Tileset---_0169_Capa-170.png::CompressedTexture2D::557380547477129711::1673821652::1763011218::1::::<><><>0<>0<>e956b08f119a0c2e5a1c975d3d025c1a<>res://.godot/imported/Zombie-Tileset---_0169_Capa-170.png-3e664aaac19a45c979bd3ee1f9c836b7.ctex::
 Zombie-Tileset---_0170_Capa-171.png::CompressedTexture2D::1333874828507916165::1673821673::1763011218::1::::<><><>0<>0<>4f57d900a4cc4bfcb8645689a87d8663<>res://.godot/imported/Zombie-Tileset---_0170_Capa-171.png-48927e8228e0f893781df461b4f0b194.ctex::
 Zombie-Tileset---_0171_Capa-172.png::CompressedTexture2D::9108902534769075783::1673821695::1763011218::1::::<><><>0<>0<>751e31909236a5e672fc743ee155660f<>res://.godot/imported/Zombie-Tileset---_0171_Capa-172.png-6cad58d3f51c1da4194b6c56339c6710.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Exploding Barrel Animation Frames/::1673865739
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Exploding Barrel Animation Frames/::1763011218
 Zombie-Tileset---_0146_Capa-147.png::CompressedTexture2D::6946065455727465454::1673821161::1763011218::1::::<><><>0<>0<>5f2591fdec14bfaead1ba5cc54168fd1<>res://.godot/imported/Zombie-Tileset---_0146_Capa-147.png-b2a440220d96662233d0eb66cd52b643.ctex::
 Zombie-Tileset---_0147_Capa-148.png::CompressedTexture2D::506114644592441650::1673821183::1763011218::1::::<><><>0<>0<>c7edbf5f7dd4bbcc2680568e7107b365<>res://.godot/imported/Zombie-Tileset---_0147_Capa-148.png-f51d08aa8ed79b0c4a03a18611956d82.ctex::
 Zombie-Tileset---_0148_Capa-149.png::CompressedTexture2D::5789340552596880891::1673821204::1763011218::1::::<><><>0<>0<>ebd5da5e874056a1709b059c96b7e9e9<>res://.godot/imported/Zombie-Tileset---_0148_Capa-149.png-69dea6f16b7a50b6a825ae118b0efa64.ctex::
 Zombie-Tileset---_0149_Capa-150.png::CompressedTexture2D::7656826406380621636::1673821225::1763011218::1::::<><><>0<>0<>83259df4694ececa97a94ad79ddfff49<>res://.godot/imported/Zombie-Tileset---_0149_Capa-150.png-2612d411bd0fe17a2832de03480829dc.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Explosion Animation Frames/::1673866143
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Explosion Animation Frames/::1763011218
 Zombie-Tileset---_0358_Capa-359.png::CompressedTexture2D::5164103971393722411::1673825643::1763011218::1::::<><><>0<>0<>6f457065f21a49073d161a0f81d0dfb3<>res://.godot/imported/Zombie-Tileset---_0358_Capa-359.png-e3acb4c6a1c142b7f116dc85f9ca125f.ctex::
 Zombie-Tileset---_0359_Capa-360.png::CompressedTexture2D::8219255727622351741::1673825664::1763011218::1::::<><><>0<>0<>387db07fefffb46c6c220e185a071c4c<>res://.godot/imported/Zombie-Tileset---_0359_Capa-360.png-de951dd169471188dbea39276709f022.ctex::
 Zombie-Tileset---_0360_Capa-361.png::CompressedTexture2D::7976038333475289064::1673825685::1763011218::1::::<><><>0<>0<>5722a197c4017792814d6cba45508935<>res://.godot/imported/Zombie-Tileset---_0360_Capa-361.png-d0bc2359245b97924dfcb552c866c082.ctex::
 Zombie-Tileset---_0361_Capa-362.png::CompressedTexture2D::766945019282480313::1673825706::1763011218::1::::<><><>0<>0<>afcc9a80199f0c79cfe7731d3ae6d108<>res://.godot/imported/Zombie-Tileset---_0361_Capa-362.png-153e6b28b36fe938c42aae9e683a1215.ctex::
 Zombie-Tileset---_0362_Capa-363.png::CompressedTexture2D::3919315313179860399::1673825728::1763011218::1::::<><><>0<>0<>c7954b6c6cce91509b9f4764745dc727<>res://.godot/imported/Zombie-Tileset---_0362_Capa-363.png-baa71253965e76e85a6e8a2dd0b44399.ctex::
 Zombie-Tileset---_0363_Capa-364.png::CompressedTexture2D::5393205679573221263::1673825749::1763011218::1::::<><><>0<>0<>e46d773dbe3686eca720e096f97dd5cf<>res://.godot/imported/Zombie-Tileset---_0363_Capa-364.png-3fe5fa8d55c6d8aaf74e821cebc831e5.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Gas Station/::1673865150
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Gas Station/::1763011218
 Zombie-Tileset---_0143_Capa-144.png::CompressedTexture2D::1437638912185420672::1673821098::1763011218::1::::<><><>0<>0<>423064bb589bd574e48d31d204f31fc4<>res://.godot/imported/Zombie-Tileset---_0143_Capa-144.png-18dee77608a16f2bd0134d09dadd7173.ctex::
 Zombie-Tileset---_0144_Capa-145.png::CompressedTexture2D::6270110230255771069::1673821119::1763011218::1::::<><><>0<>0<>d20fde856aebba8342a9cef203fbd08d<>res://.godot/imported/Zombie-Tileset---_0144_Capa-145.png-ddc61a7ed9bb039a57be3eba33a3d2f6.ctex::
 Zombie-Tileset---_0225_Capa-226.png::CompressedTexture2D::3915435871789211878::1673822839::1763011218::1::::<><><>0<>0<>908b67075d2f2275e741f00147e9cfbd<>res://.godot/imported/Zombie-Tileset---_0225_Capa-226.png-23558b482e869cb0a12f8b69db32cb3e.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Grass with Flowers/::1673865638
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Grass with Flowers/::1763011218
 Zombie-Tileset---_0117_Capa-118.png::CompressedTexture2D::1881224099259205515::1673820545::1763011218::1::::<><><>0<>0<>fe1b19295c1f5f1c39fba74a55163a37<>res://.godot/imported/Zombie-Tileset---_0117_Capa-118.png-e27d47f145edf324857b89a043a847a6.ctex::
 Zombie-Tileset---_0217_Capa-218.png::CompressedTexture2D::5084094360087921521::1673822669::1763011218::1::::<><><>0<>0<>fa800f4421aec272f7d6092b3f307ccf<>res://.godot/imported/Zombie-Tileset---_0217_Capa-218.png-2f78626bd61c713a0b5a1b734c4d499b.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Inventory interface/::1624704363
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Inventory interface/::1763011218
 COKE_SLOT.png::CompressedTexture2D::1997018005649126748::1536959976::1763011218::1::::<><><>0<>0<>264618fdc1e905e3a18a5918a9feeb05<>res://.godot/imported/COKE_SLOT.png-6f91ae24b738e74e1534a0f23f1f131f.ctex::
 DOUBLE_AMMO_SLOT.png::CompressedTexture2D::8434029417451018526::1536959932::1763011218::1::::<><><>0<>0<>3ffbecc2d96f3a53eb3b390079c4a6d2<>res://.godot/imported/DOUBLE_AMMO_SLOT.png-34e1832d88d6f60f46d0e290117833b1.ctex::
 EMPTY_SLOT.png::CompressedTexture2D::7439892209191638781::1536959744::1763011218::1::::<><><>0<>0<>dd574292835ef26ab74235ef12e57ddf<>res://.godot/imported/EMPTY_SLOT.png-77652180d60dbe52d01b90f7f2f33db1.ctex::
@@ -286,7 +288,7 @@ SHOTGUN_SLOT.png::CompressedTexture2D::1679580670450559859::1536959834::17630112
 SINGLE_AMMO_SLOT.png::CompressedTexture2D::1235426808438301808::1536959824::1763011218::1::::<><><>0<>0<>146ef0d4323e402b744fef97684db951<>res://.godot/imported/SINGLE_AMMO_SLOT.png-6dce462f5999db807bf43adde6b28598.ctex::
 TRIPLE_AMMO_SLOT.png::CompressedTexture2D::4854955960798541484::1536959808::1763011218::1::::<><><>0<>0<>d2a31fff5063b29c9a419ba4a915b9bc<>res://.godot/imported/TRIPLE_AMMO_SLOT.png-a6ae6fb7e4f04ca2c9cddf3d871c833c.ctex::
 USING_SLOT.png::CompressedTexture2D::1479627022818452302::1536959478::1763011218::1::::<><><>0<>0<>68c955d071f3a430b247ec2e07975f20<>res://.godot/imported/USING_SLOT.png-420389031d320ad63528f653305e3497.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Kid Zombie Animation Frames/::1673867607
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Kid Zombie Animation Frames/::1763011218
 Zombie-Tileset---_0430_Capa-431.png::CompressedTexture2D::4884288807758029594::1673827144::1763011218::1::::<><><>0<>0<>e54a253e0013fc1c84707c853ac61bc5<>res://.godot/imported/Zombie-Tileset---_0430_Capa-431.png-3abc55b60dd606e1a40b7f4c6642d72d.ctex::
 Zombie-Tileset---_0431_Capa-432.png::CompressedTexture2D::6854945588352782778::1673827165::1763011218::1::::<><><>0<>0<>5a4917dc3cc441cc0d9eedd6f6432f49<>res://.godot/imported/Zombie-Tileset---_0431_Capa-432.png-94afc506db736817c5e650d9efa26559.ctex::
 Zombie-Tileset---_0432_Capa-433.png::CompressedTexture2D::8913328883724911064::1673827186::1763011218::1::::<><><>0<>0<>268d4a2aebca78d0a125c69b9333ab48<>res://.godot/imported/Zombie-Tileset---_0432_Capa-433.png-d54e38201b10909fc9ba090650979458.ctex::
@@ -296,12 +298,12 @@ Zombie-Tileset---_0435_Capa-436.png::CompressedTexture2D::8565032606693701083::1
 Zombie-Tileset---_0436_Capa-437.png::CompressedTexture2D::8873365587915676915::1673827269::1763011218::1::::<><><>0<>0<>f4fb42a6e7d5dd0e902dc9e87b6ae2b8<>res://.godot/imported/Zombie-Tileset---_0436_Capa-437.png-22fc9646fd48080d2f0e898b41d8d67c.ctex::
 Zombie-Tileset---_0437_Capa-438.png::CompressedTexture2D::1920810863001739673::1673827291::1763011218::1::::<><><>0<>0<>519b3bbeee7e20de4d22c2ddacd55147<>res://.godot/imported/Zombie-Tileset---_0437_Capa-438.png-8ce271ea83f6adca321a8b120ba399e8.ctex::
 Zombie-Tileset---_0438_Capa-439.png::CompressedTexture2D::33162155706704851::1673827312::1763011218::1::::<><><>0<>0<>5a4e61fa1a6b7bbcce5416ead2d7601d<>res://.godot/imported/Zombie-Tileset---_0438_Capa-439.png-36142c831912791c806857c1c553d772.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Knife Attack Animation Frames/::1673866234
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Knife Attack Animation Frames/::1763011218
 Zombie-Tileset---_0375_Capa-376.png::CompressedTexture2D::8726944396281363560::1673825999::1763011218::1::::<><><>0<>0<>cd3d56cde96f8fc3656f9ca05bdb0764<>res://.godot/imported/Zombie-Tileset---_0375_Capa-376.png-56875463f6f7c6912cdfadc63aee58cf.ctex::
 Zombie-Tileset---_0376_Capa-377.png::CompressedTexture2D::5516516446870147375::1673826020::1763011218::1::::<><><>0<>0<>dfa5f4c211dd091b01b949c45a6ee197<>res://.godot/imported/Zombie-Tileset---_0376_Capa-377.png-131116ce5c7a3f7a4d538609d827e9e1.ctex::
 Zombie-Tileset---_0377_Capa-378.png::CompressedTexture2D::2117998548649647063::1673826041::1763011218::1::::<><><>0<>0<>d5c73edbc5d3c46dd58b1535c7194916<>res://.godot/imported/Zombie-Tileset---_0377_Capa-378.png-5a64adf96210da157dd1ffb26c199b27.ctex::
 Zombie-Tileset---_0378_Capa-379.png::CompressedTexture2D::1225931034756284537::1673826061::1763011218::1::::<><><>0<>0<>00ff51d36220d2a5bf13304530aa7cb0<>res://.godot/imported/Zombie-Tileset---_0378_Capa-379.png-404c9af3c88a45f54f43ad28310b9910.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Barns/::1673865194
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Barns/::1763011218
 Zombie-Tileset---_0226_Capa-227.png::CompressedTexture2D::233813784645704423::1673822860::1763011218::1::::<><><>0<>0<>ee00fda89a7089eac505b617dc9283e8<>res://.godot/imported/Zombie-Tileset---_0226_Capa-227.png-795942bc4bc0a67a157d232defb068a9.ctex::
 Zombie-Tileset---_0227_Capa-228.png::CompressedTexture2D::8075624484683658417::1673822881::1763011218::1::::<><><>0<>0<>28f78f41f8ff2b675145fb0f215a2339<>res://.godot/imported/Zombie-Tileset---_0227_Capa-228.png-c53387bab75c8ec20b7ac2ca9b2bfb15.ctex::
 Zombie-Tileset---_0228_Capa-229.png::CompressedTexture2D::5247152161711246244::1673822901::1763011218::1::::<><><>0<>0<>0cc8fdd9b51f79d52efd33a666b39de0<>res://.godot/imported/Zombie-Tileset---_0228_Capa-229.png-6f5227d5d9475b59e8a8a4ff64a41392.ctex::
@@ -360,7 +362,7 @@ Zombie-Tileset---_0280_Capa-281.png::CompressedTexture2D::1970544818221334465::1
 Zombie-Tileset---_0281_Capa-282.png::CompressedTexture2D::3154782828391471108::1673824021::1763011218::1::::<><><>0<>0<>1c15ea66fbf38239458c82b62a873b38<>res://.godot/imported/Zombie-Tileset---_0281_Capa-282.png-ea82d1b94c0a3fb693983e453334afe7.ctex::
 Zombie-Tileset---_0282_Capa-283.png::CompressedTexture2D::1600046014674126138::1673824041::1763011218::1::::<><><>0<>0<>75cb2150a3895fd4feb75e75a391fb30<>res://.godot/imported/Zombie-Tileset---_0282_Capa-283.png-6810857882637105c156631427c2a6d5.ctex::
 Zombie-Tileset---_0283_Capa-284.png::CompressedTexture2D::5034467588335838844::1673824065::1763011218::1::::<><><>0<>0<>d79973352e30351166d4b6b53063760a<>res://.godot/imported/Zombie-Tileset---_0283_Capa-284.png-f19b86ae81d8eca558f1e5302edbf736.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/::1673864413
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Big Building/::1763011218
 Zombie-Tileset---_0000_Capa-1.png::CompressedTexture2D::2972616870155321693::1673818032::1763011218::1::::<><><>0<>0<>c8e4e8151ec37564b5fab0c7888151fc<>res://.godot/imported/Zombie-Tileset---_0000_Capa-1.png-6d27e7cfcd24ce5f771d4d87469ef824.ctex::
 Zombie-Tileset---_0001_Capa-2.png::CompressedTexture2D::4518850932376077114::1673818055::1763011218::1::::<><><>0<>0<>7242b1be836891bdf364e3eb868c6385<>res://.godot/imported/Zombie-Tileset---_0001_Capa-2.png-5ae1a308ad99a6776553d0ec6e37a5d2.ctex::
 Zombie-Tileset---_0002_Capa-3.png::CompressedTexture2D::7610994579148795658::1673818076::1763011218::1::::<><><>0<>0<>f11622c4d0ed0688033732fe3ac0ef89<>res://.godot/imported/Zombie-Tileset---_0002_Capa-3.png-3900d40ff75e7f7b35e60e4ab639b2fc.ctex::
@@ -390,7 +392,7 @@ Zombie-Tileset---_0025_Capa-26.png::CompressedTexture2D::1807261041558545704::16
 Zombie-Tileset---_0026_Capa-27.png::CompressedTexture2D::3985247379293338341::1673818594::1763011218::1::::<><><>0<>0<>684f38c01cdde8565c933899a83356e6<>res://.godot/imported/Zombie-Tileset---_0026_Capa-27.png-a1c2bc238e8057b28751f0fdec40968e.ctex::
 Zombie-Tileset---_0027_Capa-28.png::CompressedTexture2D::2558487248908333314::1673818616::1763011218::1::::<><><>0<>0<>ac9af7cbee86498c24da6cb95ba62eba<>res://.godot/imported/Zombie-Tileset---_0027_Capa-28.png-fcc71c2a6cf4661546951083373f463f.ctex::
 Zombie-Tileset---_0028_Capa-29.png::CompressedTexture2D::7355975332357961740::1673818637::1763011218::1::::<><><>0<>0<>bbfb9204d968a5ce4d8886c7054701a0<>res://.godot/imported/Zombie-Tileset---_0028_Capa-29.png-b2d2707298d6b0e76616f5fde05bb8b9.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Bushes/::1673864711
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Bushes/::1763011218
 Zombie-Tileset---_0081_Capa-82.png::CompressedTexture2D::3486078184017450771::1673819770::1763011218::1::::<><><>0<>0<>9a9f393481925a5b6e1d3169ca665ad5<>res://.godot/imported/Zombie-Tileset---_0081_Capa-82.png-495308642f96f5b9b717ffaf9258992c.ctex::
 Zombie-Tileset---_0082_Capa-83.png::CompressedTexture2D::8404536919204565570::1673819791::1763011218::1::::<><><>0<>0<>87c954a9fb6ecf2895e15b0ba23c2eb2<>res://.godot/imported/Zombie-Tileset---_0082_Capa-83.png-6af4eaaa1c65fb9613a1f37f98fc7267.ctex::
 Zombie-Tileset---_0083_Capa-84.png::CompressedTexture2D::6707300369220528484::1673819812::1763011218::1::::<><><>0<>0<>29f21c3a5fb815bcfa46cac2aa6286b2<>res://.godot/imported/Zombie-Tileset---_0083_Capa-84.png-c7917bc000da40aa07f858b343c60db5.ctex::
@@ -401,7 +403,7 @@ Zombie-Tileset---_0087_Capa-88.png::CompressedTexture2D::3071804145819619343::16
 Zombie-Tileset---_0088_Capa-89.png::CompressedTexture2D::7679361237549688044::1673819920::1763011218::1::::<><><>0<>0<>d27480d432aef918277074058756e0a5<>res://.godot/imported/Zombie-Tileset---_0088_Capa-89.png-0014593f271c01f34fbfeb5fe534369b.ctex::
 Zombie-Tileset---_0089_Capa-90.png::CompressedTexture2D::4511711279074403727::1673819941::1763011218::1::::<><><>0<>0<>51b0b158c8aeca2dd0b5e6d828285193<>res://.godot/imported/Zombie-Tileset---_0089_Capa-90.png-254df069ad377c5631344dec4e8b5c05.ctex::
 Zombie-Tileset---_0090_Capa-91.png::CompressedTexture2D::5991567024511431858::1673819963::1763011218::1::::<><><>0<>0<>3dd57a574d77f094bce7003c6bf42907<>res://.godot/imported/Zombie-Tileset---_0090_Capa-91.png-d05628d65301998e60f08a8b25d857b8.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Fences/::1673865136
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Fences/::1763011218
 Zombie-Tileset---_0126_Capa-127.png::CompressedTexture2D::7070782884277326428::1673820736::1763011218::1::::<><><>0<>0<>2ea9d9d32bf0973a74848313845d8ffd<>res://.godot/imported/Zombie-Tileset---_0126_Capa-127.png-5a19733cf6027fea32704ec6b155fda5.ctex::
 Zombie-Tileset---_0127_Capa-128.png::CompressedTexture2D::9030647305088965872::1673820757::1763011218::1::::<><><>0<>0<>c6708af42fd4ea1c41871fba7cb521df<>res://.godot/imported/Zombie-Tileset---_0127_Capa-128.png-a88721723b6a2656b386c487006c6a5e.ctex::
 Zombie-Tileset---_0128_Capa-129.png::CompressedTexture2D::5526105123033273234::1673820778::1763011218::1::::<><><>0<>0<>93001b95a0f3bf18301a73349543c3b0<>res://.godot/imported/Zombie-Tileset---_0128_Capa-129.png-107e795995283949cb2381f434bf2e2a.ctex::
@@ -433,7 +435,7 @@ Zombie-Tileset---_0213_Capa-214.png::CompressedTexture2D::5991299570250718010::1
 Zombie-Tileset---_0214_Capa-215.png::CompressedTexture2D::3158618610267934288::1673822605::1763011218::1::::<><><>0<>0<>e0b0b584257c551a328979e6a2a4cd79<>res://.godot/imported/Zombie-Tileset---_0214_Capa-215.png-184d48ebb2bac62c13f0c274f3d03201.ctex::
 Zombie-Tileset---_0215_Capa-216.png::CompressedTexture2D::1598842702966750256::1673822626::1763011218::1::::<><><>0<>0<>d124c1b4d44b8964148a978907f69c96<>res://.godot/imported/Zombie-Tileset---_0215_Capa-216.png-d0b3b7bae925e1ad0d4c0503c2d1e846.ctex::
 Zombie-Tileset---_0216_Capa-217.png::CompressedTexture2D::2849930048805388977::1673822647::1763011218::1::::<><><>0<>0<>1deffb87aa6c38f24667f4acc3b5b2a8<>res://.godot/imported/Zombie-Tileset---_0216_Capa-217.png-aa671cbc34a22feea934232193d554f5.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Road/::1673864454
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Road/::1763011218
 Zombie-Tileset---_0029_Capa-30.png::CompressedTexture2D::6605058805868090077::1673818658::1763011218::1::::<><><>0<>0<>585366530a23a4d611b674b9cd9feb6f<>res://.godot/imported/Zombie-Tileset---_0029_Capa-30.png-5d034dc292ddd1e1b81138f8cdfe4aef.ctex::
 Zombie-Tileset---_0030_Capa-31.png::CompressedTexture2D::6110861031143311453::1673818679::1763011218::1::::<><><>0<>0<>fdea9cf0d2290ba310c6d0a6c13ef34b<>res://.godot/imported/Zombie-Tileset---_0030_Capa-31.png-43bf2bb7662c91b810fbb26f5bb1fb53.ctex::
 Zombie-Tileset---_0031_Capa-32.png::CompressedTexture2D::901973284304978109::1673818700::1763011218::1::::<><><>0<>0<>bd40bf2cc40123ddd4545e2621eabe7c<>res://.godot/imported/Zombie-Tileset---_0031_Capa-32.png-4695973edfeeafac69b46bd89228c058.ctex::
@@ -460,7 +462,7 @@ Zombie-Tileset---_0051_Capa-52.png::CompressedTexture2D::3330742995581231789::16
 Zombie-Tileset---_0052_Capa-53.png::CompressedTexture2D::8036854870086248898::1673819146::1763011218::1::::<><><>0<>0<>5a906ddbd9efe3923aa194bf6be25ca5<>res://.godot/imported/Zombie-Tileset---_0052_Capa-53.png-46b7d22630c0ef61b8605f234191b205.ctex::
 Zombie-Tileset---_0053_Capa-54.png::CompressedTexture2D::5131828493182325084::1673819168::1763011218::1::::<><><>0<>0<>dc0b1c663b3e40edbb829f0f2f528535<>res://.godot/imported/Zombie-Tileset---_0053_Capa-54.png-5d4adf06064ebfeaf010b19b6d041c13.ctex::
 Zombie-Tileset---_0054_Capa-55.png::CompressedTexture2D::6915037843456211220::1673819189::1763011218::1::::<><><>0<>0<>a2ac4ae3c1ab8d7b33c51ac86dc6d963<>res://.godot/imported/Zombie-Tileset---_0054_Capa-55.png-515ee35eb24fa719fa4eac1c7d32e689.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Small Building/::1673864786
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Small Building/::1763011218
 Zombie-Tileset---_0091_Capa-92.png::CompressedTexture2D::3161611087386942462::1673819984::1763011218::1::::<><><>0<>0<>9d3ffd6d4f59505abfc6338321872c86<>res://.godot/imported/Zombie-Tileset---_0091_Capa-92.png-ac324f58ee3a428d0cbe7a849c0b2d92.ctex::
 Zombie-Tileset---_0092_Capa-93.png::CompressedTexture2D::5663410166972143974::1673820006::1763011218::1::::<><><>0<>0<>c4db2664bcd07a34f5bf70b6ae826c2b<>res://.godot/imported/Zombie-Tileset---_0092_Capa-93.png-001423f6be868b5ea906c41bd193e8b0.ctex::
 Zombie-Tileset---_0093_Capa-94.png::CompressedTexture2D::3560208543272697355::1673820027::1763011218::1::::<><><>0<>0<>24c6c82d409bcaab124fae18b0992fc3<>res://.godot/imported/Zombie-Tileset---_0093_Capa-94.png-886b03e5b93837c408c3bfcae1ca174b.ctex::
@@ -476,14 +478,14 @@ Zombie-Tileset---_0102_Capa-103.png::CompressedTexture2D::3636679534989922366::1
 Zombie-Tileset---_0103_Capa-104.png::CompressedTexture2D::2760292720822651476::1673820239::1763011218::1::::<><><>0<>0<>a7d3380cba7ea2309ddd38c56dbf72fd<>res://.godot/imported/Zombie-Tileset---_0103_Capa-104.png-a16fd508c7a6d63a7464a9774fddd67e.ctex::
 Zombie-Tileset---_0104_Capa-105.png::CompressedTexture2D::7722327390455021656::1673820261::1763011218::1::::<><><>0<>0<>09ca42c785f972bd7806b94f6e5558ca<>res://.godot/imported/Zombie-Tileset---_0104_Capa-105.png-13c7462a5883840f5831b74804781528.ctex::
 Zombie-Tileset---_0105_Capa-106.png::CompressedTexture2D::4881265142751001185::1673820282::1763011218::1::::<><><>0<>0<>784b32fadccacdaf86dd7d97cd0c88c3<>res://.godot/imported/Zombie-Tileset---_0105_Capa-106.png-3ff84c26c4dc486fa07554e11731549f.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Stacked Straw/::1673865019
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Stacked Straw/::1763011218
 Zombie-Tileset---_0118_Capa-119.png::CompressedTexture2D::8334328218744170157::1673820566::1763011218::1::::<><><>0<>0<>0edefda2cc31d6e46dc848d669761422<>res://.godot/imported/Zombie-Tileset---_0118_Capa-119.png-9743cdd2b17621bc4c9c15bd8bc759a5.ctex::
 Zombie-Tileset---_0119_Capa-120.png::CompressedTexture2D::7107309052210209708::1673820588::1763011218::1::::<><><>0<>0<>111321974c183795977e0c9bc8e0ce66<>res://.godot/imported/Zombie-Tileset---_0119_Capa-120.png-a53ccddfc698147972dbc24c88b70e7d.ctex::
 Zombie-Tileset---_0120_Capa-121.png::CompressedTexture2D::3699792856362822705::1673820609::1763011218::1::::<><><>0<>0<>eb98c2e142a3742e327c95a178ea8c1c<>res://.godot/imported/Zombie-Tileset---_0120_Capa-121.png-bcc0aa357da420a4bfe4c57309938643.ctex::
 Zombie-Tileset---_0121_Capa-122.png::CompressedTexture2D::2694239047607306204::1673820630::1763011218::1::::<><><>0<>0<>61803e1bd4ab8bd2cd9fb1c22a46f0f8<>res://.godot/imported/Zombie-Tileset---_0121_Capa-122.png-5e17acd32088f507258811a15e96e52e.ctex::
 Zombie-Tileset---_0122_Capa-123.png::CompressedTexture2D::5651722225546794247::1673820652::1763011218::1::::<><><>0<>0<>a2b9947f76852701c20188024662e64f<>res://.godot/imported/Zombie-Tileset---_0122_Capa-123.png-fcf7b2748a9cb0f231a783dc257a727d.ctex::
 Zombie-Tileset---_0123_Capa-124.png::CompressedTexture2D::3356826538697223524::1673820673::1763011218::1::::<><><>0<>0<>e3a7f601fd35df3268207ccf8e62749e<>res://.godot/imported/Zombie-Tileset---_0123_Capa-124.png-8faea79e91d3a0d195dc733eaa60f537.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Terrain Path/::1673864614
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Modular Terrain Path/::1763011218
 Zombie-Tileset---_0065_Capa-66.png::CompressedTexture2D::5139006509629299299::1673819426::1763011218::1::::<><><>0<>0<>38d614dd213d23ee524b70866748909d<>res://.godot/imported/Zombie-Tileset---_0065_Capa-66.png-03fbc413f881981f50d0724fa14898cf.ctex::
 Zombie-Tileset---_0066_Capa-67.png::CompressedTexture2D::1776069849797763889::1673819448::1763011218::1::::<><><>0<>0<>cbd13e2ad4d1c53bab21d9b988ec4ff4<>res://.godot/imported/Zombie-Tileset---_0066_Capa-67.png-dea35583fd2cfa846bbe5260eabb58e0.ctex::
 Zombie-Tileset---_0067_Capa-68.png::CompressedTexture2D::1521550214459926184::1673819469::1763011217::1::::<><><>0<>0<>0da5638895f90c7d9c80b6a8e25b311a<>res://.godot/imported/Zombie-Tileset---_0067_Capa-68.png-4886e9c2c1d482bd6fed7d158ae568a1.ctex::
@@ -496,11 +498,11 @@ Zombie-Tileset---_0073_Capa-74.png::CompressedTexture2D::6463957760311750231::16
 Zombie-Tileset---_0074_Capa-75.png::CompressedTexture2D::243643788734842736::1673819619::1763011217::1::::<><><>0<>0<>47a78bf67bcd1a8fc3c10024a06d729b<>res://.godot/imported/Zombie-Tileset---_0074_Capa-75.png-bc3d3037623830fa86a5bb8cce4b0a75.ctex::
 Zombie-Tileset---_0075_Capa-76.png::CompressedTexture2D::3027015110259000358::1673819641::1763011217::1::::<><><>0<>0<>76c325cc6f341a5cfd5e96d19743b454<>res://.godot/imported/Zombie-Tileset---_0075_Capa-76.png-05e66282e51683138003c14b0acccdc3.ctex::
 Zombie-Tileset---_0076_Capa-77.png::CompressedTexture2D::1580659889804228794::1673819662::1763011217::1::::<><><>0<>0<>13ff342e496315afcd46d178d2983c32<>res://.godot/imported/Zombie-Tileset---_0076_Capa-77.png-1d58d527e788f75f2eec57d9485b13d2.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Music Notes Animation Frames/::1673866335
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Music Notes Animation Frames/::1763011217
 Zombie-Tileset---_0389_Capa-390.png::CompressedTexture2D::5715283632741387368::1673826293::1763011217::1::::<><><>0<>0<>6727a5890587297995ce8752dc0f7372<>res://.godot/imported/Zombie-Tileset---_0389_Capa-390.png-d2d1b5dd1c426010fdfe1a6de1f91939.ctex::
 Zombie-Tileset---_0390_Capa-391.png::CompressedTexture2D::1693975975978060004::1673826313::1763011217::1::::<><><>0<>0<>d4c5cf332e9bd72633b02930c14dd3f3<>res://.godot/imported/Zombie-Tileset---_0390_Capa-391.png-c32c501051b8e93d006f60c9253a0c3a.ctex::
 Zombie-Tileset---_0391_Capa-392.png::CompressedTexture2D::4388367618562416306::1673826335::1763011217::1::::<><><>0<>0<>6f8ca09c41ce16aceb68c001283e4897<>res://.godot/imported/Zombie-Tileset---_0391_Capa-392.png-3d60bcf0e0916d34b0b3a1e054d9a8cc.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/::1673865882
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/::1763011218
 Zombie-Tileset---_0327_Capa-328.png::CompressedTexture2D::1831871853833079490::1673824994::1763011217::1::::<><><>0<>0<>438e65180f3f70294995a1fb1d2cd28c<>res://.godot/imported/Zombie-Tileset---_0327_Capa-328.png-58755d8bf3d15c346150af8464b61386.ctex::
 Zombie-Tileset---_0328_Capa-329.png::CompressedTexture2D::4486659209452179806::1673825015::1763011217::1::::<><><>0<>0<>38a92d1fa8acdd84e98dbd3832212452<>res://.godot/imported/Zombie-Tileset---_0328_Capa-329.png-00e3b2a978e30c82ebca870adb5857ad.ctex::
 Zombie-Tileset---_0329_Capa-330.png::CompressedTexture2D::423793882445636270::1673825036::1763011217::1::::<><><>0<>0<>ccdea99a0586067627145c118d08bc12<>res://.godot/imported/Zombie-Tileset---_0329_Capa-330.png-af9077a329d82faa36788d05928cb7d2.ctex::
@@ -521,13 +523,13 @@ Zombie-Tileset---_0343_Capa-344.png::CompressedTexture2D::5869637151367098347::1
 Zombie-Tileset---_0344_Capa-345.png::CompressedTexture2D::4154774266849955919::1673825352::1763011218::1::::<><><>0<>0<>1baee005ff5382f24daadac41c21ffab<>res://.godot/imported/Zombie-Tileset---_0344_Capa-345.png-3e9dbb0b6df0378ab46b0ff3fbd149ef.ctex::
 Zombie-Tileset---_0355_Capa-356.png::CompressedTexture2D::3207860511656306206::1673825582::1763011218::1::::<><><>0<>0<>a26755a973622c9561104028f8cbdb37<>res://.godot/imported/Zombie-Tileset---_0355_Capa-356.png-7918aaf58238fdec9d285254ddde0e50.ctex::
 Zombie-Tileset---_0356_Capa-357.png::CompressedTexture2D::2003367206107778714::1673825603::1763011218::1::::<><><>0<>0<>b49efb53d68f3b9611dfb6dcd6f1029d<>res://.godot/imported/Zombie-Tileset---_0356_Capa-357.png-984befb1bc417d854ab76c91b0075b9f.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Pistol Shooting Animation Frames/::1673866207
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Pistol Shooting Animation Frames/::1763011218
 Zombie-Tileset---_0370_Capa-371.png::CompressedTexture2D::795514987637069908::1673825893::1763011218::1::::<><><>0<>0<>c46bf4a48b7bf7b40a1ca1ab084fe42d<>res://.godot/imported/Zombie-Tileset---_0370_Capa-371.png-195ece5e967d50ce1dfd8a4df117ce85.ctex::
 Zombie-Tileset---_0371_Capa-372.png::CompressedTexture2D::5670142955739906932::1673825914::1763011218::1::::<><><>0<>0<>43eded0f4d313793b0dc709254b03beb<>res://.godot/imported/Zombie-Tileset---_0371_Capa-372.png-246c9380972bddb7cc8f164677932178.ctex::
 Zombie-Tileset---_0372_Capa-373.png::CompressedTexture2D::4271315056681082847::1673825935::1763011218::1::::<><><>0<>0<>7a07b50f0d02afc37f997c9a6d83e997<>res://.godot/imported/Zombie-Tileset---_0372_Capa-373.png-c8063b612f13487fb929f9f441628219.ctex::
 Zombie-Tileset---_0373_Capa-374.png::CompressedTexture2D::1949136947434331062::1673825956::1763011218::1::::<><><>0<>0<>355f3cbe8145f34b868d5f124d940faa<>res://.godot/imported/Zombie-Tileset---_0373_Capa-374.png-72b5688500e1e983559f46ec5c627ce2.ctex::
 Zombie-Tileset---_0374_Capa-375.png::CompressedTexture2D::3096852759925372013::1673825977::1763011218::1::::<><><>0<>0<>0b97fc8197ac0b320bee502fdd729913<>res://.godot/imported/Zombie-Tileset---_0374_Capa-375.png-e4eb41c551a6d7cb869b38f7dde27978.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Player Character Walking Animation Frames/::1673867812
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Player Character Walking Animation Frames/::1763011218
 Zombie-Tileset---_0476_Capa-477.png::CompressedTexture2D::2235620797380454287::1673828097::1763011218::1::::<><><>0<>0<>49d7e673a6a9a6a7e5145ab6a966d850<>res://.godot/imported/Zombie-Tileset---_0476_Capa-477.png-3b51fddc4ba74179942cd8c693e2af81.ctex::
 Zombie-Tileset---_0477_Capa-478.png::CompressedTexture2D::3106633885888879229::1673828117::1763011218::1::::<><><>0<>0<>40e793aefbd954e428e9838cd37832f3<>res://.godot/imported/Zombie-Tileset---_0477_Capa-478.png-34491a20827f87e245df46ea4201a3d8.ctex::
 Zombie-Tileset---_0478_Capa-479.png::CompressedTexture2D::3462759866610674424::1673828138::1763011218::1::::<><><>0<>0<>3de33ba492bd2d1eb6b56277c3339eaa<>res://.godot/imported/Zombie-Tileset---_0478_Capa-479.png-3f746139fd56665867a033293ccc9597.ctex::
@@ -537,32 +539,32 @@ Zombie-Tileset---_0481_Capa-482.png::CompressedTexture2D::813635983521601987::16
 Zombie-Tileset---_0482_Capa-483.png::CompressedTexture2D::3995869520351448257::1673828219::1763011218::1::::<><><>0<>0<>5f50e366c1be60a2f09d3e386cba1db0<>res://.godot/imported/Zombie-Tileset---_0482_Capa-483.png-6f8e1ace6923693852949f7a5562d5a0.ctex::
 Zombie-Tileset---_0483_Capa-484.png::CompressedTexture2D::6803439478825798672::1673828240::1763011218::1::::<><><>0<>0<>523ffe34a8bea48e4464bea42c710e3d<>res://.godot/imported/Zombie-Tileset---_0483_Capa-484.png-d0bca3f2486b7761174bfff9e1bf5c33.ctex::
 Zombie-Tileset---_0484_Capa-485.png::CompressedTexture2D::777305789432553832::1673828260::1763011218::1::::<><><>0<>0<>d2082cf4e9c179a137743ba0ce0a0ad5<>res://.godot/imported/Zombie-Tileset---_0484_Capa-485.png-34b36489fcd07c5a1104cd77c2eb0a01.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Random Blood Stains/::1673866319
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Random Blood Stains/::1763011218
 Zombie-Tileset---_0384_Capa-385.png::CompressedTexture2D::700003310423619341::1673826185::1763011218::1::::<><><>0<>0<>13013da87386510c6fe6cfad65e78ef8<>res://.godot/imported/Zombie-Tileset---_0384_Capa-385.png-8c9391c45fdbd5b93fd5be93ebdd1373.ctex::
 Zombie-Tileset---_0385_Capa-386.png::CompressedTexture2D::6920589841363171638::1673826208::1763011218::1::::<><><>0<>0<>18c28d84512d4766b4563748cc9c5466<>res://.godot/imported/Zombie-Tileset---_0385_Capa-386.png-46cfa5c1adaf5d079783e12170dff1a3.ctex::
 Zombie-Tileset---_0386_Capa-387.png::CompressedTexture2D::8797968211330515977::1673826230::1763011218::1::::<><><>0<>0<>d713ca196f423e54c017c41f28a3cf65<>res://.godot/imported/Zombie-Tileset---_0386_Capa-387.png-742d40d56eaa9caed4c0eeea12ada1ef.ctex::
 Zombie-Tileset---_0387_Capa-388.png::CompressedTexture2D::2283840351324740396::1673826251::1763011218::1::::<><><>0<>0<>4cdba70891bc640e8e3b14dc822d5605<>res://.godot/imported/Zombie-Tileset---_0387_Capa-388.png-8c9d1f938528580a393d43fb6fc9bdd7.ctex::
 Zombie-Tileset---_0388_Capa-389.png::CompressedTexture2D::8749191684046196381::1673826272::1763011218::1::::<><><>0<>0<>3d33dbbb1569ca3bbdc9daa0c2bee1b4<>res://.godot/imported/Zombie-Tileset---_0388_Capa-389.png-79a4980f59a21a9393fdd6d13731c7d1.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Scarecrow/::1673864961
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Scarecrow/::1763011218
 Zombie-Tileset---_0124_Capa-125.png::CompressedTexture2D::9091998712608251068::1673820694::1763011218::1::::<><><>0<>0<>230065c12a08f88ee98cbe4fd8d4288a<>res://.godot/imported/Zombie-Tileset---_0124_Capa-125.png-035d17427ba11e5a2971bf2508d54225.ctex::
 Zombie-Tileset---_0125_Capa-126.png::CompressedTexture2D::7506625203239258286::1673820715::1763011218::1::::<><><>0<>0<>145087a78c6be1a5120086dab34580e8<>res://.godot/imported/Zombie-Tileset---_0125_Capa-126.png-1f964759ae9b3f08ee1fbff8f0fe3370.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Shootable Coke Can Animation Frames/::1673866544
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Shootable Coke Can Animation Frames/::1763011218
 Zombie-Tileset---_0345_Capa-346.png::CompressedTexture2D::977517129292077388::1673825373::1763011218::1::::<><><>0<>0<>f23a6057c5bbfd403a52ae2ff477fd5c<>res://.godot/imported/Zombie-Tileset---_0345_Capa-346.png-4d04a97a78ba6a9a96dff0425c8b40ef.ctex::
 Zombie-Tileset---_0346_Capa-347.png::CompressedTexture2D::3978447065664484048::1673825393::1763011218::1::::<><><>0<>0<>7a7379ffb0b02687c2e25dff09911b63<>res://.godot/imported/Zombie-Tileset---_0346_Capa-347.png-de93efd4eb6f69879e6577d27992768e.ctex::
 Zombie-Tileset---_0347_Capa-348.png::CompressedTexture2D::1714184673922584806::1673825415::1763011218::1::::<><><>0<>0<>8736e6270252fca8a4c46ff8b3254de9<>res://.godot/imported/Zombie-Tileset---_0347_Capa-348.png-61e73f7cb3fcabefe5c998c1205a1eed.ctex::
 Zombie-Tileset---_0348_Capa-349.png::CompressedTexture2D::365046397125031030::1673825435::1763011218::1::::<><><>0<>0<>dfc35d9d84a4a2237dee30e6c5271e01<>res://.godot/imported/Zombie-Tileset---_0348_Capa-349.png-bd9eff67a5bc6b35b77ee635565cd591.ctex::
 Zombie-Tileset---_0349_Capa-350.png::CompressedTexture2D::98833167676009694::1673825456::1763011218::1::::<><><>0<>0<>079631c3d81e00b6e46788470bd87624<>res://.godot/imported/Zombie-Tileset---_0349_Capa-350.png-25d8ad2bf5adaa0849b8a746aa2af6ca.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/::1673866182
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/::1763011218
 Zombie-Tileset---_0364_Capa-365.png::CompressedTexture2D::8503834981626366235::1673825770::1763011218::1::::<><><>0<>0<>ea1feb179c378b96e013496e7a205f77<>res://.godot/imported/Zombie-Tileset---_0364_Capa-365.png-e05a22f124e9901e8b38c1205aa4ac6d.ctex::
 Zombie-Tileset---_0365_Capa-366.png::CompressedTexture2D::1461386786454178644::1673825790::1763011218::1::::<><><>0<>0<>98d37aada588cfa70d7e11276cf3a287<>res://.godot/imported/Zombie-Tileset---_0365_Capa-366.png-46b6c00ef86181aee9f7223a7ebc8550.ctex::
 Zombie-Tileset---_0366_Capa-367.png::CompressedTexture2D::6759003012528444717::1673825811::1763011218::1::::<><><>0<>0<>f885d30164d4c7a55e5a97cc8c012207<>res://.godot/imported/Zombie-Tileset---_0366_Capa-367.png-e472d2696d0da1833675b5785d7639de.ctex::
 Zombie-Tileset---_0367_Capa-368.png::CompressedTexture2D::4873628393595939870::1673825831::1763011218::1::::<><><>0<>0<>2a3a5cabc3311797c10d2134ebaf2149<>res://.godot/imported/Zombie-Tileset---_0367_Capa-368.png-e8d9384c43fc3df87778146a88b8a125.ctex::
 Zombie-Tileset---_0368_Capa-369.png::CompressedTexture2D::1198090036598442890::1673825852::1763011218::1::::<><><>0<>0<>1bdf8dae7652973ff119a11d43a70c4a<>res://.godot/imported/Zombie-Tileset---_0368_Capa-369.png-0120d8c4cbed897207c4c02ae207bda0.ctex::
 Zombie-Tileset---_0369_Capa-370.png::CompressedTexture2D::1374990903329842882::1673825873::1763011218::1::::<><><>0<>0<>9f20a58d9700b0b1c1ccc9131df52909<>res://.godot/imported/Zombie-Tileset---_0369_Capa-370.png-876c0f21f6f93761f42584092073ea63.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Sitting Zombie/::1673866643
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Sitting Zombie/::1763011218
 Zombie-Tileset---_0392_Capa-393.png::CompressedTexture2D::4913422955784463520::1673826356::1763011218::1::::<><><>0<>0<>325be0f03f37c3db7d348bbc427a6ded<>res://.godot/imported/Zombie-Tileset---_0392_Capa-393.png-abf7f47b0ee6b6900a33bcb74151b432.ctex::
 Zombie-Tileset---_0393_Capa-394.png::CompressedTexture2D::713711013058422431::1673826377::1763011218::1::::<><><>0<>0<>73c9e192caff31aa9c0316065a3ad695<>res://.godot/imported/Zombie-Tileset---_0393_Capa-394.png-2b16c26a30edc63e9d97e038466ae8fb.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/::1673867024
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/::1763011218
 Zombie-Tileset---_0394_Capa-395.png::CompressedTexture2D::5442840592431272519::1673826397::1763011218::1::::<><><>0<>0<>df7aff430bb638ac528af6a84949184f<>res://.godot/imported/Zombie-Tileset---_0394_Capa-395.png-f6900eae3afe28173451a8cd5c90cded.ctex::
 Zombie-Tileset---_0395_Capa-396.png::CompressedTexture2D::3903990256912974562::1673826417::1763011218::1::::<><><>0<>0<>7df301bf1a471b12454a83ae0564d97e<>res://.godot/imported/Zombie-Tileset---_0395_Capa-396.png-3c8074f8ca210fb446874a3457153444.ctex::
 Zombie-Tileset---_0396_Capa-397.png::CompressedTexture2D::6245998700300536002::1673826438::1763011218::1::::<><><>0<>0<>960218c0c80497279f0f95aacf1aba94<>res://.godot/imported/Zombie-Tileset---_0396_Capa-397.png-76ad1ff54f66d68f7dcf95589f893c90.ctex::
@@ -572,45 +574,45 @@ Zombie-Tileset---_0399_Capa-400.png::CompressedTexture2D::432673203909639115::16
 Zombie-Tileset---_0400_Capa-401.png::CompressedTexture2D::2863475777516878930::1673826520::1763011218::1::::<><><>0<>0<>941f6c0fd51ceb361197ee315a74e75c<>res://.godot/imported/Zombie-Tileset---_0400_Capa-401.png-89878c60e0a108ae1cd878075d6b7227.ctex::
 Zombie-Tileset---_0401_Capa-402.png::CompressedTexture2D::6978813496407665662::1673826540::1763011218::1::::<><><>0<>0<>3cdf23496e229bdfa8a9c9d6f6e23e02<>res://.godot/imported/Zombie-Tileset---_0401_Capa-402.png-c43decd8abcbaeb303d290a284b69ccb.ctex::
 Zombie-Tileset---_0402_Capa-403.png::CompressedTexture2D::5984032144248206917::1673826561::1763011218::1::::<><><>0<>0<>597375978f4a352c87ba07c5fd3b20be<>res://.godot/imported/Zombie-Tileset---_0402_Capa-403.png-7e8e40747af112aae62f702f2a8df08f.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Smoke Animation Frames/::1673865766
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Smoke Animation Frames/::1763011218
 Zombie-Tileset---_0321_Capa-322.png::CompressedTexture2D::4252062723895666438::1673824868::1763011218::1::::<><><>0<>0<>cc69f4732b05b4e3bc4cb75f9d63343d<>res://.godot/imported/Zombie-Tileset---_0321_Capa-322.png-2c3e027400b1235669fe85cdbfd002c2.ctex::
 Zombie-Tileset---_0322_Capa-323.png::CompressedTexture2D::6290596694230497150::1673824888::1763011218::1::::<><><>0<>0<>9c877bd6bca8f8c0908c6bebfc6261f4<>res://.godot/imported/Zombie-Tileset---_0322_Capa-323.png-c2b294a191b5a0815b352fea1ee89968.ctex::
 Zombie-Tileset---_0323_Capa-324.png::CompressedTexture2D::6415649306467264979::1673824909::1763011218::1::::<><><>0<>0<>ff34bf3d8c531a3bc38cda2d20e4f801<>res://.godot/imported/Zombie-Tileset---_0323_Capa-324.png-c7d307a8c9031a18d0ea3c1c38c8d4c0.ctex::
 Zombie-Tileset---_0324_Capa-325.png::CompressedTexture2D::1631819555736365745::1673824930::1763011218::1::::<><><>0<>0<>2a777dad97ff6ab9bc0c071d5251f32b<>res://.godot/imported/Zombie-Tileset---_0324_Capa-325.png-bdcd89ba6f87ccea7478bb92d7123526.ctex::
 Zombie-Tileset---_0325_Capa-326.png::CompressedTexture2D::1348011657072174686::1673824952::1763011218::1::::<><><>0<>0<>bd41171bad78a8f7a4a25a057a956a13<>res://.godot/imported/Zombie-Tileset---_0325_Capa-326.png-aadee155e93b8776e2ed701e0dde51d5.ctex::
 Zombie-Tileset---_0326_Capa-327.png::CompressedTexture2D::8775361429440061502::1673824973::1763011218::1::::<><><>0<>0<>52806a677e75bfee1a905a753277eab0<>res://.godot/imported/Zombie-Tileset---_0326_Capa-327.png-fdce956b08c70ba5997b8eda12d2babc.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Spawning Item Box Animation Frames + Broken Box Pieces/::1673865272
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Spawning Item Box Animation Frames + Broken Box Pieces/::1763011218
 Zombie-Tileset---_0284_Capa-285.png::CompressedTexture2D::3601675412409464898::1673824088::1763011218::1::::<><><>0<>0<>e297505945261fa656eb776786e13ee5<>res://.godot/imported/Zombie-Tileset---_0284_Capa-285.png-ee5a374e75285b9bd05ed4f1d6791d22.ctex::
 Zombie-Tileset---_0285_Capa-286.png::CompressedTexture2D::4897127751434326137::1673824110::1763011218::1::::<><><>0<>0<>84d44ab8861f79efb1db9d151445ac3d<>res://.godot/imported/Zombie-Tileset---_0285_Capa-286.png-4e433e2f6b2ce87ed9ac73470f49372a.ctex::
 Zombie-Tileset---_0286_Capa-287.png::CompressedTexture2D::613259922076183871::1673824130::1763011218::1::::<><><>0<>0<>2f3bd3e230568dcb9cb4fd17bf7d7b5d<>res://.godot/imported/Zombie-Tileset---_0286_Capa-287.png-78419afc23180be37c6f45f5fb6d0c02.ctex::
 Zombie-Tileset---_0287_Capa-288.png::CompressedTexture2D::5483266017879984621::1673824153::1763011218::1::::<><><>0<>0<>cae3cacdd81bbeee8150a6fd12c5776d<>res://.godot/imported/Zombie-Tileset---_0287_Capa-288.png-fa120e242d708904f273b0fa2d1fd59e.ctex::
 Zombie-Tileset---_0288_Capa-289.png::CompressedTexture2D::4661694662608950605::1673824175::1763011218::1::::<><><>0<>0<>bdcb258f6fc31201ce6709cd4e6def95<>res://.godot/imported/Zombie-Tileset---_0288_Capa-289.png-7c746f67d0e76ec89dffcff232429826.ctex::
 Zombie-Tileset---_0289_Capa-290.png::CompressedTexture2D::6728827980167431613::1673824196::1763011218::1::::<><><>0<>0<>f050ea34293033d8ca8f9b11559f1243<>res://.godot/imported/Zombie-Tileset---_0289_Capa-290.png-0e2336a1a84ea7c5726450adcd8e0786.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Spawning Money Animation Frames/::1673866517
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Spawning Money Animation Frames/::1763011218
 Zombie-Tileset---_0350_Capa-351.png::CompressedTexture2D::3384576990187527033::1673825477::1763011218::1::::<><><>0<>0<>3a0ad531282be045fe8a41bd734fde83<>res://.godot/imported/Zombie-Tileset---_0350_Capa-351.png-1c2fd16bae579b290bbb81fdd4c083bf.ctex::
 Zombie-Tileset---_0351_Capa-352.png::CompressedTexture2D::3674774959618343858::1673825498::1763011218::1::::<><><>0<>0<>80717a59a5c1a3e7e6767de8403900dc<>res://.godot/imported/Zombie-Tileset---_0351_Capa-352.png-f7267d048ef8b12b7be5e4a0425fa5a4.ctex::
 Zombie-Tileset---_0352_Capa-353.png::CompressedTexture2D::7192901593927068199::1673825519::1763011218::1::::<><><>0<>0<>9049e86cffdcd980d6dbf66be4007008<>res://.godot/imported/Zombie-Tileset---_0352_Capa-353.png-a2b89393311f49b6e79f59a8612d44c4.ctex::
 Zombie-Tileset---_0353_Capa-354.png::CompressedTexture2D::6119949577140678696::1673825540::1763011218::1::::<><><>0<>0<>b5e059e474e0403cb65153109ba802fe<>res://.godot/imported/Zombie-Tileset---_0353_Capa-354.png-d14e989c507cd7553e093f1cbff09a86.ctex::
 Zombie-Tileset---_0354_Capa-355.png::CompressedTexture2D::5780438123839906375::1673825561::1763011218::1::::<><><>0<>0<>6d44dba8bd9ff03fbbeae0b02f502f72<>res://.godot/imported/Zombie-Tileset---_0354_Capa-355.png-d64f7ba5baf1266d0ff7e2d077fdf6a0.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Store Truck with Smoking Guy Animation Frames/::1673866037
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Store Truck with Smoking Guy Animation Frames/::1763011218
 Zombie-Tileset---_0176_Capa-177.png::CompressedTexture2D::5868286382855251970::1673821801::1763011218::1::::<><><>0<>0<>19da6d81b7e9c6916f5723e1430b3287<>res://.godot/imported/Zombie-Tileset---_0176_Capa-177.png-cd7e994be972e813cdffea5d3a8c98c1.ctex::
 Zombie-Tileset---_0177_Capa-178.png::CompressedTexture2D::3386675162923622603::1673821822::1763011218::1::::<><><>0<>0<>e8f0d31766336d2cfa0de5f85167d6f1<>res://.godot/imported/Zombie-Tileset---_0177_Capa-178.png-b2ebdee178432929b8dbda63f550dce7.ctex::
 Zombie-Tileset---_0178_Capa-179.png::CompressedTexture2D::1563836613344940050::1673821843::1763011218::1::::<><><>0<>0<>802a4d6236daec9d9438cb1f1b0afc73<>res://.godot/imported/Zombie-Tileset---_0178_Capa-179.png-f664eff6adff803e59c4b80e7118c3ac.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain Variations/::1673864668
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain Variations/::1763011218
 Zombie-Tileset---_0077_Capa-78.png::CompressedTexture2D::3854405606266592498::1673819683::1763011218::1::::<><><>0<>0<>13053b78289b8709606d1c3e4508c52e<>res://.godot/imported/Zombie-Tileset---_0077_Capa-78.png-aee57bddb65afcd9533326918417deaa.ctex::
 Zombie-Tileset---_0078_Capa-79.png::CompressedTexture2D::4934591223077840056::1673819704::1763011218::1::::<><><>0<>0<>d9508c5082fe85f618b979765032493c<>res://.godot/imported/Zombie-Tileset---_0078_Capa-79.png-aeb162ad01ae25225b69283865725318.ctex::
 Zombie-Tileset---_0079_Capa-80.png::CompressedTexture2D::5914567675084530565::1673819726::1763011218::1::::<><><>0<>0<>de3ba45b71b22493599c0aa9249a2446<>res://.godot/imported/Zombie-Tileset---_0079_Capa-80.png-705ea993594b01e0e6a7604d42f73542.ctex::
 Zombie-Tileset---_0080_Capa-81.png::CompressedTexture2D::6057926889968456876::1673819749::1763011218::1::::<><><>0<>0<>7ac22eafc2697b7e52477e8a1988fb11<>res://.godot/imported/Zombie-Tileset---_0080_Capa-81.png-1f1d92aea4bc389eb193c5a55c303b20.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain wall/::1673864574
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Terrain wall/::1763011218
 Zombie-Tileset---_0064_Capa-65.png::CompressedTexture2D::363014333306592170::1673819405::1763011218::1::::<><><>0<>0<>065f7b5ccb202898f2662a903fe1293d<>res://.godot/imported/Zombie-Tileset---_0064_Capa-65.png-4192d12a6e16c01d2253b8ceb07aaa78.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Tombstone/::1673866348
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Tombstone/::1763011218
 Zombie-Tileset---_0357_Capa-358.png::CompressedTexture2D::4676335458466963991::1673825623::1763011218::1::::<><><>0<>0<>6292d9a2348fb7de2f7db71c9aff0f60<>res://.godot/imported/Zombie-Tileset---_0357_Capa-358.png-b8dcc03d09f9d2d07b63d6d595bf2899.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Tractor/::1673866566
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Tractor/::1763011218
 Zombie-Tileset---_0172_Capa-173.png::CompressedTexture2D::255658691375753491::1673821716::1763011218::1::::<><><>0<>0<>e7874841d933c9fdeaa1e35b0fd0095e<>res://.godot/imported/Zombie-Tileset---_0172_Capa-173.png-db105927720054ade53131b5adccdd06.ctex::
 Zombie-Tileset---_0173_Capa-174.png::CompressedTexture2D::8781958332723600480::1673821737::1763011218::1::::<><><>0<>0<>1a37cf610e77bb04cf61a6953c6d2b04<>res://.godot/imported/Zombie-Tileset---_0173_Capa-174.png-ae0652597150dab69cf4bbb3ad3a65a4.ctex::
 Zombie-Tileset---_0174_Capa-175.png::CompressedTexture2D::5387491674863453765::1673821759::1763011218::1::::<><><>0<>0<>16996f3fb6901d64c6c82fdd75ff0c54<>res://.godot/imported/Zombie-Tileset---_0174_Capa-175.png-ebda42cd9c7cfdf6b9d898361a5e84da.ctex::
 Zombie-Tileset---_0175_Capa-176.png::CompressedTexture2D::496693432105767797::1673821780::1763011218::1::::<><><>0<>0<>0ed5fa56718d67a95c08610ed6dbb07b<>res://.godot/imported/Zombie-Tileset---_0175_Capa-176.png-a962fbd53cccc569d977b3f7fce7dfbb.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/::1673865091
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Trees/::1763011218
 Zombie-Tileset---_0134_Capa-135.png::CompressedTexture2D::1307542154931422565::1673820905::1763011218::1::::<><><>0<>0<>46bab33581a7a98c2f8fd829a55c59c0<>res://.godot/imported/Zombie-Tileset---_0134_Capa-135.png-01dc5e220dda3e99da47898a11b30f2a.ctex::
 Zombie-Tileset---_0135_Capa-136.png::CompressedTexture2D::2456255395619236114::1673820926::1763011218::1::::<><><>0<>0<>01e42688a1ef6d8af3e280dbceb4a4b2<>res://.godot/imported/Zombie-Tileset---_0135_Capa-136.png-87477320333ecadc847d45dc04f74b02.ctex::
 Zombie-Tileset---_0136_Capa-137.png::CompressedTexture2D::1071877761661451425::1673820948::1763011218::1::::<><><>0<>0<>04a20aa425396e585458378744349333<>res://.godot/imported/Zombie-Tileset---_0136_Capa-137.png-5262ed7e18c181a5f59b339738f197b5.ctex::
@@ -620,7 +622,7 @@ Zombie-Tileset---_0139_Capa-140.png::CompressedTexture2D::1978703741018970944::1
 Zombie-Tileset---_0140_Capa-141.png::CompressedTexture2D::2566889869891505691::1673821034::1763011218::1::::<><><>0<>0<>ef79b9f5cfe31b999b0291d28ef25ead<>res://.godot/imported/Zombie-Tileset---_0140_Capa-141.png-28d4cf3666da7b176d73707fb4fc4c93.ctex::
 Zombie-Tileset---_0141_Capa-142.png::CompressedTexture2D::773603608709868534::1673821055::1763011218::1::::<><><>0<>0<>18e48e0e61afde1191fa4e335fbb8a0e<>res://.godot/imported/Zombie-Tileset---_0141_Capa-142.png-0762720a9725d709748706886fc62dfe.ctex::
 Zombie-Tileset---_0142_Capa-143.png::CompressedTexture2D::6683178646134816206::1673821077::1763011218::1::::<><><>0<>0<>375c6e1a1ef7236de63f5804569df805<>res://.godot/imported/Zombie-Tileset---_0142_Capa-143.png-b0fa184271636248ee0bb7692c90cd61.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Turret Zombie Animation Frames/::1673867731
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Turret Zombie Animation Frames/::1763011218
 Zombie-Tileset---_0448_Capa-449.png::CompressedTexture2D::922362946975044222::1673827518::1763011218::1::::<><><>0<>0<>3647e68a2f9e2688b2bfbb2d2ea92e02<>res://.godot/imported/Zombie-Tileset---_0448_Capa-449.png-0485c943fc228d615e80ff00279e9d42.ctex::
 Zombie-Tileset---_0449_Capa-450.png::CompressedTexture2D::8964469021636964286::1673827540::1763011218::1::::<><><>0<>0<>852137ded0aa6a98f271b5b22baf12e9<>res://.godot/imported/Zombie-Tileset---_0449_Capa-450.png-43a62c2e0dbf180a8faec596e2bf07ce.ctex::
 Zombie-Tileset---_0450_Capa-451.png::CompressedTexture2D::5316496771929809982::1673827560::1763011218::1::::<><><>0<>0<>af1a542a639feb360c46d1f07bfdffd1<>res://.godot/imported/Zombie-Tileset---_0450_Capa-451.png-b4d7387f5200ea0b6f3135e2ba634722.ctex::
@@ -633,7 +635,7 @@ Zombie-Tileset---_0456_Capa-457.png::CompressedTexture2D::962071957879071160::16
 Zombie-Tileset---_0457_Capa-458.png::CompressedTexture2D::3869021897000471593::1673827708::1763011218::1::::<><><>0<>0<>095ef249244ae49f33096a48fd970c29<>res://.godot/imported/Zombie-Tileset---_0457_Capa-458.png-6e727d32759bafa340d122cbfea8d34b.ctex::
 Zombie-Tileset---_0458_Capa-459.png::CompressedTexture2D::2931629574678701634::1673827728::1763011218::1::::<><><>0<>0<>f9cb2568fd052e0fd600442780da27ef<>res://.godot/imported/Zombie-Tileset---_0458_Capa-459.png-c7231a2452bd9b71faf7ee624b811c64.ctex::
 Zombie-Tileset---_0459_Capa-460.png::CompressedTexture2D::2739143641475997255::1673827748::1763011218::1::::<><><>0<>0<>9bb1c092dd07a3952a7d018b4f4b8460<>res://.godot/imported/Zombie-Tileset---_0459_Capa-460.png-1721e726dfc78a2766b4baffa5d84aa0.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/UI Elements/::1673867866
+::res://Zombie Apocalypse Tileset/Organized separated sprites/UI Elements/::1763011218
 Zombie-Tileset---_0494_Capa-495.png::CompressedTexture2D::5393324601481913424::1673828470::1763011218::1::::<><><>0<>0<>6819b186233e668edcb8f23e87ed0660<>res://.godot/imported/Zombie-Tileset---_0494_Capa-495.png-d9cd2e22e1a24ee16b73f048356cb8c5.ctex::
 Zombie-Tileset---_0495_Capa-496.png::CompressedTexture2D::4956735340664564226::1673828491::1763011218::1::::<><><>0<>0<>67c7ffda4891bec216905dec57f4e9ce<>res://.godot/imported/Zombie-Tileset---_0495_Capa-496.png-3a1df7a35dd8cd2a8130ebd15b4675f5.ctex::
 Zombie-Tileset---_0496_Capa-497.png::CompressedTexture2D::7941778553003108438::1673828511::1763011218::1::::<><><>0<>0<>c1f52788ec04fe24b6b4accd6f6cd74a<>res://.godot/imported/Zombie-Tileset---_0496_Capa-497.png-1ed5d65858a78cf1aaf95ff4e15be1a5.ctex::
@@ -657,14 +659,14 @@ Zombie-Tileset---_0513_Capa-516.png::CompressedTexture2D::6607846489495143494::1
 Zombie-Tileset---_0514_Capa-517.png::CompressedTexture2D::4227492264868350272::1673828876::1763011218::1::::<><><>0<>0<>0efead7e527e5258960b09d3ff264658<>res://.godot/imported/Zombie-Tileset---_0514_Capa-517.png-cc8d63208c2b64ad0b15c1219e84fd29.ctex::
 Zombie-Tileset---_0515_Capa-518.png::CompressedTexture2D::1802821952586356324::1673828896::1763011218::1::::<><><>0<>0<>9565a9d6bfe2722efa9f240b2b5e9e2d<>res://.godot/imported/Zombie-Tileset---_0515_Capa-518.png-321b34a6406a68e39aa1fb21edd32db1.ctex::
 Zombie-Tileset---_0516_Capa-519.png::CompressedTexture2D::2940451451984291969::1673828916::1763011218::1::::<><><>0<>0<>b1c31de66d6dd00c0b791afa80487f96<>res://.godot/imported/Zombie-Tileset---_0516_Capa-519.png-e0cdcf84f9504fa851b9a2e39765d636.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Under Bridge Water animation frames/::1673864554
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Under Bridge Water animation frames/::1763011218
 Zombie-Tileset---_0055_Capa-56.png::CompressedTexture2D::8783667960058547522::1673819211::1763011218::1::::<><><>0<>0<>a02d658aab050b8f139be2cdc9812c95<>res://.godot/imported/Zombie-Tileset---_0055_Capa-56.png-015576426e8866ccbb7b50e736ccd72a.ctex::
 Zombie-Tileset---_0056_Capa-57.png::CompressedTexture2D::363374588163058178::1673819232::1763011218::1::::<><><>0<>0<>9dfb76425e92a4a698453a8ce2c27c37<>res://.godot/imported/Zombie-Tileset---_0056_Capa-57.png-d3b2b8723ac5b5b13a8bf5c5228bd878.ctex::
 Zombie-Tileset---_0057_Capa-58.png::CompressedTexture2D::2444108568312496355::1673819253::1763011218::1::::<><><>0<>0<>e0480a619f652b89b979f7673f241c12<>res://.godot/imported/Zombie-Tileset---_0057_Capa-58.png-3d07b40d411068c660faff07eca99856.ctex::
 Zombie-Tileset---_0058_Capa-59.png::CompressedTexture2D::151645724157114408::1673819275::1763011218::1::::<><><>0<>0<>15b73feaba4e0505a6b153c5e4928866<>res://.godot/imported/Zombie-Tileset---_0058_Capa-59.png-109c49c48c31995f55a9c2aa6fa726af.ctex::
 Zombie-Tileset---_0059_Capa-60.png::CompressedTexture2D::5745420914482203157::1673819296::1763011218::1::::<><><>0<>0<>9dc17384be0973a8ad47e01932da0c0a<>res://.godot/imported/Zombie-Tileset---_0059_Capa-60.png-8e103324d972100856f6114c5e1de47c.ctex::
 Zombie-Tileset---_0060_Capa-61.png::CompressedTexture2D::7806339297571102325::1673819318::1763011218::1::::<><><>0<>0<>c2bcbdaad60cb16c2a40c0a125fd683f<>res://.godot/imported/Zombie-Tileset---_0060_Capa-61.png-381ec18be3d1d18d4bddf198761a6bed.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Urban Assets/::1673866102
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Urban Assets/::1763011218
 Zombie-Tileset---_0145_Capa-146.png::CompressedTexture2D::1934424339268260577::1673821140::1763011218::1::::<><><>0<>0<>795071743f9b34727083a67323871d06<>res://.godot/imported/Zombie-Tileset---_0145_Capa-146.png-35beb65e6dff57d23a84b4fe8198731c.ctex::
 Zombie-Tileset---_0150_Capa-151.png::CompressedTexture2D::5085372968784602644::1673821247::1763011218::1::::<><><>0<>0<>bc83a9a5a5db2fa616618e3f71f98918<>res://.godot/imported/Zombie-Tileset---_0150_Capa-151.png-627cb23ca32057349a49d121b02d6ce2.ctex::
 Zombie-Tileset---_0151_Capa-152.png::CompressedTexture2D::2142717060140568417::1673821269::1763011218::1::::<><><>0<>0<>fbbc9f30e75bac77a8cfd57d535ddb84<>res://.godot/imported/Zombie-Tileset---_0151_Capa-152.png-b1be65a7a715676edaa675e6733e28ab.ctex::
@@ -680,11 +682,11 @@ Zombie-Tileset---_0160_Capa-161.png::CompressedTexture2D::5480189456563751851::1
 Zombie-Tileset---_0161_Capa-162.png::CompressedTexture2D::1001507829666845142::1673821481::1763011218::1::::<><><>0<>0<>bdbeb5b775bbad6563c042595e0df226<>res://.godot/imported/Zombie-Tileset---_0161_Capa-162.png-977473592848d79adf8a490dbe61f2f8.ctex::
 Zombie-Tileset---_0162_Capa-163.png::CompressedTexture2D::1194026090017696580::1673821502::1763011218::1::::<><><>0<>0<>bdfdd3962e4e1f8d6ba8277c67064c84<>res://.godot/imported/Zombie-Tileset---_0162_Capa-163.png-a96d72e7fffa3b83a03eef1fd4e503ae.ctex::
 Zombie-Tileset---_0163_Capa-164.png::CompressedTexture2D::359970962482068183::1673821524::1763011218::1::::<><><>0<>0<>873d6a38f5a1e4826eb660f6d5055432<>res://.godot/imported/Zombie-Tileset---_0163_Capa-164.png-8df6477eb86c5a03d86b7825ecb88066.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Water animation frames/::1673864502
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Water animation frames/::1763011218
 Zombie-Tileset---_0061_Capa-62.png::CompressedTexture2D::4954797203880944346::1673819339::1763011218::1::::<><><>0<>0<>5365556210a7d5fac0f0a80f16b35802<>res://.godot/imported/Zombie-Tileset---_0061_Capa-62.png-25e791bb6b8d33d3bf6e0913b925377f.ctex::
 Zombie-Tileset---_0062_Capa-63.png::CompressedTexture2D::6157920765803066507::1673819360::1763011218::1::::<><><>0<>0<>9f7d326948423898191254419b99ff7e<>res://.godot/imported/Zombie-Tileset---_0062_Capa-63.png-0c13d1cd5f8d56b80d1623dbf2a1d6f0.ctex::
 Zombie-Tileset---_0063_Capa-64.png::CompressedTexture2D::3096383941230463562::1673819384::1763011218::1::::<><><>0<>0<>ca8d665212cd1bdae05f8e89d927e48e<>res://.godot/imported/Zombie-Tileset---_0063_Capa-64.png-bdf912b67789bd42e16b52a091155162.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/White Bird Flying, Ground Eating + Being Shot Blood Animation Frames/::1673865597
+::res://Zombie Apocalypse Tileset/Organized separated sprites/White Bird Flying, Ground Eating + Being Shot Blood Animation Frames/::1763011218
 Zombie-Tileset---_0297_Capa-298.png::CompressedTexture2D::1485502304452010857::1673824364::1763011218::1::::<><><>0<>0<>bc642c77286f721a5e066510c0a1c172<>res://.godot/imported/Zombie-Tileset---_0297_Capa-298.png-a36e67af123b803c247c45c1a842692a.ctex::
 Zombie-Tileset---_0298_Capa-299.png::CompressedTexture2D::4314165826720849504::1673824385::1763011218::1::::<><><>0<>0<>0dbd4076033cfd704a49c8b6fbf0cd24<>res://.godot/imported/Zombie-Tileset---_0298_Capa-299.png-25172ffacc0d9276ffd24ba71f1f8db2.ctex::
 Zombie-Tileset---_0299_Capa-300.png::CompressedTexture2D::5581044617757019362::1673824406::1763011218::1::::<><><>0<>0<>6ca9395b1b6b93513848649edc00020c<>res://.godot/imported/Zombie-Tileset---_0299_Capa-300.png-7a624e002adf736462d5831f21db56e0.ctex::
@@ -697,7 +699,7 @@ Zombie-Tileset---_0305_Capa-306.png::CompressedTexture2D::1343915548714729905::1
 Zombie-Tileset---_0306_Capa-307.png::CompressedTexture2D::4343994051535340521::1673824553::1763011218::1::::<><><>0<>0<>c89184dab592ba456ea23a552a7b8c2d<>res://.godot/imported/Zombie-Tileset---_0306_Capa-307.png-dddbec855a2baeb34f0c418d9a9a2a70.ctex::
 Zombie-Tileset---_0307_Capa-308.png::CompressedTexture2D::4107135793586355553::1673824574::1763011218::1::::<><><>0<>0<>0245d0384e97627d732fed98d89c697c<>res://.godot/imported/Zombie-Tileset---_0307_Capa-308.png-639ba8196a49e2195415667dd609030f.ctex::
 Zombie-Tileset---_0308_Capa-309.png::CompressedTexture2D::393492857226035763::1673824595::1763011218::1::::<><><>0<>0<>ff3dc185c53985b095ef0cb2ca8a0bdd<>res://.godot/imported/Zombie-Tileset---_0308_Capa-309.png-b61dfc7235fdd29c150c1861cf168ec8.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Windmill with Fan Animation Frames/::1673865689
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Windmill with Fan Animation Frames/::1763011218
 Zombie-Tileset---_0218_Capa-219.png::CompressedTexture2D::3785799284186741910::1673822691::1763011218::1::::<><><>0<>0<>798465acd9d6028f52b057dd9bb157e2<>res://.godot/imported/Zombie-Tileset---_0218_Capa-219.png-7fcbd5925e768953e4889fbe92e95fec.ctex::
 Zombie-Tileset---_0219_Capa-220.png::CompressedTexture2D::3023956373042292175::1673822712::1763011218::1::::<><><>0<>0<>fcdf5815f094c7c0a430a6554284f465<>res://.godot/imported/Zombie-Tileset---_0219_Capa-220.png-ec894336938ee1f1d8e498ada5198eb6.ctex::
 Zombie-Tileset---_0220_Capa-221.png::CompressedTexture2D::1830819964769837511::1673822733::1763011218::1::::<><><>0<>0<>747950a794d95752b1701117753384ba<>res://.godot/imported/Zombie-Tileset---_0220_Capa-221.png-0b4d21e1b5963d3f4e3a893281cd5cfd.ctex::
@@ -705,5 +707,5 @@ Zombie-Tileset---_0221_Capa-222.png::CompressedTexture2D::5700946393170956302::1
 Zombie-Tileset---_0222_Capa-223.png::CompressedTexture2D::7291518328921090551::1673822775::1763011218::1::::<><><>0<>0<>c0cf3743bc51e1ca9f1ad65160d6e54e<>res://.godot/imported/Zombie-Tileset---_0222_Capa-223.png-a2f69deec6c12b71bb129bf17f6dc819.ctex::
 Zombie-Tileset---_0223_Capa-224.png::CompressedTexture2D::3573689871567929747::1673822797::1763011218::1::::<><><>0<>0<>845777e1b0069ed19e7cf72db45c8e8b<>res://.godot/imported/Zombie-Tileset---_0223_Capa-224.png-b968afbb342f647bc1d42609f53b45de.ctex::
 Zombie-Tileset---_0224_Capa-225.png::CompressedTexture2D::5953277061141576460::1673822817::1763011218::1::::<><><>0<>0<>f179ab64c8a81fdc39144d4ebf065127<>res://.godot/imported/Zombie-Tileset---_0224_Capa-225.png-d8ad52ef9d1c233481acf88f26f33c24.ctex::
-::res://Zombie Apocalypse Tileset/Organized separated sprites/Zombie Poster/::1673865450
+::res://Zombie Apocalypse Tileset/Organized separated sprites/Zombie Poster/::1763011218
 Zombie-Tileset---_0296_Capa-297.png::CompressedTexture2D::7999623112593512926::1673824343::1763011218::1::::<><><>0<>0<>3b6e8116b4442bd90691689ce7afca2b<>res://.godot/imported/Zombie-Tileset---_0296_Capa-297.png-1ee253ab4064666d3c7c41f514f236d5.ctex::
