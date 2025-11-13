@@ -88,19 +88,24 @@
     ]
   },
   "packageFolders": {
-    "/home/George/.nuget/packages/": {}
+    "C:\\Users\\theda\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/ColdStorage/System/Documents/Stevens/HAR 260/EndOfDays/Getting started with Godot 4.csproj",
+      "projectUniqueName": "C:\\Users\\theda\\OneDrive\\Documents\\Stevens\\Semester 5\\HAR 260\\End of Days\\Getting started with Godot 4.csproj",
       "projectName": "Getting started with Godot 4",
-      "projectPath": "/mnt/ColdStorage/System/Documents/Stevens/HAR 260/EndOfDays/Getting started with Godot 4.csproj",
-      "packagesPath": "/home/George/.nuget/packages/",
-      "outputPath": "/mnt/ColdStorage/System/Documents/Stevens/HAR 260/EndOfDays/.godot/mono/temp/obj/",
+      "projectPath": "C:\\Users\\theda\\OneDrive\\Documents\\Stevens\\Semester 5\\HAR 260\\End of Days\\Getting started with Godot 4.csproj",
+      "packagesPath": "C:\\Users\\theda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\theda\\OneDrive\\Documents\\Stevens\\Semester 5\\HAR 260\\End of Days\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/George/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\theda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -118,6 +123,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -151,18 +161,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.120/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

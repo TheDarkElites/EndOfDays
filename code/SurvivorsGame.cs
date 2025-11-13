@@ -1,6 +1,8 @@
 using Godot;
 using System;
+using System.Collections;
 using System.Dynamic;
+using System.Linq;
 
 public partial class SurvivorsGame : Node2D
 {
@@ -12,6 +14,8 @@ public partial class SurvivorsGame : Node2D
 	private CanvasLayer _gameOverLayer;
 	[Export] 
 	private CharacterBody2D _player;
+	private int _mobCount = 0;
+	[Export] private int _maxMobs = 100;
 	
 	private PackedScene _mobScene;
 	public override void _Ready()
@@ -25,6 +29,32 @@ public partial class SurvivorsGame : Node2D
 
 	public void SpawnMob()
 	{
+		_mobCount++;
+		if (_mobCount >= _maxMobs)
+		{
+			IEnumerable mobs = GetChildren().Where(x => x is Mob);
+			Mob farthestMob = null;
+			float distance = -1;
+			int count = 0;
+			
+			foreach(Mob curMob in mobs)
+			{
+				if (curMob.GetGlobalPosition().DistanceTo(_player.GetGlobalPosition()) > distance)
+				{
+					farthestMob = curMob;
+					distance = curMob.GetGlobalPosition().DistanceTo(_player.GetGlobalPosition());
+				}
+
+				count++;
+			}
+			
+			GD.Print(String.Format("Mob Count: {0}", count));
+			if (farthestMob != null)
+			{
+				farthestMob.Die();
+			}
+			_mobCount = count;
+		}
 		Node2D mob = _mobScene.Instantiate<Node2D>();
 		Random rand = new Random();
 		_genPath.SetProgressRatio((float)rand.NextDouble());

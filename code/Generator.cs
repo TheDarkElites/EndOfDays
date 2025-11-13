@@ -1,6 +1,6 @@
 using Godot;
 using System;
-using Godot.Collections;
+using System.Collections.Generic;
 using GettingstartedwithGodot4;
 
 public partial class Generator : Node2D
@@ -8,13 +8,11 @@ public partial class Generator : Node2D
 	// Called when the node enters the scene tree for the first time.
 	[Export] 
 	private CharacterBody2D _player;
-
-	private Dictionary<Vector2, float> _bounds = new Dictionary<Vector2, float>();
-	
-	private Vector2[] DIRECTIONS = [Vector2.Up, Vector2.Down, Vector2.Left, Vector2.Right];
 	
 	private PackedScene _markerScene;
 	private GeneratableObject[] _objects;
+
+	private HashSet<Vector2I> _generatedChunks = new HashSet<Vector2I>();
 
 	[Export] 
 	private int _spacing = 150;
@@ -27,11 +25,7 @@ public partial class Generator : Node2D
 		ourPlayer.MovementSignal += () => OnPlayerMove();
 		
 		_markerScene = ResourceLoader.Load<PackedScene>("res://scenes/marker.tscn");
-
-		foreach (Vector2 direction in DIRECTIONS)
-		{
-			_bounds[direction] = 0;
-		}
+		
 		PackedScene treeScene = ResourceLoader.Load<PackedScene>("res://scenes/tree.tscn");
 		PackedScene buildingScene = ResourceLoader.Load<PackedScene>("res://scenes/building.tscn"); 
 		PackedScene medkitScene = ResourceLoader.Load<PackedScene>("res://scenes/medkit.tscn");
@@ -67,32 +61,29 @@ public partial class Generator : Node2D
 
 	private void OnPlayerMove()
 	{
-		foreach (Vector2 direction in DIRECTIONS)
-		{
-			float boundary = _bounds[direction];
-			Vector2 traveledVector = _player.GetGlobalPosition() * direction;
-			float distance = Mathf.CeilToInt((traveledVector.Length() * MathF.Sign(traveledVector.X + traveledVector.Y)) / _spacing) + _radius;
-			if (distance > boundary)
-			{
-				_bounds[direction] = distance;
-				Generate(direction);
-			}
-		}
+		Generate(new Vector2I(Mathf.CeilToInt(_player.GetGlobalPosition().X / _spacing), Mathf.CeilToInt(_player.GetGlobalPosition().Y / _spacing)));
 	}
 
-	private void Generate(Vector2 direction)
+	private void Generate(Vector2I position)
 	{
-		GD.Print(String.Format("North: {0}, South: {1}, West: {2}, East: {3}",_bounds[Vector2.Up],_bounds[Vector2.Down],_bounds[Vector2.Left],_bounds[Vector2.Right]));
-		Vector2 left = new Vector2(-direction.Y, direction.X), right = new Vector2(direction.Y, -direction.X);
-		float distanceLeft = -_bounds[left], distanceRight = _bounds[right];
-		for (float i = distanceLeft; i < distanceRight; i++)
+		Vector2I currentGen = position;
+
+		for (currentGen.X = position.X - _radius; currentGen.X < position.X + _radius; currentGen += new Vector2I(1,0))
 		{
-			GenerateChunk(right * i + direction * _bounds[direction]);
+			for (currentGen.Y = position.Y - _radius; currentGen.Y < position.Y + _radius; currentGen += new Vector2I(0,1))
+			{
+				if (_generatedChunks.Contains(currentGen))
+				{
+					continue;
+				}
+				GenerateChunk(currentGen);
+			}
 		}
 	}
 
 	private void GenerateChunk(Vector2 position)
 	{
+		_generatedChunks.Add(new Vector2I((int)position.X, (int)position.Y));
 		position *= _spacing;
 		Random random = new Random();
 		PackedScene sceneToGenerate = null;
@@ -101,12 +92,7 @@ public partial class Generator : Node2D
 		foreach (GeneratableObject obj in _objects)
 		{
 			float diceroll = random.NextSingle();
-			//PhysicsShapeQueryParameters2D shape = 
 			obj.Shape.Transform = new Transform2D(0, position);
-			if (GetWorld2D().DirectSpaceState.CollideShape(obj.Shape).Count != 0)
-			{
-				GD.PrintErr("Attempted to spawn, detected collision and avoided");
-			}
 			if (diceroll < obj.Probability && GetWorld2D().DirectSpaceState.CollideShape(obj.Shape).Count == 0)
 			{
 				sceneToGenerate = obj.Scene;
@@ -123,6 +109,4 @@ public partial class Generator : Node2D
 		newMapObject.Position = position;
 		GetNode<Node2D>("/root/Game/Trees").AddChild(newMapObject);
 	}
-	
-	//private bool CheckCollision(Vector2 position, )
 }

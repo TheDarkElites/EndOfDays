@@ -85,3 +85,21 @@ C:/Users/theda/OneDrive/Documents/Stevens/Semester 5/HAR 260/End of Days/.godot/
 /home/George/Documents/Stevens/HAR 260/EndOfDays/.godot/mono/temp/obj/Debug/Getting started with Godot 4.pdb
 /home/George/Documents/Stevens/HAR 260/EndOfDays/.godot/mono/temp/obj/Debug/Getting started with Godot 4.genruntimeconfig.cache
 /home/George/Documents/Stevens/HAR 260/EndOfDays/.godot/mono/temp/obj/Debug/ref/Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.deps.json
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.runtimeconfig.json
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\Getting started with Godot 4.pdb
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.csproj.AssemblyReference.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.AssemblyInfoInputs.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.AssemblyInfo.cs
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.csproj.CoreCompileInputs.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.sourcelink.json
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting .B851D4ED.Up2Date
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\refint\Getting started with Godot 4.dll
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.pdb
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\Getting started with Godot 4.genruntimeconfig.cache
+C:\Users\theda\OneDrive\Documents\Stevens\Semester 5\HAR 260\End of Days\.godot\mono\temp\obj\Debug\ref\Getting started with Godot 4.dll

@@ -33,11 +33,16 @@ public partial class Mob : CharacterBody2D, IDamageable
 		_health--;
 		if (_health <= 0)
 		{
-			QueueFree();
-			Node2D smoke = _smokeScene.Instantiate<Node2D>();
-			smoke.SetGlobalPosition(GetGlobalPosition());
-			GetParent().AddChild(smoke);
+			Die();
 			_player.IncrementLevel();
 		}
+	}
+
+	public void Die()
+	{
+		QueueFree();
+		Node2D smoke = _smokeScene.Instantiate<Node2D>();
+		smoke.SetGlobalPosition(GetGlobalPosition());
+		GetParent().AddChild(smoke);
 	}
 }
