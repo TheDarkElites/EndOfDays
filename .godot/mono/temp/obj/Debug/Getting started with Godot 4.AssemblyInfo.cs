@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Getting started with Godot 4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7828147465a38684e98e67602a16ae546d8af3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51bb3977cd80ac2d9dabc33b95ec87e3b41a42cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Getting started with Godot 4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Getting started with Godot 4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
