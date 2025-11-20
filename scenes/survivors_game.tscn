@@ -1,9 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://swcb8q32cvqi"]
+[gd_scene load_steps=8 format=3 uid="uid://swcb8q32cvqi"]
 
 [ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://scenes/player.tscn" id="1_3cish"]
 [ext_resource type="Script" uid="uid://bqt3xwmjkfaqe" path="res://code/SurvivorsGame.cs" id="1_qqaft"]
 [ext_resource type="PackedScene" uid="uid://c0gpy0pye4jr6" path="res://scenes/tree.tscn" id="2_y3pti"]
+[ext_resource type="FontFile" uid="uid://dsox8nwwdw0ge" path="res://yoster.ttf" id="4_4bwrk"]
 [ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://scenes/generator.tscn" id="4_qqaft"]
+[ext_resource type="Script" uid="uid://crxqppechumxe" path="res://code/ResetButton.cs" id="5_4bwrk"]
 
 [sub_resource type="Curve2D" id="Curve2D_l26od"]
 _data = {
@@ -18,6 +20,17 @@ _genPath = NodePath("Player/Path2D/PathFollow2D")
 _spawnTimer = NodePath("Timer")
 _gameOverLayer = NodePath("GameOver")
 _player = NodePath("Player")
+
+[node name="Player" parent="." instance=ExtResource("1_3cish")]
+position = Vector2(1025, 564)
+
+[node name="Path2D" type="Path2D" parent="Player"]
+position = Vector2(-1025, -564)
+curve = SubResource("Curve2D_l26od")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
+position = Vector2(-76, -89)
+rotation = -0.0036713923
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1
@@ -59,17 +72,6 @@ position = Vector2(1387, 458)
 [node name="Tree10" parent="Trees" instance=ExtResource("2_y3pti")]
 position = Vector2(1678, 953)
 
-[node name="Player" parent="." instance=ExtResource("1_3cish")]
-position = Vector2(1025, 564)
-
-[node name="Path2D" type="Path2D" parent="Player"]
-position = Vector2(-1025, -564)
-curve = SubResource("Curve2D_l26od")
-
-[node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
-position = Vector2(-76, -89)
-rotation = -0.0036713923
-
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.3
 autostart = true
@@ -83,6 +85,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 color = Color(0, 0, 0, 0.57254905)
 
 [node name="Label" type="Label" parent="GameOver/ColorRect"]
@@ -98,10 +101,25 @@ offset_right = 992.0
 offset_bottom = 552.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_4bwrk")
 theme_override_font_sizes/font_size = 160
 text = "Game Over"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Button" type="Button" parent="GameOver/ColorRect"]
+process_mode = 3
+z_index = 1
+layout_mode = 0
+offset_left = 707.0
+offset_top = 622.0
+offset_right = 1261.0
+offset_bottom = 710.0
+theme_override_fonts/font = ExtResource("4_4bwrk")
+theme_override_font_sizes/font_size = 60
+text = "Try Again
+"
+script = ExtResource("5_4bwrk")
 
 [node name="Generator" parent="." node_paths=PackedStringArray("_player") instance=ExtResource("4_qqaft")]
 _player = NodePath("../Player")
