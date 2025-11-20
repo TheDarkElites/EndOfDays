@@ -18,7 +18,7 @@ public partial class Generator : Node2D
 	private int _spacing = 150;
 
 	[Export] 
-	private int _radius = 10;
+	private int _radius = 8;
 	public override void _Ready()
 	{
 		Player ourPlayer = (Player)_player;
@@ -57,6 +57,8 @@ public partial class Generator : Node2D
 			_objects[i] = obj;
 			tempInstance.QueueFree();
 		}
+		
+		OnPlayerMove();
 	}
 
 	private void OnPlayerMove()

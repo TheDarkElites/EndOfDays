@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Dynamic;
 using System.Linq;
+using Godot.Collections;
 
 public partial class SurvivorsGame : Node2D
 {
@@ -14,8 +15,11 @@ public partial class SurvivorsGame : Node2D
 	private CanvasLayer _gameOverLayer;
 	[Export] 
 	private CharacterBody2D _player;
+	[Export] 
+	private Node2D _mobsNode;
+	
 	private int _mobCount = 0;
-	[Export] private int _maxMobs = 100;
+	[Export] private int _maxMobs = 50;
 	
 	private PackedScene _mobScene;
 	public override void _Ready()
@@ -30,15 +34,23 @@ public partial class SurvivorsGame : Node2D
 	public void SpawnMob()
 	{
 		_mobCount++;
+		Node2D mob = null;
 		if (_mobCount >= _maxMobs)
 		{
-			IEnumerable mobs = GetChildren().Where(x => x is Mob);
+			Array<Node> mobs = _mobsNode.GetChildren();
 			Mob farthestMob = null;
 			float distance = -1;
 			int count = 0;
 			
-			foreach(Mob curMob in mobs)
+			foreach(Node node in mobs)
 			{
+				if (node is not Mob)
+				{
+					continue;
+				}
+
+				Mob curMob = node as Mob;
+				
 				if (curMob.GetGlobalPosition().DistanceTo(_player.GetGlobalPosition()) > distance)
 				{
 					farthestMob = curMob;
@@ -48,18 +60,25 @@ public partial class SurvivorsGame : Node2D
 				count++;
 			}
 			
-			GD.Print(String.Format("Mob Count: {0}", count));
 			if (farthestMob != null)
 			{
-				farthestMob.Die();
+				if (distance < 1000)
+				{
+					return; //if all of our mobs are on screen we do not spawn any more.
+				}
+				mob = farthestMob;
 			}
 			_mobCount = count;
 		}
-		Node2D mob = _mobScene.Instantiate<Node2D>();
+		else
+		{
+			mob = _mobScene.Instantiate<Node2D>();
+			_mobsNode.AddChild(mob);
+		}
+		//Move selected mob
 		Random rand = new Random();
 		_genPath.SetProgressRatio((float)rand.NextDouble());
 		mob.SetGlobalPosition(_genPath.GetGlobalPosition());
-		AddChild(mob);
 	}
 
 	private void GameOver()

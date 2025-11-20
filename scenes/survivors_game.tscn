@@ -13,13 +13,14 @@ _data = {
 }
 point_count = 5
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("_genPath", "_spawnTimer", "_gameOverLayer", "_player")]
+[node name="Game" type="Node2D" node_paths=PackedStringArray("_genPath", "_spawnTimer", "_gameOverLayer", "_player", "_mobsNode")]
 y_sort_enabled = true
 script = ExtResource("1_qqaft")
 _genPath = NodePath("Player/Path2D/PathFollow2D")
 _spawnTimer = NodePath("Timer")
 _gameOverLayer = NodePath("GameOver")
 _player = NodePath("Player")
+_mobsNode = NodePath("Mobs")
 
 [node name="Player" parent="." instance=ExtResource("1_3cish")]
 position = Vector2(1025, 564)
@@ -71,6 +72,9 @@ position = Vector2(1387, 458)
 
 [node name="Tree10" parent="Trees" instance=ExtResource("2_y3pti")]
 position = Vector2(1678, 953)
+
+[node name="Mobs" type="Node2D" parent="."]
+y_sort_enabled = true
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.3
