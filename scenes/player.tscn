@@ -40,6 +40,7 @@ font_color = Color(1, 1, 0.6117647, 1)
 shadow_color = Color(0, 0, 0, 0.48235294)
 
 [node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("HurtBox", "_healthBar", "_levelBar", "_levelLabel")]
+collision_mask = 10
 script = ExtResource("1_onrkg")
 HurtBox = NodePath("HurtBox")
 _healthBar = NodePath("HealthBar")

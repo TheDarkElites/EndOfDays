@@ -11,6 +11,8 @@ radius = 9.055386
 
 [node name="Medkit" type="StaticBody2D" node_paths=PackedStringArray("_pickupArea")]
 scale = Vector2(2, 2)
+collision_layer = 16
+collision_mask = 10
 script = ExtResource("1_vvkl3")
 _pickupArea = NodePath("PickupArea")
 
