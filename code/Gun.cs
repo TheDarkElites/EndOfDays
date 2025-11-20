@@ -18,12 +18,7 @@ public partial class Gun : Area2D
 	}
 	public override void _PhysicsProcess(double delta)
 	{
-		Array<Node2D> targets_in_range = GetOverlappingBodies();
-		if (targets_in_range.Count > 0)
-		{
-			Node2D target = targets_in_range[0];
-			LookAt(target.GetGlobalPosition());
-		}
+		LookAt(GetGlobalMousePosition());
 		base._PhysicsProcess(delta);
 	}
 
