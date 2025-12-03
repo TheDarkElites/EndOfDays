@@ -15,6 +15,9 @@ public partial class Mob : CharacterBody2D, IDamageable
 		_player = GetNode<Player>("/root/Game/Player");
 		_slime = GetNode<Slime>("Slime");
 		_smokeScene = ResourceLoader.Load<PackedScene>("res://smoke_explosion/smoke_explosion.tscn");
+		
+		Globals GB = GetNode<Globals>("/root/Globals");
+		_health = GB.MobHealth;
 	}
 
 	public override void _PhysicsProcess(double delta)
