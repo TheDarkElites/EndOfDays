@@ -5,12 +5,15 @@ using GettingstartedwithGodot4;
 public partial class Bullet : Area2D
 {
 	private double distance_travelled = 0;
-	private const float Speed = 1000;
-	private const float Distance = 12000;
+	private float Speed = 1000;
+	private float Distance = 12000;
 
 	public override void _Ready()
 	{
 		BodyEntered += OnBodyEntered;
+		Globals GB = GetNode<Globals>("/root/Globals");
+		Speed = GB.BulletSpeed;
+		Distance = GB.Distance;
 	}
 	
 	public override void _PhysicsProcess(double delta)
