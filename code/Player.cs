@@ -1,6 +1,6 @@
 using Godot;
 using System;
-using GettingstartedwithGodot4;
+using EndOfDays;
 using Godot.Collections;
 
 public partial class Player : CharacterBody2D, IHealable
@@ -21,6 +21,8 @@ public partial class Player : CharacterBody2D, IHealable
 	public delegate void GameOverSignalEventHandler();
 	[Signal]
 	public delegate void MovementSignalEventHandler();
+	[Signal]
+	public delegate void LevelUpSignalEventHandler();
 	[Export]
 	private int _maxLevel = 2;
 	[Export]
@@ -32,8 +34,9 @@ public partial class Player : CharacterBody2D, IHealable
 	{
 		base._Ready();
 		UpdateStats();
+		Globals GB = GetNode<Globals>("/root/Globals");
+		GB.UpdateSignal += UpdateStats;
 	}
-
 	private void UpdateStats()
 	{
 		Globals GB = GetNode<Globals>("/root/Globals");
@@ -77,6 +80,7 @@ public partial class Player : CharacterBody2D, IHealable
 		{
 			_maxLevel *= 2;
 			_level++;
+			EmitSignalLevelUpSignal();
 			_currentLevel = 0;
 			_levelBar.SetMax(_maxLevel);
 			_levelLabel.SetText(_level.ToString());

@@ -1,12 +1,13 @@
 using Godot;
 using System;
-using GettingstartedwithGodot4;
+using EndOfDays;
 
 public partial class Bullet : Area2D
 {
 	private double distance_travelled = 0;
 	private float Speed = 1000;
 	private float Distance = 12000;
+	private int Penetration = 0;
 
 	public override void _Ready()
 	{
@@ -14,6 +15,7 @@ public partial class Bullet : Area2D
 		Globals GB = GetNode<Globals>("/root/Globals");
 		Speed = GB.BulletSpeed;
 		Distance = GB.Distance;
+		Penetration = GB.BulletPen;
 	}
 	
 	public override void _PhysicsProcess(double delta)
@@ -32,7 +34,8 @@ public partial class Bullet : Area2D
 
 	private void OnBodyEntered(Node2D body)
 	{
-		QueueFree();
+		if(Penetration == 0) {QueueFree();}
+		Penetration--;
 		if (body is IDamageable)
 		{
 			IDamageable damageable = body as IDamageable;

@@ -1,12 +1,13 @@
 using Godot;
 using System;
-using GettingstartedwithGodot4;
+using EndOfDays;
 
 public partial class Mob : CharacterBody2D, IDamageable
 {
 	private Player _player;
 	[Export]
 	private int _health = 3;
+	private float _speed = 300;
 	private Slime _slime;
 	private PackedScene _smokeScene;
 
@@ -17,13 +18,20 @@ public partial class Mob : CharacterBody2D, IDamageable
 		_smokeScene = ResourceLoader.Load<PackedScene>("res://smoke_explosion/smoke_explosion.tscn");
 		
 		Globals GB = GetNode<Globals>("/root/Globals");
+		
+	}
+
+	private void UpdateStats()
+	{
+		Globals GB = GetNode<Globals>("/root/Globals");
 		_health = GB.MobHealth;
+		_speed = GB.MobSpeed;
 	}
 
 	public override void _PhysicsProcess(double delta)
 	{
 		Vector2 moveDirection = GlobalPosition.DirectionTo(_player.GlobalPosition);
-		SetVelocity(moveDirection * 300);
+		SetVelocity(moveDirection * _speed);
 		MoveAndSlide();
 		
 		_slime.Play_Walk_Animation();

@@ -1,4 +1,4 @@
-namespace GettingstartedwithGodot4;
+namespace EndOfDays;
 using Godot;
 
 public struct GeneratableObject
