@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qmqpm6asge1i"
-path="res://.godot/imported/square_upper_leg.png-e1f848aab7dd8805f40f881c2160a53d.ctex"
+uid="uid://jxh4sknqv8ae"
+path="res://.godot/imported/Zombie-Tileset---Char_left_1.png-e3df33cefbdb8d5186f999f906eeb504.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/happy_boo/square_upper_leg.png"
-dest_files=["res://.godot/imported/square_upper_leg.png-e1f848aab7dd8805f40f881c2160a53d.ctex"]
+source_file="res://Zombie Apocalypse Tileset/Organized separated sprites/Player Character Walking Animation Frames/Zombie-Tileset---Char_left_1.png"
+dest_files=["res://.godot/imported/Zombie-Tileset---Char_left_1.png-e3df33cefbdb8d5186f999f906eeb504.ctex"]
 
 [params]
 
