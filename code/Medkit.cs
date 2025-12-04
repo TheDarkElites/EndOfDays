@@ -1,6 +1,6 @@
 using Godot;
 using System;
-using GettingstartedwithGodot4;
+using EndOfDays;
 
 public partial class Medkit : StaticBody2D
 {

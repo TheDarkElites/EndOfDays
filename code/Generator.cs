@@ -1,7 +1,7 @@
 using Godot;
 using System;
 using System.Collections.Generic;
-using GettingstartedwithGodot4;
+using EndOfDays;
 
 public partial class Generator : Node2D
 {

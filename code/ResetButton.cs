@@ -1,3 +1,6 @@
+using System.Data.Common;
+
+namespace EndOfDays;
 using Godot;
 using System;
 
@@ -11,6 +14,7 @@ public partial class ResetButton : Button
 	{
 		GD.Print("Restart");
 		GetTree().SetPause(false);
+		GetNode<Globals>("/root/Globals").Reset();
 		GetTree().ReloadCurrentScene();
 	}
 }

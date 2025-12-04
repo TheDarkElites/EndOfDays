@@ -3,9 +3,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
-    <RootNamespace>GettingstartedwithGodot4</RootNamespace>
+    <RootNamespace>EndofDays</RootNamespace>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="scenes\" />
-  </ItemGroup>
 </Project>
