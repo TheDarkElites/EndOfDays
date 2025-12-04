@@ -8,6 +8,8 @@ public partial class Player : CharacterBody2D, IHealable
 	[Export]
 	private double _health = 100.0;
 	[Export] 
+	private AnimatedSprite2D _animation;
+	[Export] 
 	public Area2D HurtBox;
 	[Export] 
 	private double _damageRate = 3.0;
@@ -29,6 +31,8 @@ public partial class Player : CharacterBody2D, IHealable
 	private int _currentLevel = 0;
 	[Export]
 	private int _level = 0;
+	
+	private Dictionary<Vector2, StringName> _animationDictionary = new Dictionary<Vector2,StringName>();
 
 	public override void _Ready()
 	{
@@ -36,35 +40,57 @@ public partial class Player : CharacterBody2D, IHealable
 		UpdateStats();
 		Globals GB = GetNode<Globals>("/root/Globals");
 		GB.UpdateSignal += UpdateStats;
+
+		_animationDictionary[Vector2.Down] = "down";
+		_animationDictionary[Vector2.Up] = "up";
+		_animationDictionary[Vector2.Left] = "left";
+		_animationDictionary[Vector2.Right] = "right";
+		_animationDictionary[Vector2.Zero] = "down";
 	}
 	private void UpdateStats()
 	{
 		Globals GB = GetNode<Globals>("/root/Globals");
-		_health = GB.PlayerHealth;
+		_healthBar.SetMax(GB.PlayerHealth);
 		_damageRate = GB.MobDamageRate;
 	}
 	public override void _PhysicsProcess(double delta)
 	{
+		//Movement
 		Vector2 moveDirection = Input.GetVector("move_left","move_right","move_up","move_down");
 		SetVelocity(moveDirection * 600);
 		MoveAndSlide();
 		
-		HappyBoo body = GetNode<HappyBoo>("HappyBoo");
+		//Animation Handling
+		Vector2 mouseDirection = Vector2.Right
+			.Rotated(Mathf.Round(GlobalPosition.DirectionTo(GetGlobalMousePosition()).Angle() / (float)Math.Tau * 4) *
+				(float)Math.Tau / 4).Snapped(Vector2.One);
 
+		String animationName = _animationDictionary[mouseDirection];
+		
 		if (moveDirection.Length() != 0)
 		{
-			body.Play_Walk_Animation();
+			animationName += "walk";
 			EmitSignalMovementSignal();
 		}
 		else
 		{
-			body.Play_Idle_Animation();
+			animationName += "idle";
 		}
 
+		if (mouseDirection.Normalized().Dot(moveDirection) < 0)
+		{
+			_animation.PlayBackwards(animationName);
+		}
+		else
+		{
+			_animation.Play(animationName);
+		}
+		
+		//Health
 		Array<Node2D> overlappingMobs = HurtBox.GetOverlappingBodies();
 		_health -= overlappingMobs.Count * _damageRate * delta;
 		_healthBar.SetValue(_health);
-
+	
 		if (_health <= 0)
 		{
 			EmitSignalGameOverSignal();
