@@ -99,5 +99,11 @@ public partial class Player : CharacterBody2D, IHealable
 		_healthBar.SetValue(_health);
 		return true;
 	}
-	
+
+	public override void _ExitTree()
+	{
+		Globals GB = GetNode<Globals>("/root/Globals");
+		GB.UpdateSignal -= UpdateStats;
+		base._ExitTree();
+	}
 }

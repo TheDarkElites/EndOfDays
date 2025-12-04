@@ -56,4 +56,11 @@ public partial class Mob : CharacterBody2D, IDamageable
 		smoke.SetGlobalPosition(GetGlobalPosition());
 		GetParent().AddChild(smoke);
 	}
+	
+	public override void _ExitTree()
+	{
+		Globals GB = GetNode<Globals>("/root/Globals");
+		GB.UpdateSignal -= UpdateStats;
+		base._ExitTree();
+	}
 }
