@@ -1,18 +1,207 @@
-[gd_scene load_steps=4 format=3 uid="uid://y38gte5o0xf8"]
+[gd_scene load_steps=28 format=3 uid="uid://y38gte5o0xf8"]
 
 [ext_resource type="Script" uid="uid://bjybwbfr05phw" path="res://code/Mob.cs" id="1_bsing"]
-[ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="2_d4cuo"]
+[ext_resource type="Texture2D" uid="uid://81xqcrgvi5c7" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0403_Capa-404.png" id="2_rswon"]
+[ext_resource type="Texture2D" uid="uid://cjss13qswl5rv" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0394_Capa-395.png" id="3_805hl"]
+[ext_resource type="Texture2D" uid="uid://ctkc6bion7q3q" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0404_Capa-405.png" id="3_gtorj"]
+[ext_resource type="Texture2D" uid="uid://dpprpwlifshge" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0405_Capa-406.png" id="4_4y8u8"]
+[ext_resource type="Texture2D" uid="uid://bvvefcoif6b51" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0395_Capa-396.png" id="4_jr3yx"]
+[ext_resource type="Texture2D" uid="uid://cu8uxlcg1tgja" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0396_Capa-397.png" id="5_lgqhy"]
+[ext_resource type="Texture2D" uid="uid://kfl7dqrq452c" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0406_Capa-407.png" id="5_n2edf"]
+[ext_resource type="Texture2D" uid="uid://efydp6gcjcjq" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0397_Capa-398.png" id="6_m170w"]
+[ext_resource type="Texture2D" uid="uid://ckevapi7g2mvx" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0407_Capa-408.png" id="6_q45gf"]
+[ext_resource type="Texture2D" uid="uid://cfw0vbhk0i1o5" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0398_Capa-399.png" id="7_hict5"]
+[ext_resource type="Texture2D" uid="uid://djn7bl08sn57m" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0408_Capa-409.png" id="7_wfby6"]
+[ext_resource type="Texture2D" uid="uid://gfucgrki5f7h" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0399_Capa-400.png" id="8_eucmk"]
+[ext_resource type="Texture2D" uid="uid://lnbvxbahpf5v" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_1406_Capa-407.png" id="8_u80t3"]
+[ext_resource type="Texture2D" uid="uid://du126px55r2oj" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_1397_Capa-398.png" id="9_nk21u"]
+[ext_resource type="Texture2D" uid="uid://df0503yhpe4h4" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_1407_Capa-408.png" id="9_xdk6a"]
+[ext_resource type="Texture2D" uid="uid://cef18ffqxett" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_1398_Capa-399.png" id="10_cq7k1"]
+[ext_resource type="Texture2D" uid="uid://o36scxwd5v2b" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_1408_Capa-409.png" id="10_tqets"]
+[ext_resource type="Texture2D" uid="uid://d2ktbu6tm1tln" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0409_Capa-410.png" id="11_lsel1"]
+[ext_resource type="Texture2D" uid="uid://byaej02rghru7" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_1399_Capa-400.png" id="11_mq56s"]
+[ext_resource type="Texture2D" uid="uid://bg2da7aubkyas" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0400_Capa-401.png" id="12_fkklv"]
+[ext_resource type="Texture2D" uid="uid://gtcrabbo1h4u" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0410_Capa-411.png" id="12_g1nu3"]
+[ext_resource type="Texture2D" uid="uid://c6oubkx3ae6t3" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0401_Capa-402.png" id="13_pch0e"]
+[ext_resource type="Texture2D" uid="uid://b4uqw08pldxhp" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0411_Capa-412.png" id="13_rnpo6"]
+[ext_resource type="Texture2D" uid="uid://criyeuhpochxl" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0402_Capa-403.png" id="14_rswon"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nokgg"]
 radius = 29.832869
 
-[node name="Mob" type="CharacterBody2D"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_gtorj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_rswon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gtorj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4y8u8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gtorj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_rswon")
+}],
+"loop": false,
+"name": &"damagedown",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_n2edf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_q45gf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wfby6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_q45gf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n2edf")
+}],
+"loop": false,
+"name": &"damageleft",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_u80t3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_xdk6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_tqets")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_xdk6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_u80t3")
+}],
+"loop": false,
+"name": &"damageright",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_lsel1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_g1nu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_rnpo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_g1nu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_lsel1")
+}],
+"loop": false,
+"name": &"damageup",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_805hl")
+}],
+"loop": true,
+"name": &"downidle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_jr3yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lgqhy")
+}],
+"loop": true,
+"name": &"downwalk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_m170w")
+}],
+"loop": true,
+"name": &"leftidle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_hict5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_eucmk")
+}],
+"loop": true,
+"name": &"leftwalk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_nk21u")
+}],
+"loop": true,
+"name": &"rightidle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_cq7k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mq56s")
+}],
+"loop": true,
+"name": &"rightwalk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_fkklv")
+}],
+"loop": true,
+"name": &"upidle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_pch0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rswon")
+}],
+"loop": true,
+"name": &"upwalk",
+"speed": 6.0
+}]
+
+[node name="Mob" type="CharacterBody2D" node_paths=PackedStringArray("_animation")]
 collision_layer = 2
 collision_mask = 27
 script = ExtResource("1_bsing")
-
-[node name="Slime" parent="." instance=ExtResource("2_d4cuo")]
+_animation = NodePath("AnimatedSprite2D")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -15)
 shape = SubResource("CircleShape2D_nokgg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -24)
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_gtorj")
+animation = &"damageright"
+frame = 4
+frame_progress = 1.0

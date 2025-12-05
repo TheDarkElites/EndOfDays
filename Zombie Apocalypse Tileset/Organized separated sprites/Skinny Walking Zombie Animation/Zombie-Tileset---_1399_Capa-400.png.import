@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvgfmy6vtvjji"
-path="res://.godot/imported/slime_body.png-0d515f9e912a0d42a36c28f828394f6a.ctex"
+uid="uid://byaej02rghru7"
+path="res://.godot/imported/Zombie-Tileset---_1399_Capa-400.png-174ea43c5088e1e2b3c0062641e8c03d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/slime/slime_body.png"
-dest_files=["res://.godot/imported/slime_body.png-0d515f9e912a0d42a36c28f828394f6a.ctex"]
+source_file="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_1399_Capa-400.png"
+dest_files=["res://.godot/imported/Zombie-Tileset---_1399_Capa-400.png-174ea43c5088e1e2b3c0062641e8c03d.ctex"]
 
 [params]
 

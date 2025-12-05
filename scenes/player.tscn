@@ -29,9 +29,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_f1ej7")
-}, {
-"duration": 1.0,
 "texture": ExtResource("5_oprun")
 }, {
 "duration": 1.0,
@@ -50,9 +47,6 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": ExtResource("5_a8ls1")
-}, {
 "duration": 1.0,
 "texture": ExtResource("6_qfm1y")
 }, {
@@ -73,9 +67,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("7_qfm1y")
-}, {
-"duration": 1.0,
 "texture": ExtResource("8_fulsm")
 }, {
 "duration": 1.0,
@@ -94,9 +85,6 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": ExtResource("10_60mlk")
-}, {
 "duration": 1.0,
 "texture": ExtResource("11_i4ail")
 }, {
@@ -154,8 +142,8 @@ _levelLabel = NodePath("Level")
 position = Vector2(0, -20)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_4ni07")
-animation = &"downidle"
-frame_progress = 0.43706286
+animation = &"upwalk"
+frame_progress = 0.8368032
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_onrkg")
