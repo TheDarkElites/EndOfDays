@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cai2ijnbypqtr"
-path="res://.godot/imported/slime_hurt_eyes.png-711256b4a2a47dcea723d274f00b4628.ctex"
+uid="uid://du126px55r2oj"
+path="res://.godot/imported/Zombie-Tileset---_1397_Capa-398.png-4f4aedb12b0b993faaffdcb61332cc3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/slime/slime_hurt_eyes.png"
-dest_files=["res://.godot/imported/slime_hurt_eyes.png-711256b4a2a47dcea723d274f00b4628.ctex"]
+source_file="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_1397_Capa-398.png"
+dest_files=["res://.godot/imported/Zombie-Tileset---_1397_Capa-398.png-4f4aedb12b0b993faaffdcb61332cc3d.ctex"]
 
 [params]
 

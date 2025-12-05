@@ -16,9 +16,9 @@ public partial class Globals : Node
 	
 	private double _initialMobDamageRate = 3;
 	[Export]
-	public float MobSpeed = 3;
+	public float MobSpeed = 300;
 	
-	private float _initialMobSpeed = 3;
+	private float _initialMobSpeed = 300;
 	[Export]
 	public float BulletSpeed = 1000;
 	

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c078jrp2yvc4s"
-path="res://.godot/imported/slime_face.png-561a1f87b138570340118953f07aab21.ctex"
+uid="uid://df0503yhpe4h4"
+path="res://.godot/imported/Zombie-Tileset---_1407_Capa-408.png-590696c7ff5f8840c4426ccbf3f44847.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/slime/slime_face.png"
-dest_files=["res://.godot/imported/slime_face.png-561a1f87b138570340118953f07aab21.ctex"]
+source_file="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_1407_Capa-408.png"
+dest_files=["res://.godot/imported/Zombie-Tileset---_1407_Capa-408.png-590696c7ff5f8840c4426ccbf3f44847.ctex"]
 
 [params]
 

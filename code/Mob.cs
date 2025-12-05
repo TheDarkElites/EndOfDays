@@ -1,6 +1,7 @@
 using Godot;
 using System;
 using EndOfDays;
+using Godot.Collections;
 
 public partial class Mob : CharacterBody2D, IDamageable
 {
@@ -8,17 +9,26 @@ public partial class Mob : CharacterBody2D, IDamageable
 	[Export]
 	private int _health = 3;
 	private float _speed = 300;
-	private Slime _slime;
+	[Export]
+	private AnimatedSprite2D _animation;
 	private PackedScene _smokeScene;
+	private Vector2 _faceDirection;
+	
+	private Dictionary<Vector2, StringName> _animationDictionary = new Dictionary<Vector2,StringName>();
 
 	public override void _Ready()
 	{
 		_player = GetNode<Player>("/root/Game/Player");
-		_slime = GetNode<Slime>("Slime");
 		_smokeScene = ResourceLoader.Load<PackedScene>("res://smoke_explosion/smoke_explosion.tscn");
 		
 		Globals GB = GetNode<Globals>("/root/Globals");
+		GB.UpdateSignal += UpdateStats;
 		
+		_animationDictionary[Vector2.Down] = "down";
+		_animationDictionary[Vector2.Up] = "up";
+		_animationDictionary[Vector2.Left] = "left";
+		_animationDictionary[Vector2.Right] = "right";
+		_animationDictionary[Vector2.Zero] = "down";
 	}
 
 	private void UpdateStats()
@@ -32,15 +42,38 @@ public partial class Mob : CharacterBody2D, IDamageable
 	{
 		Vector2 moveDirection = GlobalPosition.DirectionTo(_player.GlobalPosition);
 		SetVelocity(moveDirection * _speed);
-		MoveAndSlide();
 		
-		_slime.Play_Walk_Animation();
+		//Animation Handling
+		_faceDirection = Vector2.Right
+			.Rotated(Mathf.Round(moveDirection.Angle() / (float)Math.Tau * 4) *
+				(float)Math.Tau / 4).Snapped(Vector2.One);
+
+		String animationName = _animationDictionary[_faceDirection];
+		
+		if (moveDirection.Length() != 0)
+		{
+			animationName += "walk";
+		}
+		else
+		{
+			animationName += "idle";
+		}
+
+		String animName = _animation.GetAnimation();
+		if (!animName.Contains("damage") || !_animation.IsPlaying())
+		{
+			_animation.Play(animationName);
+			MoveAndSlide();
+		}
+		
+		//Base
+		
 		base._PhysicsProcess(delta);
 	}
 
 	public void TakeDamage()
 	{
-		_slime.Play_Hurt_Animation();
+		_animation.Play("damage"+_animationDictionary[_faceDirection]);
 		_health--;
 		if (_health <= 0)
 		{
