@@ -21,8 +21,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 		_player = GetNode<Player>("/root/Game/Player");
 		_smokeScene = ResourceLoader.Load<PackedScene>("res://smoke_explosion/smoke_explosion.tscn");
 		
-		Globals GB = GetNode<Globals>("/root/Globals");
-		GB.UpdateSignal += UpdateStats;
+		Globals.Instance.UpdateSignal += UpdateStats;
 		
 		_animationDictionary[Vector2.Down] = "down";
 		_animationDictionary[Vector2.Up] = "up";
@@ -33,9 +32,8 @@ public partial class Mob : CharacterBody2D, IDamageable
 
 	private void UpdateStats()
 	{
-		Globals GB = GetNode<Globals>("/root/Globals");
-		_health = GB.MobHealth;
-		_speed = GB.MobSpeed;
+		_health = Globals.Instance.MobHealth;
+		_speed = Globals.Instance.MobSpeed;
 	}
 
 	public override void _PhysicsProcess(double delta)
@@ -92,8 +90,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 	
 	public override void _ExitTree()
 	{
-		Globals GB = GetNode<Globals>("/root/Globals");
-		GB.UpdateSignal -= UpdateStats;
+		Globals.Instance.UpdateSignal -= UpdateStats;
 		base._ExitTree();
 	}
 }

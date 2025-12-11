@@ -12,10 +12,9 @@ public partial class Bullet : Area2D
 	public override void _Ready()
 	{
 		BodyEntered += OnBodyEntered;
-		Globals GB = GetNode<Globals>("/root/Globals");
-		Speed = GB.BulletSpeed;
-		Distance = GB.Distance;
-		Penetration = GB.BulletPen;
+		Speed = Globals.Instance.BulletSpeed;
+		Distance = Globals.Instance.Distance;
+		Penetration = Globals.Instance.BulletPen;
 	}
 	
 	public override void _PhysicsProcess(double delta)

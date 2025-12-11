@@ -3,6 +3,8 @@ using Godot;
 
 public partial class Globals : Node
 {
+	public static Globals Instance { get; private set; } 
+	
 	[Export]
 	public int MobHealth = 3;
 
@@ -43,5 +45,10 @@ public partial class Globals : Node
 		BulletSpeed = _initialBulletSpeed;
 		Distance = _initialDistance;
 		BulletPen = _initialBulletPen;
+	}
+
+	public override void _Ready()
+	{
+		Instance = this;
 	}
 }
