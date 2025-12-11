@@ -18,6 +18,8 @@ public partial class Gun : Area2D
 	[Export] private AnimatedSprite2D _shootAnimation;
 	
 	private Dictionary<Vector2, StringName> _animationDictionary = new Dictionary<Vector2,StringName>();
+
+	[Export] private AudioStreamPlayer2D _shootSound;
 	
 	private Random _random = new Random();
 
@@ -57,6 +59,8 @@ public partial class Gun : Area2D
 		coolingDown = true;
 		_shootAnimation.Play();
 		_timer.Start();
+		_shootSound.PitchScale = (float)Math.Clamp(_random.NextDouble() + 0.5, 0.8, 1.2);
+		_shootSound.Play();
 	}
 
 	public override void _Input(InputEvent @event)

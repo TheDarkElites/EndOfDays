@@ -25,6 +25,11 @@ _mobsNode = NodePath("Mobs")
 
 [node name="Player" parent="." instance=ExtResource("1_3cish")]
 position = Vector2(1025, 564)
+_health = 100.0
+_damageRate = 3.0
+_maxLevel = 2
+_currentLevel = 0
+_level = 0
 
 [node name="Path2D" type="Path2D" parent="Player"]
 position = Vector2(-1025, -564)

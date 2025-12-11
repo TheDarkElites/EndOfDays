@@ -14,7 +14,7 @@ public partial class ResetButton : Button
 	{
 		GD.Print("Restart");
 		GetTree().SetPause(false);
-		GetNode<Globals>("/root/Globals").Reset();
+		Globals.Instance.Reset(); //resets global variables BEFORE New scene is loaded.
 		GetTree().ReloadCurrentScene();
 	}
 }
