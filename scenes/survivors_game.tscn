@@ -78,8 +78,7 @@ position = Vector2(1678, 953)
 y_sort_enabled = true
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.3
-autostart = true
+wait_time = 0.25
 
 [node name="GameOver" type="CanvasLayer" parent="."]
 visible = false

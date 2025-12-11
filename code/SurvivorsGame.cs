@@ -20,7 +20,7 @@ public partial class SurvivorsGame : Node2D
 	private Node2D _mobsNode;
 	
 	private int _mobCount = 0;
-	[Export] private int _maxMobs = 100;
+	[Export] private int _maxMobs = 50;
 	
 	private PackedScene _mobScene;
 	public override void _Ready()
@@ -32,7 +32,15 @@ public partial class SurvivorsGame : Node2D
 		_spawnTimer.Timeout += () => SpawnMob();
 		Player player = (Player)_player;
 		player.GameOverSignal += () => GameOver();
+		player.MovementSignal += StartTimer;
 		base._Ready();
+	}
+
+	public void StartTimer()
+	{
+		_spawnTimer.Start();
+		Player player = (Player)_player;
+		player.MovementSignal -= StartTimer;
 	}
 
 	public void SpawnMob()

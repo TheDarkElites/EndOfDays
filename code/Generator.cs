@@ -29,7 +29,7 @@ public partial class Generator : Node2D
 		PackedScene treeScene = ResourceLoader.Load<PackedScene>("res://scenes/tree.tscn");
 		PackedScene buildingScene = ResourceLoader.Load<PackedScene>("res://scenes/building.tscn"); 
 		PackedScene medkitScene = ResourceLoader.Load<PackedScene>("res://scenes/medkit.tscn");
-		_objects = new []{new GeneratableObject(treeScene, (float)0.5), new GeneratableObject(buildingScene, (float)0.05), new  GeneratableObject(medkitScene, (float)0.01)};
+		_objects = new []{new GeneratableObject(treeScene, (float)0.8), new GeneratableObject(buildingScene, (float)0.05), new  GeneratableObject(medkitScene, (float)0.03)};
 
 		for (int i = 0; i < _objects.Length; i++)
 		{
