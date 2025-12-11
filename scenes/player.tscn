@@ -131,6 +131,7 @@ shadow_color = Color(0, 0, 0, 0.48235294)
 
 [node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("_animation", "HurtBox", "_healthBar", "_levelBar", "_levelLabel")]
 collision_mask = 10
+platform_floor_layers = 4294967040
 script = ExtResource("1_onrkg")
 _animation = NodePath("AnimatedSprite2D")
 HurtBox = NodePath("HurtBox")
