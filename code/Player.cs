@@ -38,8 +38,7 @@ public partial class Player : CharacterBody2D, IHealable
 	{
 		base._Ready();
 		UpdateStats();
-		Globals GB = GetNode<Globals>("/root/Globals");
-		GB.UpdateSignal += UpdateStats;
+		Globals.Instance.UpdateSignal += UpdateStats;
 
 		_animationDictionary[Vector2.Down] = "down";
 		_animationDictionary[Vector2.Up] = "up";
@@ -49,9 +48,8 @@ public partial class Player : CharacterBody2D, IHealable
 	}
 	private void UpdateStats()
 	{
-		Globals GB = GetNode<Globals>("/root/Globals");
-		_healthBar.SetMax(GB.PlayerHealth);
-		_damageRate = GB.MobDamageRate;
+		_healthBar.SetMax(Globals.Instance.PlayerHealth);
+		_damageRate = Globals.Instance.MobDamageRate;
 	}
 	public override void _PhysicsProcess(double delta)
 	{
@@ -128,8 +126,7 @@ public partial class Player : CharacterBody2D, IHealable
 
 	public override void _ExitTree()
 	{
-		Globals GB = GetNode<Globals>("/root/Globals");
-		GB.UpdateSignal -= UpdateStats;
+		Globals.Instance.UpdateSignal -= UpdateStats;
 		base._ExitTree();
 	}
 }
