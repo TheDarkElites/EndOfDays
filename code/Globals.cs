@@ -33,6 +33,10 @@ public partial class Globals : Node
 	public int BulletPen = 0;
 	
 	private int _initialBulletPen = 0;
+	[Export] 
+	public float BulletSpread = 0.3f;
+	
+	private float _initialBulletSpread = 0.3f;
 	[Signal]
 	public delegate void UpdateSignalEventHandler();
 
@@ -45,6 +49,7 @@ public partial class Globals : Node
 		BulletSpeed = _initialBulletSpeed;
 		Distance = _initialDistance;
 		BulletPen = _initialBulletPen;
+		BulletSpread = _initialBulletSpread;
 	}
 
 	public override void _Ready()

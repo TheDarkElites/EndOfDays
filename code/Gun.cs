@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using EndOfDays;
 using Godot.Collections;
 
 public partial class Gun : Area2D
@@ -8,13 +9,17 @@ public partial class Gun : Area2D
 	[Export]
 	public Marker2D ShootingPoint;
 
-	[Export] private Timer _timer;
+	[Export] 
+	private Timer _timer;
+	
 	[Export] 
 	private AnimatedSprite2D _animation;
 
 	[Export] private AnimatedSprite2D _shootAnimation;
 	
 	private Dictionary<Vector2, StringName> _animationDictionary = new Dictionary<Vector2,StringName>();
+	
+	private Random _random = new Random();
 
 	private bool coolingDown = false;
 	public override void _Ready()
@@ -47,7 +52,7 @@ public partial class Gun : Area2D
 		}
 		Area2D newBullet = _bulletScene.Instantiate<Area2D>();
 		newBullet.SetGlobalPosition(ShootingPoint.GetGlobalPosition());
-		newBullet.SetGlobalRotation(ShootingPoint.GetGlobalRotation());
+		newBullet.SetGlobalRotation(ShootingPoint.GetGlobalRotation() + (float)(_random.NextDouble() + (-1 * _random.NextDouble())) * Globals.Instance.BulletSpread);
 		ShootingPoint.AddChild(newBullet);
 		coolingDown = true;
 		_shootAnimation.Play();
@@ -66,5 +71,6 @@ public partial class Gun : Area2D
 	private void CooldownDone()
 	{
 		coolingDown = false;
+		if(Input.IsActionPressed("shoot")) {Shoot();}
 	}
 }
