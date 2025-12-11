@@ -45,3 +45,14 @@ public class AllowBulletPenetrationAttribute : Attribute
     }
 }
 
+public class DecreaseFireCooldownAttribute : Attribute
+{
+    public DecreaseFireCooldownAttribute(SceneTree sceneTree) : base(sceneTree, "Faster Firerate", "Increases the rate at which you shoot.") {}
+    public override bool Activate()
+    {
+        Timer gunTimer = SceneTree.GetRoot().GetNode<Timer>("/root/Game/Player/Gun/Timer");
+        gunTimer.WaitTime *= 0.80f;
+        return true;
+    }
+}
+
