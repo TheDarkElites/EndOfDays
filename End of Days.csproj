@@ -5,6 +5,4 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <RootNamespace>EndofDays</RootNamespace>
   </PropertyGroup>
-  <ItemGroup>
-  </ItemGroup>
 </Project>
