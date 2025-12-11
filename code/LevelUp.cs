@@ -57,9 +57,9 @@ public partial class LevelUp : CanvasLayer
 		EndOfDays.Attributes.Attribute AN3 = NegativeAttributes.PickRandom();
 		if(AN3.AvailableOnce) {NegativeAttributes.Remove(AN3);}
 
-		Perk1.Text = String.Format("{0}\n\n{1}\n\n{2}\n\n{3}", AP1.Name, AP1.Description, AN1.Name, AN1.Description);
-		Perk2.Text = String.Format("{0}\n\n{1}\n\n{2}\n\n{3}", AP2.Name, AP2.Description, AN2.Name, AN2.Description);
-		Perk3.Text = String.Format("{0}\n\n{1}\n\n{2}\n\n{3}", AP3.Name, AP3.Description, AN3.Name, AN3.Description);
+		Perk1.GetChild<RichTextLabel>(0).SetText(String.Format("[color=green]{0}[/color]\n\n[color=#228B22]{1}[/color]\n\n[color=red]{2}[/color]\n\n[color=#B22222]{3}[/color]", AP1.Name, AP1.Description, AN1.Name, AN1.Description));
+		Perk2.GetChild<RichTextLabel>(0).SetText(String.Format("[color=green]{0}[/color]\n\n[color=#228B22]{1}[/color]\n\n[color=red]{2}[/color]\n\n[color=#B22222]{3}[/color]", AP2.Name, AP2.Description, AN2.Name, AN2.Description));
+		Perk3.GetChild<RichTextLabel>(0).SetText(String.Format("[color=green]{0}[/color]\n\n[color=#228B22]{1}[/color]\n\n[color=red]{2}[/color]\n\n[color=#B22222]{3}[/color]", AP3.Name, AP3.Description, AN3.Name, AN3.Description));
 		
 		PH1 = () => AttributePicked(AP1, AN1);
 		PH2 = () => AttributePicked(AP2, AN2);
