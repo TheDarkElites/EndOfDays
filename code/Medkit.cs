@@ -18,6 +18,7 @@ public partial class Medkit : StaticBody2D
 			IHealable healable = body as IHealable;
 			if (healable.Heal(20))
 			{
+				PlayerSound.Instance.Play("res://sounds/pickup.wav");
 				QueueFree();
 			}
 		}

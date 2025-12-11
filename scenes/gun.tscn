@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://du5i8r7jdycua"]
+[gd_scene load_steps=16 format=3 uid="uid://du5i8r7jdycua"]
 
 [ext_resource type="Script" uid="uid://dp55k4jkndr8o" path="res://code/Gun.cs" id="1_dk5gl"]
 [ext_resource type="Texture2D" uid="uid://c5gc7ot2hjbno" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_03321_Capa-333.png" id="2_6b133"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cbo27hollancw" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0367_Capa-368.png" id="9_gvx52"]
 [ext_resource type="Texture2D" uid="uid://rcmmrimck72e" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0368_Capa-369.png" id="10_fa1ey"]
 [ext_resource type="Texture2D" uid="uid://tub5ttwqfvre" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0369_Capa-370.png" id="11_wi2m7"]
+[ext_resource type="AudioStream" uid="uid://ca6at7exv57oo" path="res://sounds/shoot.wav" id="12_4fxfn"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dk5gl"]
 radius = 438.01028
@@ -79,7 +80,7 @@ animations = [{
 "speed": 25.0
 }]
 
-[node name="Gun" type="Area2D" node_paths=PackedStringArray("ShootingPoint", "_timer", "_animation", "_shootAnimation")]
+[node name="Gun" type="Area2D" node_paths=PackedStringArray("ShootingPoint", "_timer", "_animation", "_shootAnimation", "_shootSound")]
 collision_layer = 0
 collision_mask = 2
 script = ExtResource("1_dk5gl")
@@ -87,6 +88,7 @@ ShootingPoint = NodePath("WeaponPivot/Pistol/ShootingPoint")
 _timer = NodePath("Timer")
 _animation = NodePath("WeaponPivot/Pistol")
 _shootAnimation = NodePath("WeaponPivot/Shooting")
+_shootSound = NodePath("ShootAudio")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_dk5gl")
@@ -97,10 +99,10 @@ shape = SubResource("CircleShape2D_dk5gl")
 position = Vector2(46, -2)
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_6oi81")
-animation = &"up"
+animation = &"left"
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol"]
-position = Vector2(8, -1)
+position = Vector2(6, 5.9604645e-08)
 
 [node name="Shooting" type="AnimatedSprite2D" parent="WeaponPivot"]
 position = Vector2(80, -2)
@@ -111,3 +113,6 @@ frame_progress = 1.0
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.2
+
+[node name="ShootAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_4fxfn")

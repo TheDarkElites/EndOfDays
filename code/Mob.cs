@@ -11,6 +11,9 @@ public partial class Mob : CharacterBody2D, IDamageable
 	private float _speed = 300;
 	[Export]
 	private AnimatedSprite2D _animation;
+
+	[Export] 
+	private AudioStreamPlayer2D _hitSound;
 	private PackedScene _smokeScene;
 	private Vector2 _faceDirection;
 	
@@ -19,7 +22,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 	public override void _Ready()
 	{
 		_player = GetNode<Player>("/root/Game/Player");
-		_smokeScene = ResourceLoader.Load<PackedScene>("res://smoke_explosion/smoke_explosion.tscn");
+		_smokeScene = ResourceLoader.Load<PackedScene>("res://scenes/smoke.tscn");
 		
 		Globals.Instance.UpdateSignal += UpdateStats;
 		
@@ -73,6 +76,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 	{
 		_animation.Play("damage"+_animationDictionary[_faceDirection]);
 		_health--;
+		_hitSound.Play();
 		if (_health <= 0)
 		{
 			Die();

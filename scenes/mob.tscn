@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://y38gte5o0xf8"]
+[gd_scene load_steps=29 format=3 uid="uid://y38gte5o0xf8"]
 
 [ext_resource type="Script" uid="uid://bjybwbfr05phw" path="res://code/Mob.cs" id="1_bsing"]
 [ext_resource type="Texture2D" uid="uid://81xqcrgvi5c7" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0403_Capa-404.png" id="2_rswon"]
@@ -25,6 +25,7 @@
 [ext_resource type="Texture2D" uid="uid://c6oubkx3ae6t3" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0401_Capa-402.png" id="13_pch0e"]
 [ext_resource type="Texture2D" uid="uid://b4uqw08pldxhp" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Damaged Skinny Zombie Animation Frames/Zombie-Tileset---_0411_Capa-412.png" id="13_rnpo6"]
 [ext_resource type="Texture2D" uid="uid://criyeuhpochxl" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Skinny Walking Zombie Animation/Zombie-Tileset---_0402_Capa-403.png" id="14_rswon"]
+[ext_resource type="AudioStream" uid="uid://qewnccb3gmem" path="res://sounds/hitHurt.wav" id="26_gtorj"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nokgg"]
 radius = 29.832869
@@ -188,11 +189,13 @@ animations = [{
 "speed": 6.0
 }]
 
-[node name="Mob" type="CharacterBody2D" node_paths=PackedStringArray("_animation")]
+[node name="Mob" type="CharacterBody2D" node_paths=PackedStringArray("_animation", "_hitSound")]
 collision_layer = 2
 collision_mask = 27
+platform_floor_layers = 4294967040
 script = ExtResource("1_bsing")
 _animation = NodePath("AnimatedSprite2D")
+_hitSound = NodePath("Hit")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -15)
@@ -205,3 +208,6 @@ sprite_frames = SubResource("SpriteFrames_gtorj")
 animation = &"damageright"
 frame = 4
 frame_progress = 1.0
+
+[node name="Hit" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("26_gtorj")

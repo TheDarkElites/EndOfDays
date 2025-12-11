@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Dynamic;
 using System.Linq;
+using EndOfDays;
 using Godot.Collections;
 
 public partial class SurvivorsGame : Node2D
@@ -24,6 +25,9 @@ public partial class SurvivorsGame : Node2D
 	private PackedScene _mobScene;
 	public override void _Ready()
 	{
+		//trigger neccesary register POST Load.
+		PlayerSound.Instance.RegisterPlayer();
+		
 		_mobScene = ResourceLoader.Load<PackedScene>("res://scenes/mob.tscn");
 		_spawnTimer.Timeout += () => SpawnMob();
 		Player player = (Player)_player;

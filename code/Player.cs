@@ -32,6 +32,9 @@ public partial class Player : CharacterBody2D, IHealable
 	[Export]
 	private int _level = 0;
 	
+	private Vector2 _prevVelocity;
+	private ulong _lastCollision;
+	
 	private Dictionary<Vector2, StringName> _animationDictionary = new Dictionary<Vector2,StringName>();
 
 	public override void _Ready()
@@ -84,6 +87,13 @@ public partial class Player : CharacterBody2D, IHealable
 			_animation.Play(animationName);
 		}
 		
+		//Audio que for when we hit an object and stop moving
+		if (GetSlideCollisionCount() > 0 && _prevVelocity.Length() != 0 && GetGlobalPosition().DirectionTo(GetLastSlideCollision().GetPosition()).Dot(moveDirection) != 0 && _lastCollision != GetLastSlideCollision().GetColliderId() && GetLastSlideCollision().GetCollider() is StaticBody2D)
+		{
+			PlayerSound.Instance.Play("res://sounds/hitWall.wav");
+			_lastCollision = GetLastSlideCollision().GetColliderId();
+		}
+		
 		//Health
 		Array<Node2D> overlappingMobs = HurtBox.GetOverlappingBodies();
 		_health -= overlappingMobs.Count * _damageRate * delta;
@@ -93,6 +103,8 @@ public partial class Player : CharacterBody2D, IHealable
 		{
 			EmitSignalGameOverSignal();
 		}
+		
+		_prevVelocity = GetVelocity();
 		
 		base._PhysicsProcess(delta);
 	}
