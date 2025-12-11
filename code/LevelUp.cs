@@ -41,6 +41,9 @@ public partial class LevelUp : CanvasLayer
 		NegativeAttributes.Add(new IncreasedMobDamageAttribute(GetTree()));
 		NegativeAttributes.Add(new IncreasedMobHealthAttribute(GetTree()));
 		NegativeAttributes.Add(new IncreasedMobSpeedAttribute(GetTree()));
+		NegativeAttributes.Add(new IncreasedBulletSpreadAttribute(GetTree()));
+		NegativeAttributes.Add(new IncreaseSpawnRateAttribute (GetTree()));
+		NegativeAttributes.Add(new IncreaseMobRangeAttribute(GetTree()));
 
 		_player.LevelUpSignal += InitiateLevelUp;
 	}

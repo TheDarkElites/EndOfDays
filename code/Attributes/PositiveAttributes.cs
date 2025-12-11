@@ -94,7 +94,7 @@ public class RegenerateAttribute : Attribute
     public RegenerateAttribute (SceneTree sceneTree) : base(sceneTree, "Regeneration", "The player now naturally regenerates a small portion of their health.", true) {}
     public override bool Activate()
     {
-        Globals.Instance.RegenerationAmount = 0.01 * Globals.Instance.PlayerHealth;
+        Globals.Instance.RegenerationAmount = 0.05 * Globals.Instance.PlayerHealth;
         SendUpdate();
         return true;
     }
