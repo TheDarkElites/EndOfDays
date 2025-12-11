@@ -10,7 +10,7 @@ size = Vector2(10, 10)
 radius = 9.055386
 
 [node name="Medkit" type="StaticBody2D" node_paths=PackedStringArray("_pickupArea")]
-scale = Vector2(2, 2)
+scale = Vector2(3, 3)
 collision_layer = 16
 collision_mask = 10
 script = ExtResource("1_vvkl3")
