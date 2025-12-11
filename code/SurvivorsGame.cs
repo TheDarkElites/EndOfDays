@@ -20,7 +20,7 @@ public partial class SurvivorsGame : Node2D
 	private Node2D _mobsNode;
 	
 	private int _mobCount = 0;
-	[Export] private int _maxMobs = 50;
+	[Export] private int _maxMobs = 100;
 	
 	private PackedScene _mobScene;
 	public override void _Ready()

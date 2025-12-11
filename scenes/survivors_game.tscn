@@ -25,11 +25,6 @@ _mobsNode = NodePath("Mobs")
 
 [node name="Player" parent="." instance=ExtResource("1_3cish")]
 position = Vector2(1025, 564)
-_health = 100.0
-_damageRate = 3.0
-_maxLevel = 2
-_currentLevel = 0
-_level = 0
 
 [node name="Path2D" type="Path2D" parent="Player"]
 position = Vector2(-1025, -564)
@@ -182,10 +177,24 @@ offset_right = 580.0
 offset_bottom = 1010.0
 theme_override_fonts/font = ExtResource("4_4bwrk")
 theme_override_font_sizes/font_size = 30
-text = "Try Again
+text = "
+
 "
 alignment = 0
 autowrap_mode = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="LevelUp/ColorRect/Perk 1"]
+layout_mode = 0
+offset_right = 449.0
+offset_bottom = 648.0
+mouse_filter = 1
+theme_override_fonts/normal_font = ExtResource("4_4bwrk")
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "Test
+"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Perk 2" type="Button" parent="LevelUp/ColorRect"]
 process_mode = 3
@@ -197,10 +206,25 @@ offset_right = 1188.0
 offset_bottom = 1010.0
 theme_override_fonts/font = ExtResource("4_4bwrk")
 theme_override_font_sizes/font_size = 30
-text = "Try Again
+text = "
+
 "
 alignment = 0
 autowrap_mode = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="LevelUp/ColorRect/Perk 2"]
+layout_mode = 0
+offset_left = 1.0
+offset_right = 450.0
+offset_bottom = 648.0
+mouse_filter = 1
+theme_override_fonts/normal_font = ExtResource("4_4bwrk")
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "Test
+"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Perk 3" type="Button" parent="LevelUp/ColorRect"]
 process_mode = 3
@@ -212,7 +236,20 @@ offset_right = 1788.0
 offset_bottom = 1010.0
 theme_override_fonts/font = ExtResource("4_4bwrk")
 theme_override_font_sizes/font_size = 30
-text = "Try Again
+text = "
 "
 alignment = 0
 autowrap_mode = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="LevelUp/ColorRect/Perk 3"]
+layout_mode = 0
+offset_right = 449.0
+offset_bottom = 648.0
+mouse_filter = 1
+theme_override_fonts/normal_font = ExtResource("4_4bwrk")
+theme_override_font_sizes/normal_font_size = 40
+bbcode_enabled = true
+text = "Test
+"
+horizontal_alignment = 1
+vertical_alignment = 1
