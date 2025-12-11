@@ -1,10 +1,16 @@
-[gd_scene load_steps=8 format=3 uid="uid://du5i8r7jdycua"]
+[gd_scene load_steps=15 format=3 uid="uid://du5i8r7jdycua"]
 
 [ext_resource type="Script" uid="uid://dp55k4jkndr8o" path="res://code/Gun.cs" id="1_dk5gl"]
 [ext_resource type="Texture2D" uid="uid://c5gc7ot2hjbno" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_03321_Capa-333.png" id="2_6b133"]
 [ext_resource type="Texture2D" uid="uid://coxrytpvfh1xf" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_0331_Capa-332.png" id="2_og67c"]
 [ext_resource type="Texture2D" uid="uid://bwp57c5pvthkk" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_03311_Capa-332.png" id="3_haq8l"]
 [ext_resource type="Texture2D" uid="uid://ur2yiksgut70" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Pickable Items and Weapons/Zombie-Tileset---_03331_Capa-334.png" id="5_6b133"]
+[ext_resource type="Texture2D" uid="uid://dtfk6jg0aoqj0" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0364_Capa-365.png" id="6_6hbmn"]
+[ext_resource type="Texture2D" uid="uid://u253d377ibaq" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0365_Capa-366.png" id="7_4fxfn"]
+[ext_resource type="Texture2D" uid="uid://c3kd16xh8knhl" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0366_Capa-367.png" id="8_rrmri"]
+[ext_resource type="Texture2D" uid="uid://cbo27hollancw" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0367_Capa-368.png" id="9_gvx52"]
+[ext_resource type="Texture2D" uid="uid://rcmmrimck72e" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0368_Capa-369.png" id="10_fa1ey"]
+[ext_resource type="Texture2D" uid="uid://tub5ttwqfvre" path="res://Zombie Apocalypse Tileset/Organized separated sprites/Shotgun Shooting Animation Frames/Zombie-Tileset---_0369_Capa-370.png" id="11_wi2m7"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dk5gl"]
 radius = 438.01028
@@ -44,13 +50,43 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Gun" type="Area2D" node_paths=PackedStringArray("ShootingPoint", "_timer", "_animation")]
+[sub_resource type="SpriteFrames" id="SpriteFrames_qc2nv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_6hbmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4fxfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rrmri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gvx52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fa1ey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wi2m7")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"default",
+"speed": 25.0
+}]
+
+[node name="Gun" type="Area2D" node_paths=PackedStringArray("ShootingPoint", "_timer", "_animation", "_shootAnimation")]
 collision_layer = 0
 collision_mask = 2
 script = ExtResource("1_dk5gl")
 ShootingPoint = NodePath("WeaponPivot/Pistol/ShootingPoint")
 _timer = NodePath("Timer")
 _animation = NodePath("WeaponPivot/Pistol")
+_shootAnimation = NodePath("WeaponPivot/Shooting")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_dk5gl")
@@ -65,6 +101,13 @@ animation = &"up"
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol"]
 position = Vector2(8, -1)
+
+[node name="Shooting" type="AnimatedSprite2D" parent="WeaponPivot"]
+position = Vector2(80, -2)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_qc2nv")
+frame = 6
+frame_progress = 1.0
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.3

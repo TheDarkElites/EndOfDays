@@ -11,6 +11,8 @@ public partial class Gun : Area2D
 	[Export] private Timer _timer;
 	[Export] 
 	private AnimatedSprite2D _animation;
+
+	[Export] private AnimatedSprite2D _shootAnimation;
 	
 	private Dictionary<Vector2, StringName> _animationDictionary = new Dictionary<Vector2,StringName>();
 
@@ -48,6 +50,7 @@ public partial class Gun : Area2D
 		newBullet.SetGlobalRotation(ShootingPoint.GetGlobalRotation());
 		ShootingPoint.AddChild(newBullet);
 		coolingDown = true;
+		_shootAnimation.Play();
 		_timer.Start();
 	}
 
