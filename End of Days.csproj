@@ -6,6 +6,5 @@
     <RootNamespace>EndofDays</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="scenes\" />
   </ItemGroup>
 </Project>
