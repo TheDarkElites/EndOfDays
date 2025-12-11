@@ -102,7 +102,7 @@ sprite_frames = SubResource("SpriteFrames_6oi81")
 animation = &"left"
 
 [node name="ShootingPoint" type="Marker2D" parent="WeaponPivot/Pistol"]
-position = Vector2(6, 5.9604645e-08)
+position = Vector2(0.66666603, 5.9604645e-08)
 
 [node name="Shooting" type="AnimatedSprite2D" parent="WeaponPivot"]
 position = Vector2(80, -2)
