@@ -37,6 +37,26 @@ public partial class Globals : Node
 	public float BulletSpread = 0.3f;
 	
 	private float _initialBulletSpread = 0.3f;
+
+	[Export] 
+	public float PlayerSpeed = 600;
+	
+	private float _initialPlayerSpeed = 600;
+
+	[Export] 
+	public float HealAmount = 20;
+	
+	private float _initialHealAmount = 20;
+
+	[Export] 
+	public double RegenerationAmount = 0;
+	
+	private double _initialRegenerationAmount = 0;
+	
+	[Export] 
+	public int PlayerDamage = 1;
+	
+	private int _initialPlayerDamage = 1;
 	[Signal]
 	public delegate void UpdateSignalEventHandler();
 
@@ -50,6 +70,10 @@ public partial class Globals : Node
 		Distance = _initialDistance;
 		BulletPen = _initialBulletPen;
 		BulletSpread = _initialBulletSpread;
+		PlayerSpeed = _initialPlayerSpeed;
+		HealAmount = _initialHealAmount;
+		RegenerationAmount = _initialRegenerationAmount;
+		PlayerDamage = _initialPlayerDamage;
 	}
 
 	public override void _Ready()
