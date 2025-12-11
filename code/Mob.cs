@@ -11,7 +11,8 @@ public partial class Mob : CharacterBody2D, IDamageable
 	private float _speed = 300;
 	[Export]
 	private AnimatedSprite2D _animation;
-
+	[Export] 
+	private int _playerDamageRate = 1;
 	[Export] 
 	private AudioStreamPlayer2D _hitSound;
 	private PackedScene _smokeScene;
@@ -25,6 +26,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 		_smokeScene = ResourceLoader.Load<PackedScene>("res://scenes/smoke.tscn");
 		
 		Globals.Instance.UpdateSignal += UpdateStats;
+		UpdateStats();
 		
 		_animationDictionary[Vector2.Down] = "down";
 		_animationDictionary[Vector2.Up] = "up";
@@ -37,6 +39,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 	{
 		_health = Globals.Instance.MobHealth;
 		_speed = Globals.Instance.MobSpeed;
+		_playerDamageRate = Globals.Instance.PlayerDamage;
 	}
 
 	public override void _PhysicsProcess(double delta)
@@ -75,7 +78,7 @@ public partial class Mob : CharacterBody2D, IDamageable
 	public void TakeDamage()
 	{
 		_animation.Play("damage"+_animationDictionary[_faceDirection]);
-		_health--;
+		_health -= _playerDamageRate;
 		_hitSound.Play();
 		if (_health <= 0)
 		{

@@ -31,6 +31,8 @@ public partial class Player : CharacterBody2D, IHealable
 	private int _currentLevel = 0;
 	[Export]
 	private int _level = 0;
+
+	private float _playerSpeed = 600;
 	
 	private Vector2 _prevVelocity;
 	private ulong _lastCollision;
@@ -53,12 +55,13 @@ public partial class Player : CharacterBody2D, IHealable
 	{
 		_healthBar.SetMax(Globals.Instance.PlayerHealth);
 		_damageRate = Globals.Instance.MobDamageRate;
+		_playerSpeed = Globals.Instance.PlayerSpeed;
 	}
 	public override void _PhysicsProcess(double delta)
 	{
 		//Movement
 		Vector2 moveDirection = Input.GetVector("move_left","move_right","move_up","move_down");
-		SetVelocity(moveDirection * 600);
+		SetVelocity(moveDirection * _playerSpeed);
 		MoveAndSlide();
 		
 		//Animation Handling
@@ -98,6 +101,8 @@ public partial class Player : CharacterBody2D, IHealable
 		Array<Node2D> overlappingMobs = HurtBox.GetOverlappingBodies();
 		_health -= overlappingMobs.Count * _damageRate * delta;
 		_healthBar.SetValue(_health);
+
+		Heal(Globals.Instance.RegenerationAmount * delta);
 	
 		if (_health <= 0)
 		{
@@ -124,7 +129,7 @@ public partial class Player : CharacterBody2D, IHealable
 		_levelBar.SetValue(_currentLevel);
 	}
 
-	public bool Heal(int amount)
+	public bool Heal(double amount)
 	{
 		if (_health == _healthBar.GetMax())
 		{

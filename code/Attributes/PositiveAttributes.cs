@@ -47,7 +47,7 @@ public class AllowBulletPenetrationAttribute : Attribute
 
 public class DecreaseFireCooldownAttribute : Attribute
 {
-    public DecreaseFireCooldownAttribute(SceneTree sceneTree) : base(sceneTree, "Faster Firerate", "Increases the rate at which you shoot.") {}
+    public DecreaseFireCooldownAttribute(SceneTree sceneTree) : base(sceneTree, "Faster Firerate", "Increases the rate at which you shoot by 20%.") {}
     public override bool Activate()
     {
         Timer gunTimer = SceneTree.GetRoot().GetNode<Timer>("/root/Game/Player/Gun/Timer");
@@ -55,4 +55,61 @@ public class DecreaseFireCooldownAttribute : Attribute
         return true;
     }
 }
+
+public class DecreaseGunSpreadAttribute : Attribute
+{
+    public DecreaseGunSpreadAttribute(SceneTree sceneTree) : base(sceneTree, "Lower Spread", "Decreases the bullet spread by 10%.") {}
+    public override bool Activate()
+    {
+        Globals.Instance.BulletSpread *= 0.9f;
+        SendUpdate();
+        return true;
+    }
+}
+
+public class IncreasePlayerSpeedAttribute : Attribute
+{
+    public IncreasePlayerSpeedAttribute(SceneTree sceneTree) : base(sceneTree, "Faster Movement", "Increases player movement speed by 5%.") {}
+    public override bool Activate()
+    {
+        Globals.Instance.PlayerSpeed *= 1.05f;
+        SendUpdate();
+        return true;
+    }
+}
+
+public class IncreaseHealthKitAttribute : Attribute
+{
+    public IncreaseHealthKitAttribute(SceneTree sceneTree) : base(sceneTree, "Better Health Packs", "Health packs now give 20% more health.") {}
+    public override bool Activate()
+    {
+        Globals.Instance.HealAmount *= 1.2f;
+        SendUpdate();
+        return true;
+    }
+}
+
+public class RegenerateAttribute : Attribute
+{
+    public RegenerateAttribute (SceneTree sceneTree) : base(sceneTree, "Regeneration", "The player now naturally regenerates a small portion of their health.", true) {}
+    public override bool Activate()
+    {
+        Globals.Instance.RegenerationAmount = 0.01 * Globals.Instance.PlayerHealth;
+        SendUpdate();
+        return true;
+    }
+}
+
+public class IncreasedDamageAttribute : Attribute
+{
+    public IncreasedDamageAttribute (SceneTree sceneTree) : base(sceneTree, "More Damage", "The player does one additional point of damage to mobs.") {}
+    public override bool Activate()
+    {
+        Globals.Instance.PlayerDamage++;
+        SendUpdate();
+        return true;
+    }
+}
+
+
 

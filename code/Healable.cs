@@ -2,5 +2,5 @@ namespace EndOfDays;
 
 public interface IHealable
 {
-    bool Heal(int amount);
+    bool Heal(double amount);
 }
