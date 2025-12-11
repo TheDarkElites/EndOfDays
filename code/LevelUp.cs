@@ -29,6 +29,7 @@ public partial class LevelUp : CanvasLayer
 		PositiveAttributes.Add(new IncreasedHealthAttribute(GetTree()));
 		PositiveAttributes.Add(new IncreasedBulletDistanceAttribute(GetTree()));
 		PositiveAttributes.Add(new IncreasedBulletSpeedAttribute(GetTree()));
+		PositiveAttributes.Add(new DecreaseFireCooldownAttribute(GetTree()));
 
 		NegativeAttributes = new List<EndOfDays.Attributes.Attribute>();
 		//Now we add all the negative Attributes
