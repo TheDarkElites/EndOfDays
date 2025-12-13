@@ -268,7 +268,7 @@ theme_override_colors/font_color = Color(0.5978705, 0.6105985, 0.7922176, 1)
 theme_override_constants/outline_size = 12
 theme_override_fonts/font = ExtResource("4_4bwrk")
 theme_override_font_sizes/font_size = 128
-text = "WASD To Move"
+text = "WASD to Move, Q to Quit"
 horizontal_alignment = 1
 vertical_alignment = 1
 

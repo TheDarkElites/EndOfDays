@@ -93,6 +93,15 @@ public partial class SurvivorsGame : Node2D
 		mob.SetGlobalPosition(_genPath.GetGlobalPosition());
 	}
 
+	public override void _Input(InputEvent @event)
+	{
+		base._Input(@event);
+		if (@event is not null && @event.IsActionPressed("quit"))
+		{
+			GetTree().Quit();
+		}
+	}
+
 	private void GameOver()
 	{
 		_gameOverLayer.SetVisible(true);
