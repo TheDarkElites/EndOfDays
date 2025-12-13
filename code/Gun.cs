@@ -66,7 +66,7 @@ public partial class Gun : Area2D
 	public override void _Input(InputEvent @event)
 	{
 		base._Input(@event);
-		if (@event is InputEventKey shoot && shoot.IsActionPressed("shoot"))
+		if (@event is not null && @event.IsActionPressed("shoot"))
 		{
 			Shoot();
 		}
