@@ -26,7 +26,7 @@ public partial class Player : CharacterBody2D, IHealable
 	[Signal]
 	public delegate void LevelUpSignalEventHandler();
 	[Export]
-	private int _maxLevel = 2;
+	private int _maxLevel = 5;
 	[Export]
 	private int _currentLevel = 0;
 	[Export]
@@ -119,7 +119,7 @@ public partial class Player : CharacterBody2D, IHealable
 		_currentLevel++;
 		if (_currentLevel == _maxLevel)
 		{
-			_maxLevel *= 2;
+			_maxLevel += (int)Math.Ceiling(_maxLevel * 0.5f);
 			_level++;
 			EmitSignalLevelUpSignal();
 			_currentLevel = 0;

@@ -181,7 +181,7 @@ offset_bottom = -85.28476
 scale = Vector2(1.0953463, 0.978564)
 theme_override_styles/background = SubResource("StyleBoxFlat_sweqy")
 theme_override_styles/fill = SubResource("StyleBoxFlat_dqkch")
-max_value = 2.0
+max_value = 5.0
 show_percentage = false
 
 [node name="Level" type="Label" parent="."]
