@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://swcb8q32cvqi"]
+[gd_scene load_steps=10 format=3 uid="uid://swcb8q32cvqi"]
 
 [ext_resource type="PackedScene" uid="uid://c1sx7bic4uhdj" path="res://scenes/player.tscn" id="1_3cish"]
 [ext_resource type="Script" uid="uid://bqt3xwmjkfaqe" path="res://code/SurvivorsGame.cs" id="1_qqaft"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://b68xg1rblcj7f" path="res://scenes/generator.tscn" id="4_qqaft"]
 [ext_resource type="Script" uid="uid://crxqppechumxe" path="res://code/ResetButton.cs" id="5_4bwrk"]
 [ext_resource type="Script" uid="uid://cp3nfbkgom2up" path="res://code/LevelUp.cs" id="7_5beo8"]
+[ext_resource type="Script" uid="uid://coa0oqpsuakmi" path="res://code/Menu.cs" id="8_r0s3i"]
 
 [sub_resource type="Curve2D" id="Curve2D_l26od"]
 _data = {
@@ -250,5 +251,36 @@ theme_override_font_sizes/normal_font_size = 40
 bbcode_enabled = true
 text = "Test
 "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Menu" type="CanvasLayer" parent="." node_paths=PackedStringArray("_player", "_label1", "_label2")]
+script = ExtResource("8_r0s3i")
+_player = NodePath("../Player")
+_label1 = NodePath("Label")
+_label2 = NodePath("Label2")
+
+[node name="Label2" type="Label" parent="Menu"]
+offset_top = 104.0
+offset_right = 1920.0
+offset_bottom = 296.0
+theme_override_colors/font_color = Color(0.5978705, 0.6105985, 0.7922176, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = ExtResource("4_4bwrk")
+theme_override_font_sizes/font_size = 128
+text = "WASD To Move"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="Menu"]
+offset_top = 832.0
+offset_right = 1920.0
+offset_bottom = 1024.0
+theme_override_colors/font_color = Color(0.5978705, 0.6105985, 0.7922176, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = ExtResource("4_4bwrk")
+theme_override_font_sizes/font_size = 98
+text = "Left Click or Space Bar to Shoot"
 horizontal_alignment = 1
 vertical_alignment = 1
