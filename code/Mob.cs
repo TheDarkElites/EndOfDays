@@ -41,10 +41,16 @@ public partial class Mob : CharacterBody2D, IDamageable
 		_speed = Globals.Instance.MobSpeed;
 		_playerDamageRate = Globals.Instance.PlayerDamage;
 	}
-
+	//GetVelocity().Dot(moveDirection) < 0.01f && GetLastSlideCollision()?.GetCollider() is StaticBody2D
 	public override void _PhysicsProcess(double delta)
 	{
 		Vector2 moveDirection = GlobalPosition.DirectionTo(_player.GlobalPosition);
+		bool doNotUpdateAnimation = IsOnWall() && GetLastSlideCollision()?.GetCollider() is StaticBody2D; //janky but avoid weird figiting
+		if (doNotUpdateAnimation) //avoid getting stuck
+		{
+			moveDirection = moveDirection.Slide(GetWallNormal()).Normalized();
+		}
+		
 		SetVelocity(moveDirection * _speed);
 		
 		//Animation Handling
@@ -64,9 +70,14 @@ public partial class Mob : CharacterBody2D, IDamageable
 		}
 
 		String animName = _animation.GetAnimation();
+		
+		//terrible
 		if (!animName.Contains("damage") || !_animation.IsPlaying())
 		{
-			_animation.Play(animationName);
+			if (!doNotUpdateAnimation || (!_animation.IsPlaying() && animName.Contains("damage")))
+			{
+				_animation.Play(animationName);
+			}	
 			MoveAndSlide();
 		}
 		
