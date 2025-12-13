@@ -62,7 +62,7 @@ public class IncreaseMobRangeAttribute : Attribute
     public override bool Activate()
     {
         Area2D hurtArea = SceneTree.GetRoot().GetNode<Area2D>("/root/Game/Player/HurtBox");
-        hurtArea.Scale *= 1.15f;
+        hurtArea.Scale *= 1.25f;
         return true;
     }
 }
